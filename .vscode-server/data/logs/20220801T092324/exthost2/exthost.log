@@ -1,0 +1,12 @@
+[2022-08-01 23:17:34.630] [exthost] [info] Extension host with pid 8904 started
+[2022-08-01 23:17:35.103] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-01 23:17:35.122] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-01 23:17:35.139] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-01 23:17:35.242] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-01 23:17:35.574] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-01 23:17:35.818] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-01 23:17:35.877] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-01 23:17:35.895] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-01 23:17:36.280] [exthost] [info] Eager extensions activated
+[2022-08-01 23:19:45.808] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-01 23:19:45.830] [exthost] [info] Extension host with pid 8904 exiting with code 0

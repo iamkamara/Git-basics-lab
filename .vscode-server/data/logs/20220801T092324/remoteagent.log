@@ -20,3 +20,13 @@
 [2022-08-01 18:26:52.734] [remoteagent] [info] Extension installed successfully: ritwickdey.liveserver
 [2022-08-01 18:27:17.408] [remoteagent] [info] [127.0.0.1][950c5115][ExtensionHostConnection] <1707> [0mGET /favicon.ico [33m404[0m 4.116 ms - 150[0m
 
+[2022-08-01 23:17:32.891] [remoteagent] [info] [127.0.0.1][c28a6ca7][ManagementConnection] New connection established.
+[2022-08-01 23:17:33.293] [remoteagent] [info] [127.0.0.1][0df56a69][ExtensionHostConnection] New connection established.
+[2022-08-01 23:17:33.314] [remoteagent] [info] [127.0.0.1][0df56a69][ExtensionHostConnection] <8904> Launched Extension Host Process.
+[2022-08-01 23:17:59.001] [remoteagent] [info] [127.0.0.1][bc04acd2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-08-01 23:17:59.210] [remoteagent] [info] [127.0.0.1][950c5115][ExtensionHostConnection] <1707> Extension Host Process exited with code: 0, signal: null.
+[2022-08-01 23:19:45.835] [remoteagent] [info] [127.0.0.1][c28a6ca7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-08-01 23:19:45.847] [remoteagent] [info] [127.0.0.1][0df56a69][ExtensionHostConnection] <8904> Extension Host Process exited with code: 0, signal: null.
+[2022-08-01 23:19:49.082] [remoteagent] [info] [127.0.0.1][9b8e1abf][ManagementConnection] New connection established.
+[2022-08-01 23:19:50.164] [remoteagent] [info] [127.0.0.1][ab6875d7][ExtensionHostConnection] New connection established.
+[2022-08-01 23:19:50.172] [remoteagent] [info] [127.0.0.1][ab6875d7][ExtensionHostConnection] <9011> Launched Extension Host Process.
