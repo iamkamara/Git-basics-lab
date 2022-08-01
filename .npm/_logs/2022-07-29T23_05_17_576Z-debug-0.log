@@ -1,0 +1,1481 @@
+0 verbose cli /home/mash/.nvm/versions/node/v18.6.0/bin/node /home/mash/.nvm/versions/node/v18.6.0/bin/npm
+1 info using npm@8.13.2
+2 info using node@v18.6.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/home/mash/.nvm/versions/node/v18.6.0/lib/node_modules/npm/npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 4ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 9ms
+11 timing config:load:file:/home/mash/.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/home/mash/.nvm/versions/node/v18.6.0/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 0ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 19ms
+19 timing npm:load:configload Completed in 20ms
+20 timing npm:load:mkdirpcache Completed in 2ms
+21 timing npm:load:mkdirplogs Completed in 1ms
+22 verbose title npm audit fix
+23 verbose argv "audit" "fix" "--force"
+24 timing npm:load:setTitle Completed in 1ms
+25 timing config:load:flatten Completed in 3ms
+26 timing npm:load:display Completed in 5ms
+27 verbose logfile logs-max:10 dir:/home/mash/.npm/_logs
+28 verbose logfile /home/mash/.npm/_logs/2022-07-29T23_05_17_576Z-debug-0.log
+29 timing npm:load:logFile Completed in 5ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 warn using --force Recommended protections disabled.
+33 timing npm:load Completed in 36ms
+34 timing arborist:ctor Completed in 1ms
+35 silly logfile done cleaning log files
+36 silly audit bulk request {
+36 silly audit   abab: [ '1.0.4' ],
+36 silly audit   acorn: [ '4.0.13' ],
+36 silly audit   'acorn-globals': [ '3.1.0' ],
+36 silly audit   ajv: [ '5.5.2' ],
+36 silly audit   'ansi-colors': [ '3.2.3' ],
+36 silly audit   'ansi-regex': [ '3.0.0', '4.1.0' ],
+36 silly audit   'ansi-styles': [ '3.2.1' ],
+36 silly audit   argparse: [ '1.0.10' ],
+36 silly audit   'array-equal': [ '1.0.0' ],
+36 silly audit   'array-events': [ '0.2.0' ],
+36 silly audit   asn1: [ '0.2.4' ],
+36 silly audit   'assert-plus': [ '1.0.0' ],
+36 silly audit   'assertion-error': [ '1.1.0' ],
+36 silly audit   'async-arrays': [ '1.0.1' ],
+36 silly audit   asynckit: [ '0.4.0' ],
+36 silly audit   'aws-sign2': [ '0.7.0' ],
+36 silly audit   aws4: [ '1.8.0' ],
+36 silly audit   'balanced-match': [ '1.0.0' ],
+36 silly audit   'bcrypt-pbkdf': [ '1.0.2' ],
+36 silly audit   'bit-mask': [ '1.0.2' ],
+36 silly audit   'brace-expansion': [ '1.1.11' ],
+36 silly audit   'browser-stdout': [ '1.3.1' ],
+36 silly audit   'call-me-maybe': [ '1.0.1' ],
+36 silly audit   camelcase: [ '5.3.1' ],
+36 silly audit   caseless: [ '0.12.0' ],
+36 silly audit   chai: [ '3.5.0' ],
+36 silly audit   'chai-fs': [ '2.0.0' ],
+36 silly audit   chalk: [ '2.4.2' ],
+36 silly audit   'supports-color': [ '5.5.0', '6.0.0' ],
+36 silly audit   cliui: [ '5.0.0' ],
+36 silly audit   'string-width': [ '3.1.0', '2.1.1' ],
+36 silly audit   'strip-ansi': [ '5.2.0', '4.0.0' ],
+36 silly audit   co: [ '4.6.0' ],
+36 silly audit   'color-convert': [ '1.9.3' ],
+36 silly audit   'color-name': [ '1.1.3' ],
+36 silly audit   'combined-stream': [ '1.0.6' ],
+36 silly audit   'concat-map': [ '0.0.1' ],
+36 silly audit   'content-type-parser': [ '1.0.2' ],
+36 silly audit   'core-util-is': [ '1.0.2' ],
+36 silly audit   cssom: [ '0.3.4' ],
+36 silly audit   cssstyle: [ '0.2.37' ],
+36 silly audit   dashdash: [ '1.14.1' ],
+36 silly audit   debug: [ '3.2.6', '4.1.1' ],
+36 silly audit   decamelize: [ '1.2.0' ],
+36 silly audit   'deep-eql': [ '0.1.3' ],
+36 silly audit   'type-detect': [ '0.1.1', '1.0.0' ],
+36 silly audit   'deep-is': [ '0.1.3' ],
+36 silly audit   'define-properties': [ '1.1.2' ],
+36 silly audit   'delayed-stream': [ '1.0.0' ],
+36 silly audit   diff: [ '3.5.0' ],
+36 silly audit   'ecc-jsbn': [ '0.1.2' ],
+36 silly audit   'emoji-regex': [ '7.0.3' ],
+36 silly audit   'es-abstract': [ '1.12.0' ],
+36 silly audit   'es-to-primitive': [ '1.1.1' ],
+36 silly audit   'es6-promise': [ '4.2.4' ],
+36 silly audit   'escape-string-regexp': [ '1.0.5' ],
+36 silly audit   escodegen: [ '1.11.0' ],
+36 silly audit   'source-map': [ '0.6.1' ],
+36 silly audit   esprima: [ '3.1.3', '4.0.1' ],
+36 silly audit   estraverse: [ '4.2.0' ],
+36 silly audit   esutils: [ '2.0.2' ],
+36 silly audit   expect: [ '1.20.2' ],
+36 silly audit   extend: [ '3.0.2' ],
+36 silly audit   'extended-emitter': [ '1.0.2' ],
+36 silly audit   extsprintf: [ '1.3.0' ],
+36 silly audit   'fast-deep-equal': [ '1.1.0' ],
+36 silly audit   'fast-json-stable-stringify': [ '2.0.0' ],
+36 silly audit   'fast-levenshtein': [ '2.0.6' ],
+36 silly audit   'find-up': [ '3.0.0' ],
+36 silly audit   flat: [ '4.1.0' ],
+36 silly audit   foreach: [ '2.0.5' ],
+36 silly audit   'forever-agent': [ '0.6.1' ],
+36 silly audit   'form-data': [ '2.3.2' ],
+36 silly audit   'fs.realpath': [ '1.0.0' ],
+36 silly audit   'function-bind': [ '1.1.1' ],
+36 silly audit   'get-caller-file': [ '2.0.5' ],
+36 silly audit   getpass: [ '0.1.7' ],
+36 silly audit   glob: [ '7.1.3' ],
+36 silly audit   'glob-to-regexp': [ '0.3.0' ],
+36 silly audit   growl: [ '1.10.5' ],
+36 silly audit   'har-schema': [ '2.0.0' ],
+36 silly audit   'har-validator': [ '5.0.3' ],
+36 silly audit   has: [ '1.0.3' ],
+36 silly audit   'has-flag': [ '3.0.0' ],
+36 silly audit   'has-symbols': [ '1.0.0' ],
+36 silly audit   he: [ '1.2.0' ],
+36 silly audit   'html-encoding-sniffer': [ '1.0.2' ],
+36 silly audit   'http-signature': [ '1.2.0' ],
+36 silly audit   'iconv-lite': [ '0.4.19' ],
+36 silly audit   inflight: [ '1.0.6' ],
+36 silly audit   inherits: [ '2.0.4' ],
+36 silly audit   'is-arrow-function': [ '2.0.3' ],
+36 silly audit   'is-boolean-object': [ '1.0.0' ],
+36 silly audit   'is-buffer': [ '2.0.4' ],
+36 silly audit   'is-callable': [ '1.1.4' ],
+36 silly audit   'is-date-object': [ '1.0.1' ],
+36 silly audit   'is-equal': [ '1.5.5' ],
+36 silly audit   'is-fullwidth-code-point': [ '2.0.0' ],
+36 silly audit   'is-generator-function': [ '1.0.7' ],
+36 silly audit   'is-number-object': [ '1.0.3' ],
+36 silly audit   'is-regex': [ '1.0.4' ],
+36 silly audit   'is-string': [ '1.0.4' ],
+36 silly audit   'is-symbol': [ '1.0.1' ],
+36 silly audit   'is-typedarray': [ '1.0.0' ],
+36 silly audit   isexe: [ '2.0.0' ],
+36 silly audit   isstream: [ '0.1.2' ],
+36 silly audit   'js-yaml': [ '3.13.1' ],
+36 silly audit   jsbn: [ '0.1.1' ],
+36 silly audit   jsdom: [ '9.12.0' ],
+36 silly audit   'json-schema': [ '0.2.3' ],
+36 silly audit   'json-schema-traverse': [ '0.3.1' ],
+36 silly audit   'json-stringify-safe': [ '5.0.1' ],
+36 silly audit   jsprim: [ '1.4.1' ],
+36 silly audit   levn: [ '0.3.0' ],
+36 silly audit   'locate-path': [ '3.0.0' ],
+36 silly audit   lodash: [ '4.17.21' ],
+36 silly audit   'lodash.once': [ '4.1.1' ],
+36 silly audit   'log-symbols': [ '2.2.0' ],
+36 silly audit   'mime-db': [ '1.35.0' ],
+36 silly audit   'mime-types': [ '2.1.19' ],
+36 silly audit   minimatch: [ '3.0.4' ],
+36 silly audit   minimist: [ '0.0.8' ],
+36 silly audit   mkdirp: [ '0.5.1' ],
+36 silly audit   mocha: [ '6.2.2' ],
+36 silly audit   'mocha-jsdom': [ '1.1.0' ],
+36 silly audit   'mocha-multi': [ '1.1.3' ],
+36 silly audit   ms: [ '2.1.1' ],
+36 silly audit   'node-environment-flags': [ '1.0.5' ],
+36 silly audit   nwmatcher: [ '1.4.4' ],
+36 silly audit   'oauth-sign': [ '0.8.2' ],
+36 silly audit   'object-assign': [ '4.1.1' ],
+36 silly audit   'object-inspect': [ '1.6.0' ],
+36 silly audit   'object-keys': [ '1.0.12' ],
+36 silly audit   'object.assign': [ '4.1.0' ],
+36 silly audit   'object.entries': [ '1.0.4' ],
+36 silly audit   'object.getownpropertydescriptors': [ '2.0.3' ],
+36 silly audit   once: [ '1.4.0' ],
+36 silly audit   optionator: [ '0.8.2' ],
+36 silly audit   'p-limit': [ '2.2.1' ],
+36 silly audit   'p-locate': [ '3.0.0' ],
+36 silly audit   'p-try': [ '2.2.0' ],
+36 silly audit   parse5: [ '1.5.1' ],
+36 silly audit   'path-exists': [ '3.0.0' ],
+36 silly audit   'path-is-absolute': [ '1.0.1' ],
+36 silly audit   'performance-now': [ '2.1.0' ],
+36 silly audit   'prelude-ls': [ '1.1.2' ],
+36 silly audit   psl: [ '1.1.29' ],
+36 silly audit   punycode: [ '1.4.1' ],
+36 silly audit   qs: [ '6.5.2' ],
+36 silly audit   'readdir-enhanced': [ '1.5.2' ],
+36 silly audit   request: [ '2.87.0' ],
+36 silly audit   'tough-cookie': [ '2.3.4', '2.4.3' ],
+36 silly audit   'require-directory': [ '2.1.1' ],
+36 silly audit   'require-main-filename': [ '2.0.0' ],
+36 silly audit   'safe-buffer': [ '5.1.2' ],
+36 silly audit   'safer-buffer': [ '2.1.2' ],
+36 silly audit   sax: [ '1.2.4' ],
+36 silly audit   semver: [ '5.7.1' ],
+36 silly audit   'set-blocking': [ '2.0.0' ],
+36 silly audit   sift: [ '6.0.0' ],
+36 silly audit   'sprintf-js': [ '1.0.3' ],
+36 silly audit   sshpk: [ '1.14.2' ],
+36 silly audit   'strip-json-comments': [ '2.0.1' ],
+36 silly audit   'symbol-tree': [ '3.2.2' ],
+36 silly audit   tmatch: [ '2.0.1' ],
+36 silly audit   tr46: [ '0.0.3' ],
+36 silly audit   'tunnel-agent': [ '0.6.0' ],
+36 silly audit   tweetnacl: [ '0.14.5' ],
+36 silly audit   'type-check': [ '0.3.2' ],
+36 silly audit   uuid: [ '3.3.2' ],
+36 silly audit   verror: [ '1.10.0' ],
+36 silly audit   'webidl-conversions': [ '4.0.2', '3.0.1' ],
+36 silly audit   'whatwg-encoding': [ '1.0.3' ],
+36 silly audit   'whatwg-url': [ '4.8.0' ],
+36 silly audit   which: [ '1.3.1' ],
+36 silly audit   'which-module': [ '2.0.0' ],
+36 silly audit   'wide-align': [ '1.1.3' ],
+36 silly audit   'wolfy87-eventemitter': [ '5.2.5' ],
+36 silly audit   wordwrap: [ '1.0.0' ],
+36 silly audit   'wrap-ansi': [ '5.1.0' ],
+36 silly audit   wrappy: [ '1.0.2' ],
+36 silly audit   'xml-name-validator': [ '2.0.1' ],
+36 silly audit   y18n: [ '4.0.1' ],
+36 silly audit   yargs: [ '13.3.0' ],
+36 silly audit   'yargs-parser': [ '13.1.1' ],
+36 silly audit   'yargs-unparser': [ '1.6.0' ]
+36 silly audit }
+37 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 821ms
+38 timing auditReport:getReport Completed in 827ms
+39 silly audit report {
+39 silly audit report   'json-schema': [
+39 silly audit report     {
+39 silly audit report       id: 1070413,
+39 silly audit report       url: 'https://github.com/advisories/GHSA-896r-f27r-55mw',
+39 silly audit report       title: 'json-schema is vulnerable to Prototype Pollution',
+39 silly audit report       severity: 'critical',
+39 silly audit report       vulnerable_versions: '<0.4.0',
+39 silly audit report       cwe: [Array],
+39 silly audit report       cvss: [Object]
+39 silly audit report     }
+39 silly audit report   ],
+39 silly audit report   minimist: [
+39 silly audit report     {
+39 silly audit report       id: 1070255,
+39 silly audit report       url: 'https://github.com/advisories/GHSA-vh95-rmgr-6w4m',
+39 silly audit report       title: 'Prototype Pollution in minimist',
+39 silly audit report       severity: 'moderate',
+39 silly audit report       vulnerable_versions: '<0.2.1',
+39 silly audit report       cwe: [Array],
+39 silly audit report       cvss: [Object]
+39 silly audit report     },
+39 silly audit report     {
+39 silly audit report       id: 1067342,
+39 silly audit report       url: 'https://github.com/advisories/GHSA-xvch-5gv4-984h',
+39 silly audit report       title: 'Prototype Pollution in minimist',
+39 silly audit report       severity: 'critical',
+39 silly audit report       vulnerable_versions: '<1.2.6',
+39 silly audit report       cwe: [Array],
+39 silly audit report       cvss: [Object]
+39 silly audit report     }
+39 silly audit report   ],
+39 silly audit report   'ansi-regex': [
+39 silly audit report     {
+39 silly audit report       id: 1081346,
+39 silly audit report       url: 'https://github.com/advisories/GHSA-93q8-gq69-wqmw',
+39 silly audit report       title: 'Inefficient Regular Expression Complexity in chalk/ansi-regex',
+39 silly audit report       severity: 'high',
+39 silly audit report       vulnerable_versions: '>=3.0.0 <3.0.1',
+39 silly audit report       cwe: [Array],
+39 silly audit report       cvss: [Object]
+39 silly audit report     },
+39 silly audit report     {
+39 silly audit report       id: 1081347,
+39 silly audit report       url: 'https://github.com/advisories/GHSA-93q8-gq69-wqmw',
+39 silly audit report       title: 'Inefficient Regular Expression Complexity in chalk/ansi-regex',
+39 silly audit report       severity: 'high',
+39 silly audit report       vulnerable_versions: '>=4.0.0 <4.1.1',
+39 silly audit report       cwe: [Array],
+39 silly audit report       cvss: [Object]
+39 silly audit report     }
+39 silly audit report   ],
+39 silly audit report   ajv: [
+39 silly audit report     {
+39 silly audit report       id: 1067946,
+39 silly audit report       url: 'https://github.com/advisories/GHSA-v88g-cgmw-v5xw',
+39 silly audit report       title: 'Prototype Pollution in Ajv',
+39 silly audit report       severity: 'moderate',
+39 silly audit report       vulnerable_versions: '<6.12.3',
+39 silly audit report       cwe: [Array],
+39 silly audit report       cvss: [Object]
+39 silly audit report     }
+39 silly audit report   ],
+39 silly audit report   'yargs-parser': [
+39 silly audit report     {
+39 silly audit report       id: 1068310,
+39 silly audit report       url: 'https://github.com/advisories/GHSA-p9pc-299p-vxgp',
+39 silly audit report       title: 'Prototype Pollution in yargs-parser',
+39 silly audit report       severity: 'moderate',
+39 silly audit report       vulnerable_versions: '>=6.0.0 <13.1.2',
+39 silly audit report       cwe: [Array],
+39 silly audit report       cvss: [Object]
+39 silly audit report     }
+39 silly audit report   ],
+39 silly audit report   jsdom: [
+39 silly audit report     {
+39 silly audit report       id: 1075671,
+39 silly audit report       url: 'https://github.com/advisories/GHSA-f4c9-cqv8-9v98',
+39 silly audit report       title: 'Insufficient Granularity of Access Control in JSDom',
+39 silly audit report       severity: 'moderate',
+39 silly audit report       vulnerable_versions: '<=16.4.0',
+39 silly audit report       cwe: [Array],
+39 silly audit report       cvss: [Object]
+39 silly audit report     }
+39 silly audit report   ]
+39 silly audit report }
+40 timing metavuln:cache:get:security-advisory:minimist:HzlTd/CS509JwqRUmSOa+xKGYgjeXpUaWCnQckWGHjn/fcOUvS1viXUyBuSwKMKOELDnu9ADP3t6IyP7rFSUIA== Completed in 25ms
+41 timing metavuln:cache:get:security-advisory:ansi-regex:oghwc8GHLTDedB0i/YfIZjrosxvndRpO9sLl7cFOecNpi60X4gfTlbYGLWKxTWEGy+Cpg06Fvq/JwLAkzgzavg== Completed in 23ms
+42 timing metavuln:cache:get:security-advisory:minimist:nZkhUdPEpKwzIx1nekYW4B7BHQyF2nm6J0JsgeP2HfA0DRMT5hhByRU71A4RPgtBbQPYEzVBozv8/mBZCafaGw== Completed in 23ms
+43 timing metavuln:cache:get:security-advisory:json-schema:a//nekpgpT+ajuVzFtROaY41Y1RXIQdjF3xWsYquTtJWArDS+PfUCk/GMIeEcXcvN90XdX73hW0YN52EKjtAeQ== Completed in 27ms
+44 timing metavuln:cache:get:security-advisory:ansi-regex:jsZGSlrzeL/SJj1tvyGUN22Uwk0TCMB2toXvLH+kPL4GJAoP7c1Vrn7A89R4bql0mKhgtddfb3rJNjfHEa0/eg== Completed in 23ms
+45 timing metavuln:cache:get:security-advisory:ajv:HdUHTYDANDTVSFV1lY2PaOXn1Svz5bRZf2n/w9y0htSh7GckcEVEbvyaV+kC2XEIRCDn/tv2RLopzgrw8o6QQg== Completed in 22ms
+46 timing metavuln:cache:get:security-advisory:yargs-parser:JlvZumEDe1n7alk4a6WHvGfmK7I/B8KYfhZQeEGxwQc7LN43txKy4QiTfBukniHvh4LaAkLwIgcGW02FHLBLOQ== Completed in 23ms
+47 timing metavuln:cache:get:security-advisory:jsdom:pYEOzP70lFpHR2kMSFWN8ulCJqHBpvOrbvwCAKgomD7G/Xl2UGoXzHQnNhobV8RyiqvhNsZO8UEsgO3E96FzgQ== Completed in 23ms
+48 http fetch GET 200 https://registry.npmjs.org/ansi-regex 40ms (cache hit)
+49 timing metavuln:packument:ansi-regex Completed in 41ms
+50 timing metavuln:load:security-advisory:ansi-regex:1081346 Completed in 0ms
+51 timing metavuln:calculate:security-advisory:ansi-regex:1081346 Completed in 41ms
+52 timing metavuln:load:security-advisory:ansi-regex:1081347 Completed in 0ms
+53 timing metavuln:calculate:security-advisory:ansi-regex:1081347 Completed in 41ms
+54 http fetch GET 200 https://registry.npmjs.org/json-schema 44ms (cache hit)
+55 timing metavuln:packument:json-schema Completed in 45ms
+56 timing metavuln:load:security-advisory:json-schema:1070413 Completed in 0ms
+57 timing metavuln:calculate:security-advisory:json-schema:1070413 Completed in 46ms
+58 http fetch GET 200 https://registry.npmjs.org/minimist 43ms (cache hit)
+59 timing metavuln:packument:minimist Completed in 44ms
+60 timing metavuln:load:security-advisory:minimist:1070255 Completed in 0ms
+61 timing metavuln:calculate:security-advisory:minimist:1070255 Completed in 45ms
+62 timing metavuln:load:security-advisory:minimist:1067342 Completed in 0ms
+63 timing metavuln:calculate:security-advisory:minimist:1067342 Completed in 44ms
+64 http fetch GET 200 https://registry.npmjs.org/yargs-parser 42ms (cache hit)
+65 timing metavuln:packument:yargs-parser Completed in 44ms
+66 timing metavuln:load:security-advisory:yargs-parser:1068310 Completed in 1ms
+67 timing metavuln:calculate:security-advisory:yargs-parser:1068310 Completed in 45ms
+68 http fetch GET 200 https://registry.npmjs.org/ajv 46ms (cache hit)
+69 timing metavuln:packument:ajv Completed in 50ms
+70 timing metavuln:load:security-advisory:ajv:1067946 Completed in 2ms
+71 timing metavuln:calculate:security-advisory:ajv:1067946 Completed in 52ms
+72 http fetch GET 200 https://registry.npmjs.org/jsdom 52ms (cache hit)
+73 timing metavuln:packument:jsdom Completed in 57ms
+74 timing metavuln:load:security-advisory:jsdom:1075671 Completed in 2ms
+75 timing metavuln:calculate:security-advisory:jsdom:1075671 Completed in 59ms
+76 timing metavuln:cache:get:security-advisory:jsprim:iMP8820eq5Uevxi3CJh7zdvWCNDZSB3jzDkHDuPD8N5yLfUAysXJxVffLaTgVAaspwoAFcFQKhZgUj8KWgYEpQ== Completed in 3ms
+77 http fetch GET 200 https://registry.npmjs.org/jsprim 6ms (cache hit)
+78 timing metavuln:packument:jsprim Completed in 7ms
+79 timing metavuln:load:security-advisory:jsprim:a//nekpgpT+ajuVzFtROaY41Y1RXIQdjF3xWsYquTtJWArDS+PfUCk/GMIeEcXcvN90XdX73hW0YN52EKjtAeQ== Completed in 0ms
+80 timing metavuln:calculate:security-advisory:jsprim:a//nekpgpT+ajuVzFtROaY41Y1RXIQdjF3xWsYquTtJWArDS+PfUCk/GMIeEcXcvN90XdX73hW0YN52EKjtAeQ== Completed in 7ms
+81 timing metavuln:cache:get:security-advisory:mkdirp:+PhhGcJymuV+5rvW81MCikyjMiTBQuLIQZOUvB89Mb8uk3Q8tDX1tf8ihGO4POtNtnBz09eROrGo7rpMSategw== Completed in 5ms
+82 http fetch GET 200 https://registry.npmjs.org/mkdirp 6ms (cache hit)
+83 timing metavuln:packument:mkdirp Completed in 8ms
+84 timing metavuln:load:security-advisory:mkdirp:HzlTd/CS509JwqRUmSOa+xKGYgjeXpUaWCnQckWGHjn/fcOUvS1viXUyBuSwKMKOELDnu9ADP3t6IyP7rFSUIA== Completed in 0ms
+85 timing metavuln:calculate:security-advisory:mkdirp:HzlTd/CS509JwqRUmSOa+xKGYgjeXpUaWCnQckWGHjn/fcOUvS1viXUyBuSwKMKOELDnu9ADP3t6IyP7rFSUIA== Completed in 9ms
+86 timing metavuln:cache:get:security-advisory:strip-ansi:fSKtf6T4/ynJAd4xEyo8DuS3vn3pkiJdg8/rKr1xNbJU7OjJrfAqbzDkCaqOdpFsQRYNUJsRWGXa5MGNJMc5Hw== Completed in 3ms
+87 http fetch GET 200 https://registry.npmjs.org/strip-ansi 6ms (cache hit)
+88 timing metavuln:packument:strip-ansi Completed in 7ms
+89 timing metavuln:load:security-advisory:strip-ansi:oghwc8GHLTDedB0i/YfIZjrosxvndRpO9sLl7cFOecNpi60X4gfTlbYGLWKxTWEGy+Cpg06Fvq/JwLAkzgzavg== Completed in 0ms
+90 timing metavuln:calculate:security-advisory:strip-ansi:oghwc8GHLTDedB0i/YfIZjrosxvndRpO9sLl7cFOecNpi60X4gfTlbYGLWKxTWEGy+Cpg06Fvq/JwLAkzgzavg== Completed in 7ms
+91 timing metavuln:cache:get:security-advisory:strip-ansi:X5PkhKMxGKTnVy0vJDv0WBEcKHZI0EySB7dq3br4nH4wF0ny8amva1SrbiUE//pPFBEpb4LrquGaLX2FtxK+WQ== Completed in 2ms
+92 timing metavuln:load:security-advisory:strip-ansi:jsZGSlrzeL/SJj1tvyGUN22Uwk0TCMB2toXvLH+kPL4GJAoP7c1Vrn7A89R4bql0mKhgtddfb3rJNjfHEa0/eg== Completed in 0ms
+93 timing metavuln:calculate:security-advisory:strip-ansi:jsZGSlrzeL/SJj1tvyGUN22Uwk0TCMB2toXvLH+kPL4GJAoP7c1Vrn7A89R4bql0mKhgtddfb3rJNjfHEa0/eg== Completed in 2ms
+94 timing metavuln:cache:get:security-advisory:har-validator:CgreuaHfcAU7CmEfD9OIaCVp8F8HOjHS+i9eecqipZ6j0oNyAMK7INynpzk+DNwSUXAO+ddjMbZgorVh3darKw== Completed in 2ms
+95 http fetch GET 200 https://registry.npmjs.org/har-validator 7ms (cache hit)
+96 timing metavuln:packument:har-validator Completed in 7ms
+97 timing metavuln:load:security-advisory:har-validator:HdUHTYDANDTVSFV1lY2PaOXn1Svz5bRZf2n/w9y0htSh7GckcEVEbvyaV+kC2XEIRCDn/tv2RLopzgrw8o6QQg== Completed in 1ms
+98 timing metavuln:calculate:security-advisory:har-validator:HdUHTYDANDTVSFV1lY2PaOXn1Svz5bRZf2n/w9y0htSh7GckcEVEbvyaV+kC2XEIRCDn/tv2RLopzgrw8o6QQg== Completed in 8ms
+99 timing metavuln:cache:get:security-advisory:mocha:v32z5yMcMwHLtAXMG/Z6loEFn3mA1tb+O64RdHeh9bA6YuRMk+P1fo1vrZBWWTIqm4mm1PNvNgs0KzQMikuDNA== Completed in 5ms
+100 timing metavuln:cache:get:security-advisory:yargs:MqFkjXFOVXAE/Y7lsGdkHasuXkUnSYIKPHjwSi7XBYXMLP8HzAd8P3H12MjsMknKxI8sTubOGuxFLGpaV+oG2g== Completed in 4ms
+101 http fetch GET 200 https://registry.npmjs.org/mocha 10ms (cache hit)
+102 timing metavuln:packument:mocha Completed in 14ms
+103 timing metavuln:load:security-advisory:mocha:JlvZumEDe1n7alk4a6WHvGfmK7I/B8KYfhZQeEGxwQc7LN43txKy4QiTfBukniHvh4LaAkLwIgcGW02FHLBLOQ== Completed in 1ms
+104 timing metavuln:calculate:security-advisory:mocha:JlvZumEDe1n7alk4a6WHvGfmK7I/B8KYfhZQeEGxwQc7LN43txKy4QiTfBukniHvh4LaAkLwIgcGW02FHLBLOQ== Completed in 15ms
+105 http fetch GET 200 https://registry.npmjs.org/yargs 15ms (cache hit)
+106 timing metavuln:packument:yargs Completed in 17ms
+107 timing metavuln:load:security-advisory:yargs:JlvZumEDe1n7alk4a6WHvGfmK7I/B8KYfhZQeEGxwQc7LN43txKy4QiTfBukniHvh4LaAkLwIgcGW02FHLBLOQ== Completed in 1ms
+108 timing metavuln:calculate:security-advisory:yargs:JlvZumEDe1n7alk4a6WHvGfmK7I/B8KYfhZQeEGxwQc7LN43txKy4QiTfBukniHvh4LaAkLwIgcGW02FHLBLOQ== Completed in 19ms
+109 timing metavuln:cache:get:security-advisory:mocha-jsdom:DMKx3VKL6IoFjgqsC5YFf/I01voeIIB1SJFcHkUAZnm109+OlaY+ZMlAabnpTjk0bI/jC8JrgyJudZlyAo07oQ== Completed in 3ms
+110 http fetch GET 200 https://registry.npmjs.org/mocha-jsdom 5ms (cache hit)
+111 timing metavuln:packument:mocha-jsdom Completed in 6ms
+112 timing metavuln:load:security-advisory:mocha-jsdom:pYEOzP70lFpHR2kMSFWN8ulCJqHBpvOrbvwCAKgomD7G/Xl2UGoXzHQnNhobV8RyiqvhNsZO8UEsgO3E96FzgQ== Completed in 0ms
+113 timing metavuln:calculate:security-advisory:mocha-jsdom:pYEOzP70lFpHR2kMSFWN8ulCJqHBpvOrbvwCAKgomD7G/Xl2UGoXzHQnNhobV8RyiqvhNsZO8UEsgO3E96FzgQ== Completed in 6ms
+114 timing metavuln:cache:get:security-advisory:http-signature:d+4EVGlXfBto12XVM+qWS86jiuBO8AZQcA4tMvHYnYw2oVn/WNHfCdH87bvy+FtEIYboo/A2Jm6Ut21SkZt/zA== Completed in 2ms
+115 http fetch GET 200 https://registry.npmjs.org/http-signature 6ms (cache hit)
+116 timing metavuln:packument:http-signature Completed in 6ms
+117 timing metavuln:load:security-advisory:http-signature:iMP8820eq5Uevxi3CJh7zdvWCNDZSB3jzDkHDuPD8N5yLfUAysXJxVffLaTgVAaspwoAFcFQKhZgUj8KWgYEpQ== Completed in 0ms
+118 timing metavuln:calculate:security-advisory:http-signature:iMP8820eq5Uevxi3CJh7zdvWCNDZSB3jzDkHDuPD8N5yLfUAysXJxVffLaTgVAaspwoAFcFQKhZgUj8KWgYEpQ== Completed in 7ms
+119 timing metavuln:cache:get:security-advisory:mocha:uu6fIZMwKRUwaqGrJbwPdyIqVeQTbad7PWghGZxZFoi76jfSBF//AFiU1YxuoRjJsP7CkYj5oO1Op10hVoRFCQ== Completed in 3ms
+120 timing metavuln:load:security-advisory:mocha:+PhhGcJymuV+5rvW81MCikyjMiTBQuLIQZOUvB89Mb8uk3Q8tDX1tf8ihGO4POtNtnBz09eROrGo7rpMSategw== Completed in 2ms
+121 timing metavuln:calculate:security-advisory:mocha:+PhhGcJymuV+5rvW81MCikyjMiTBQuLIQZOUvB89Mb8uk3Q8tDX1tf8ihGO4POtNtnBz09eROrGo7rpMSategw== Completed in 5ms
+122 timing metavuln:cache:get:security-advisory:mocha-multi:bgu39RcwmjHjNeto42pMJuxWaErBV/AytnkXDF0SOAvid6e4TuZgoKn7/czqLnipxGDAfR0ecJAJFPHGVQhn2g== Completed in 5ms
+123 http fetch GET 200 https://registry.npmjs.org/mocha-multi 7ms (cache hit)
+124 timing metavuln:packument:mocha-multi Completed in 8ms
+125 timing metavuln:load:security-advisory:mocha-multi:+PhhGcJymuV+5rvW81MCikyjMiTBQuLIQZOUvB89Mb8uk3Q8tDX1tf8ihGO4POtNtnBz09eROrGo7rpMSategw== Completed in 0ms
+126 timing metavuln:calculate:security-advisory:mocha-multi:+PhhGcJymuV+5rvW81MCikyjMiTBQuLIQZOUvB89Mb8uk3Q8tDX1tf8ihGO4POtNtnBz09eROrGo7rpMSategw== Completed in 8ms
+127 timing metavuln:cache:get:security-advisory:request:2kXig9MIbz+orxhOUK79cJ0cvGS6uAx+MCp14+FHgq3SIXpkklLm+f1oKn1IiqqiGTAGLnd0GjKbH90AkkibCQ== Completed in 3ms
+128 http fetch GET 200 https://registry.npmjs.org/request 5ms (cache hit)
+129 timing metavuln:packument:request Completed in 8ms
+130 timing metavuln:load:security-advisory:request:CgreuaHfcAU7CmEfD9OIaCVp8F8HOjHS+i9eecqipZ6j0oNyAMK7INynpzk+DNwSUXAO+ddjMbZgorVh3darKw== Completed in 0ms
+131 timing metavuln:calculate:security-advisory:request:CgreuaHfcAU7CmEfD9OIaCVp8F8HOjHS+i9eecqipZ6j0oNyAMK7INynpzk+DNwSUXAO+ddjMbZgorVh3darKw== Completed in 8ms
+132 timing metavuln:cache:get:security-advisory:mocha-jsdom:CQNgtyGu4xJOfMYipt3QCQ/SgXqQIk6AoYeWE9zKxaPIvvZXgiN0l1crloFEAUoURfwYyBXkrany9KXxJUHQKw== Completed in 2ms
+133 timing metavuln:load:security-advisory:mocha-jsdom:v32z5yMcMwHLtAXMG/Z6loEFn3mA1tb+O64RdHeh9bA6YuRMk+P1fo1vrZBWWTIqm4mm1PNvNgs0KzQMikuDNA== Completed in 0ms
+134 timing metavuln:calculate:security-advisory:mocha-jsdom:v32z5yMcMwHLtAXMG/Z6loEFn3mA1tb+O64RdHeh9bA6YuRMk+P1fo1vrZBWWTIqm4mm1PNvNgs0KzQMikuDNA== Completed in 2ms
+135 timing metavuln:cache:get:security-advisory:mocha-multi:X1bzKIPr5lY2IH+ak/GqMN7olg/QfDPE/yQFCfPCTgKfUc/KVaK+tO2O/NaqZA7hRTDcxVB9EWSZoroNfFLjIA== Completed in 2ms
+136 timing metavuln:load:security-advisory:mocha-multi:v32z5yMcMwHLtAXMG/Z6loEFn3mA1tb+O64RdHeh9bA6YuRMk+P1fo1vrZBWWTIqm4mm1PNvNgs0KzQMikuDNA== Completed in 0ms
+137 timing metavuln:calculate:security-advisory:mocha-multi:v32z5yMcMwHLtAXMG/Z6loEFn3mA1tb+O64RdHeh9bA6YuRMk+P1fo1vrZBWWTIqm4mm1PNvNgs0KzQMikuDNA== Completed in 2ms
+138 timing metavuln:cache:get:security-advisory:jsdom:JTkWCqb8E/8AaRlmDHlK/EMXRmjrsS/K9U6yK62ex1x7wiJjLydTuQ0gIqe3/67Zj9Rm8ExUyRfigPQaOFdcHQ== Completed in 4ms
+139 timing metavuln:load:security-advisory:jsdom:2kXig9MIbz+orxhOUK79cJ0cvGS6uAx+MCp14+FHgq3SIXpkklLm+f1oKn1IiqqiGTAGLnd0GjKbH90AkkibCQ== Completed in 1ms
+140 timing metavuln:calculate:security-advisory:jsdom:2kXig9MIbz+orxhOUK79cJ0cvGS6uAx+MCp14+FHgq3SIXpkklLm+f1oKn1IiqqiGTAGLnd0GjKbH90AkkibCQ== Completed in 5ms
+141 timing auditReport:init Completed in 180ms
+142 timing audit Completed in 1151ms
+143 timing idealTree:init Completed in 2ms
+144 warn audit Updating jsdom to 20.0.0, which is a SemVer major change.
+145 timing idealTree:userRequests Completed in 8ms
+146 silly idealTree buildDeps
+147 silly fetch manifest jsdom@20.0.0
+148 silly fetch manifest canvas@^2.5.0
+149 timing arborist:ctor Completed in 1ms
+150 http fetch GET 200 https://registry.npmjs.org/canvas 1596ms (cache revalidated)
+151 silly fetch manifest mocha@^6.1.4
+152 silly placeDep ROOT jsdom@20.0.0 REPLACE for: git-basics-lab@1.0.0 want: 20.0.0
+153 silly placeDep ROOT mocha@6.2.3 REPLACE for: git-basics-lab@1.0.0 want: ^6.1.4
+154 silly fetch manifest abab@^2.0.6
+155 silly fetch manifest acorn@^8.7.1
+156 silly fetch manifest acorn-globals@^6.0.0
+157 silly fetch manifest cssom@^0.5.0
+158 silly fetch manifest cssstyle@^2.3.0
+159 silly fetch manifest data-urls@^3.0.2
+160 silly fetch manifest decimal.js@^10.3.1
+161 silly fetch manifest domexception@^4.0.0
+162 silly fetch manifest escodegen@^2.0.0
+163 silly fetch manifest form-data@^4.0.0
+164 silly fetch manifest html-encoding-sniffer@^3.0.0
+165 silly fetch manifest http-proxy-agent@^5.0.0
+166 silly fetch manifest https-proxy-agent@^5.0.1
+167 silly fetch manifest is-potential-custom-element-name@^1.0.1
+168 silly fetch manifest nwsapi@^2.2.0
+169 silly fetch manifest parse5@^7.0.0
+170 silly fetch manifest saxes@^6.0.0
+171 silly fetch manifest symbol-tree@^3.2.4
+172 silly fetch manifest tough-cookie@^4.0.0
+173 silly fetch manifest w3c-hr-time@^1.0.2
+174 silly fetch manifest w3c-xmlserializer@^3.0.0
+175 silly fetch manifest webidl-conversions@^7.0.0
+176 silly fetch manifest whatwg-encoding@^2.0.0
+177 silly fetch manifest whatwg-mimetype@^3.0.0
+178 silly fetch manifest whatwg-url@^11.0.0
+179 silly fetch manifest ws@^8.8.0
+180 silly fetch manifest xml-name-validator@^4.0.0
+181 silly fetch manifest mkdirp@0.5.4
+182 silly fetch manifest yargs@13.3.2
+183 silly fetch manifest yargs-parser@13.1.2
+184 http fetch GET 200 https://registry.npmjs.org/acorn 274ms (cache hit)
+185 http fetch GET 200 https://registry.npmjs.org/abab 276ms (cache hit)
+186 http fetch GET 200 https://registry.npmjs.org/cssstyle 274ms (cache hit)
+187 http fetch GET 200 https://registry.npmjs.org/escodegen 271ms (cache hit)
+188 http fetch GET 200 https://registry.npmjs.org/html-encoding-sniffer 271ms (cache hit)
+189 http fetch GET 200 https://registry.npmjs.org/form-data 272ms (cache hit)
+190 http fetch GET 200 https://registry.npmjs.org/parse5 269ms (cache hit)
+191 http fetch GET 200 https://registry.npmjs.org/symbol-tree 269ms (cache hit)
+192 http fetch GET 200 https://registry.npmjs.org/webidl-conversions 267ms (cache hit)
+193 http fetch GET 200 https://registry.npmjs.org/tough-cookie 270ms (cache hit)
+194 http fetch GET 200 https://registry.npmjs.org/whatwg-encoding 265ms (cache hit)
+195 http fetch GET 200 https://registry.npmjs.org/whatwg-url 265ms (cache hit)
+196 http fetch GET 200 https://registry.npmjs.org/xml-name-validator 265ms (cache hit)
+197 http fetch GET 200 https://registry.npmjs.org/cssom 286ms (cache hit)
+198 http fetch GET 200 https://registry.npmjs.org/acorn-globals 289ms (cache hit)
+199 http fetch GET 200 https://registry.npmjs.org/decimal.js 722ms (cache revalidated)
+200 http fetch GET 200 https://registry.npmjs.org/https-proxy-agent 965ms (cache revalidated)
+201 http fetch GET 200 https://registry.npmjs.org/http-proxy-agent 968ms (cache revalidated)
+202 http fetch GET 200 https://registry.npmjs.org/nwsapi 970ms (cache revalidated)
+203 http fetch GET 200 https://registry.npmjs.org/is-potential-custom-element-name 1153ms (cache revalidated)
+204 http fetch GET 200 https://registry.npmjs.org/domexception 1159ms (cache revalidated)
+205 http fetch GET 200 https://registry.npmjs.org/data-urls 1166ms (cache revalidated)
+206 http fetch GET 200 https://registry.npmjs.org/saxes 2317ms (cache revalidated)
+207 http fetch GET 200 https://registry.npmjs.org/whatwg-mimetype 2314ms (cache revalidated)
+208 http fetch GET 200 https://registry.npmjs.org/w3c-xmlserializer 2331ms (cache revalidated)
+209 http fetch GET 200 https://registry.npmjs.org/w3c-hr-time 2348ms (cache revalidated)
+210 http fetch GET 200 https://registry.npmjs.org/ws 2344ms (cache revalidated)
+211 timing idealTree:#root Completed in 4003ms
+212 silly fetch manifest bufferutil@^4.0.1
+213 http fetch GET 200 https://registry.npmjs.org/bufferutil 1530ms (cache revalidated)
+214 silly fetch manifest utf-8-validate@^5.0.2
+215 http fetch GET 200 https://registry.npmjs.org/utf-8-validate 1363ms (cache revalidated)
+216 silly placeDep ROOT abab@2.0.6 OK for: jsdom@20.0.0 want: ^2.0.6
+217 silly placeDep ROOT acorn@8.8.0 OK for: jsdom@20.0.0 want: ^8.7.1
+218 silly placeDep ROOT acorn-globals@6.0.0 OK for: jsdom@20.0.0 want: ^6.0.0
+219 silly placeDep ROOT cssom@0.5.0 OK for: jsdom@20.0.0 want: ^0.5.0
+220 silly placeDep ROOT cssstyle@2.3.0 OK for: jsdom@20.0.0 want: ^2.3.0
+221 silly placeDep ROOT data-urls@3.0.2 OK for: jsdom@20.0.0 want: ^3.0.2
+222 silly placeDep ROOT decimal.js@10.3.1 OK for: jsdom@20.0.0 want: ^10.3.1
+223 silly placeDep ROOT domexception@4.0.0 OK for: jsdom@20.0.0 want: ^4.0.0
+224 silly placeDep ROOT escodegen@2.0.0 OK for: jsdom@20.0.0 want: ^2.0.0
+225 silly placeDep ROOT form-data@4.0.0 OK for: jsdom@20.0.0 want: ^4.0.0
+226 silly placeDep ROOT html-encoding-sniffer@3.0.0 OK for: jsdom@20.0.0 want: ^3.0.0
+227 silly placeDep ROOT http-proxy-agent@5.0.0 OK for: jsdom@20.0.0 want: ^5.0.0
+228 silly placeDep ROOT https-proxy-agent@5.0.1 OK for: jsdom@20.0.0 want: ^5.0.1
+229 silly placeDep ROOT is-potential-custom-element-name@1.0.1 OK for: jsdom@20.0.0 want: ^1.0.1
+230 silly placeDep ROOT nwsapi@2.2.1 OK for: jsdom@20.0.0 want: ^2.2.0
+231 silly placeDep ROOT parse5@7.0.0 OK for: jsdom@20.0.0 want: ^7.0.0
+232 silly placeDep ROOT saxes@6.0.0 OK for: jsdom@20.0.0 want: ^6.0.0
+233 silly placeDep ROOT symbol-tree@3.2.4 OK for: jsdom@20.0.0 want: ^3.2.4
+234 silly placeDep ROOT tough-cookie@4.0.0 OK for: jsdom@20.0.0 want: ^4.0.0
+235 silly placeDep ROOT w3c-hr-time@1.0.2 OK for: jsdom@20.0.0 want: ^1.0.2
+236 silly placeDep ROOT w3c-xmlserializer@3.0.0 OK for: jsdom@20.0.0 want: ^3.0.0
+237 silly placeDep ROOT webidl-conversions@7.0.0 OK for: jsdom@20.0.0 want: ^7.0.0
+238 silly placeDep ROOT whatwg-encoding@2.0.0 OK for: jsdom@20.0.0 want: ^2.0.0
+239 silly placeDep ROOT whatwg-mimetype@3.0.0 OK for: jsdom@20.0.0 want: ^3.0.0
+240 silly placeDep ROOT whatwg-url@11.0.0 OK for: jsdom@20.0.0 want: ^11.0.0
+241 silly placeDep ROOT ws@8.8.1 OK for: jsdom@20.0.0 want: ^8.8.0
+242 silly placeDep ROOT xml-name-validator@4.0.0 OK for: jsdom@20.0.0 want: ^4.0.0
+243 silly fetch manifest acorn@^7.1.1
+244 silly fetch manifest acorn-walk@^7.1.1
+245 silly fetch manifest cssom@~0.3.6
+246 silly fetch manifest estraverse@^5.2.0
+247 silly fetch manifest esutils@^2.0.2
+248 silly fetch manifest esprima@^4.0.1
+249 silly fetch manifest optionator@^0.8.1
+250 silly fetch manifest source-map@~0.6.1
+251 silly fetch manifest asynckit@^0.4.0
+252 silly fetch manifest combined-stream@^1.0.8
+253 silly fetch manifest mime-types@^2.1.12
+254 silly fetch manifest @tootallnate/once@2
+255 silly fetch manifest agent-base@6
+256 silly fetch manifest debug@4
+257 silly fetch manifest entities@^4.3.0
+258 silly fetch manifest xmlchars@^2.2.0
+259 silly fetch manifest psl@^1.1.33
+260 silly fetch manifest punycode@^2.1.1
+261 silly fetch manifest universalify@^0.1.2
+262 silly fetch manifest browser-process-hrtime@^1.0.0
+263 silly fetch manifest iconv-lite@0.6.3
+264 silly fetch manifest tr46@^3.0.0
+265 http fetch GET 200 https://registry.npmjs.org/estraverse 67ms (cache hit)
+266 http fetch GET 200 https://registry.npmjs.org/esutils 67ms (cache hit)
+267 http fetch GET 200 https://registry.npmjs.org/esprima 68ms (cache hit)
+268 http fetch GET 200 https://registry.npmjs.org/optionator 68ms (cache hit)
+269 http fetch GET 200 https://registry.npmjs.org/source-map 69ms (cache hit)
+270 http fetch GET 200 https://registry.npmjs.org/combined-stream 69ms (cache hit)
+271 http fetch GET 200 https://registry.npmjs.org/asynckit 70ms (cache hit)
+272 http fetch GET 200 https://registry.npmjs.org/psl 65ms (cache hit)
+273 http fetch GET 200 https://registry.npmjs.org/punycode 65ms (cache hit)
+274 http fetch GET 200 https://registry.npmjs.org/iconv-lite 64ms (cache hit)
+275 http fetch GET 200 https://registry.npmjs.org/tr46 64ms (cache hit)
+276 http fetch GET 200 https://registry.npmjs.org/debug 71ms (cache hit)
+277 http fetch GET 200 https://registry.npmjs.org/mime-types 74ms (cache hit)
+278 http fetch GET 200 https://registry.npmjs.org/acorn-walk 213ms (cache revalidated)
+279 http fetch GET 200 https://registry.npmjs.org/entities 206ms (cache revalidated)
+280 http fetch GET 200 https://registry.npmjs.org/browser-process-hrtime 203ms (cache revalidated)
+281 http fetch GET 200 https://registry.npmjs.org/agent-base 209ms (cache revalidated)
+282 http fetch GET 200 https://registry.npmjs.org/@tootallnate%2fonce 601ms (cache revalidated)
+283 http fetch GET 200 https://registry.npmjs.org/universalify 1408ms (cache revalidated)
+284 http fetch GET 200 https://registry.npmjs.org/xmlchars 1457ms (cache revalidated)
+285 timing idealTree:node_modules/jsdom Completed in 4418ms
+286 timing idealTree:node_modules/abab Completed in 0ms
+287 timing idealTree:node_modules/acorn Completed in 0ms
+288 silly placeDep node_modules/acorn-globals acorn@7.4.1 OK for: acorn-globals@6.0.0 want: ^7.1.1
+289 silly placeDep ROOT acorn-walk@7.2.0 OK for: acorn-globals@6.0.0 want: ^7.1.1
+290 timing idealTree:node_modules/acorn-globals Completed in 3ms
+291 timing idealTree:node_modules/acorn-walk Completed in 0ms
+292 timing idealTree:node_modules/cssom Completed in 0ms
+293 silly placeDep node_modules/cssstyle cssom@0.3.8 OK for: cssstyle@2.3.0 want: ~0.3.6
+294 timing idealTree:node_modules/cssstyle Completed in 1ms
+295 timing idealTree:node_modules/data-urls Completed in 0ms
+296 timing idealTree:node_modules/decimal.js Completed in 0ms
+297 timing idealTree:node_modules/domexception Completed in 0ms
+298 silly placeDep ROOT esprima@4.0.1 OK for: escodegen@2.0.0 want: ^4.0.1
+299 silly placeDep ROOT estraverse@5.3.0 OK for: escodegen@2.0.0 want: ^5.2.0
+300 silly placeDep ROOT esutils@2.0.3 OK for: escodegen@2.0.0 want: ^2.0.2
+301 silly placeDep ROOT optionator@0.8.3 OK for: escodegen@2.0.0 want: ^0.8.1
+302 silly placeDep ROOT source-map@0.6.1 OK for: escodegen@2.0.0 want: ~0.6.1
+303 silly fetch manifest prelude-ls@~1.1.2
+304 silly fetch manifest deep-is@~0.1.3
+305 silly fetch manifest word-wrap@~1.2.3
+306 silly fetch manifest type-check@~0.3.2
+307 silly fetch manifest levn@~0.3.0
+308 silly fetch manifest fast-levenshtein@~2.0.6
+309 http fetch GET 200 https://registry.npmjs.org/prelude-ls 23ms (cache hit)
+310 http fetch GET 200 https://registry.npmjs.org/type-check 23ms (cache hit)
+311 http fetch GET 200 https://registry.npmjs.org/deep-is 25ms (cache hit)
+312 http fetch GET 200 https://registry.npmjs.org/levn 33ms (cache hit)
+313 http fetch GET 200 https://registry.npmjs.org/fast-levenshtein 37ms (cache hit)
+314 http fetch GET 200 https://registry.npmjs.org/word-wrap 1478ms (cache revalidated)
+315 timing idealTree:node_modules/escodegen Completed in 1485ms
+316 timing idealTree:node_modules/esprima Completed in 0ms
+317 timing idealTree:node_modules/estraverse Completed in 0ms
+318 timing idealTree:node_modules/esutils Completed in 0ms
+319 silly placeDep ROOT asynckit@0.4.0 OK for: form-data@4.0.0 want: ^0.4.0
+320 silly placeDep ROOT combined-stream@1.0.8 OK for: form-data@4.0.0 want: ^1.0.8
+321 silly placeDep ROOT mime-types@2.1.35 OK for: form-data@4.0.0 want: ^2.1.12
+322 silly fetch manifest delayed-stream@~1.0.0
+323 silly fetch manifest mime-db@1.52.0
+324 http fetch GET 200 https://registry.npmjs.org/delayed-stream 9ms (cache hit)
+325 http fetch GET 200 https://registry.npmjs.org/mime-db 8ms (cache hit)
+326 timing idealTree:node_modules/form-data Completed in 14ms
+327 timing idealTree:node_modules/asynckit Completed in 0ms
+328 silly placeDep ROOT delayed-stream@1.0.0 OK for: combined-stream@1.0.8 want: ~1.0.0
+329 timing idealTree:node_modules/combined-stream Completed in 1ms
+330 timing idealTree:node_modules/delayed-stream Completed in 0ms
+331 timing idealTree:node_modules/html-encoding-sniffer Completed in 0ms
+332 silly placeDep ROOT @tootallnate/once@2.0.0 OK for: http-proxy-agent@5.0.0 want: 2
+333 silly placeDep ROOT agent-base@6.0.2 OK for: http-proxy-agent@5.0.0 want: 6
+334 silly placeDep node_modules/http-proxy-agent debug@4.3.4 OK for: http-proxy-agent@5.0.0 want: 4
+335 silly fetch manifest ms@2.1.2
+336 http fetch GET 200 https://registry.npmjs.org/ms 6ms (cache hit)
+337 timing idealTree:node_modules/http-proxy-agent Completed in 10ms
+338 timing idealTree:node_modules/@tootallnate/once Completed in 0ms
+339 silly placeDep node_modules/agent-base debug@4.3.4 OK for: agent-base@6.0.2 want: 4
+340 timing idealTree:node_modules/agent-base Completed in 1ms
+341 silly placeDep node_modules/https-proxy-agent debug@4.3.4 OK for: https-proxy-agent@5.0.1 want: 4
+342 timing idealTree:node_modules/https-proxy-agent Completed in 1ms
+343 timing idealTree:node_modules/is-potential-custom-element-name Completed in 0ms
+344 silly placeDep ROOT mime-db@1.52.0 OK for: mime-types@2.1.35 want: 1.52.0
+345 timing idealTree:node_modules/mime-types Completed in 0ms
+346 timing idealTree:node_modules/mime-db Completed in 0ms
+347 silly fetch manifest minimist@0.0.8
+348 silly placeDep ROOT minimist@0.0.8 REPLACE for: mkdirp@0.5.1 want: 0.0.8
+349 timing idealTree:node_modules/mkdirp Completed in 1ms
+350 timing idealTree:node_modules/minimist Completed in 0ms
+351 silly placeDep ROOT mkdirp@0.5.4 REPLACE for: mocha@6.2.3 want: 0.5.4
+352 silly placeDep ROOT yargs@13.3.2 REPLACE for: mocha@6.2.3 want: 13.3.2
+353 silly placeDep ROOT yargs-parser@13.1.2 OK for: mocha@6.2.3 want: 13.1.2
+354 silly fetch manifest minimist@^1.2.5
+355 silly fetch manifest camelcase@^5.0.0
+356 silly fetch manifest decamelize@^1.2.0
+357 http fetch GET 200 https://registry.npmjs.org/decamelize 8ms (cache hit)
+358 http fetch GET 200 https://registry.npmjs.org/camelcase 9ms (cache hit)
+359 timing idealTree:node_modules/mocha Completed in 19ms
+360 silly placeDep ROOT minimist@1.2.6 OK for: mkdirp@0.5.4 want: ^1.2.5
+361 timing idealTree:node_modules/mkdirp Completed in 2ms
+362 timing idealTree:node_modules/minimist Completed in 0ms
+363 timing idealTree:node_modules/mocha-jsdom Completed in 1ms
+364 timing idealTree:node_modules/mocha-multi Completed in 0ms
+365 timing idealTree:node_modules/nwsapi Completed in 0ms
+366 silly placeDep ROOT deep-is@0.1.4 OK for: optionator@0.8.3 want: ~0.1.3
+367 silly placeDep ROOT fast-levenshtein@2.0.6 OK for: optionator@0.8.3 want: ~2.0.6
+368 silly placeDep ROOT levn@0.3.0 OK for: optionator@0.8.3 want: ~0.3.0
+369 silly placeDep ROOT prelude-ls@1.1.2 OK for: optionator@0.8.3 want: ~1.1.2
+370 silly placeDep ROOT type-check@0.3.2 OK for: optionator@0.8.3 want: ~0.3.2
+371 silly placeDep ROOT word-wrap@1.2.3 OK for: optionator@0.8.3 want: ~1.2.3
+372 timing idealTree:node_modules/optionator Completed in 8ms
+373 timing idealTree:node_modules/deep-is Completed in 0ms
+374 timing idealTree:node_modules/fast-levenshtein Completed in 0ms
+375 timing idealTree:node_modules/levn Completed in 0ms
+376 silly placeDep ROOT entities@4.3.1 OK for: parse5@7.0.0 want: ^4.3.0
+377 timing idealTree:node_modules/parse5 Completed in 1ms
+378 timing idealTree:node_modules/entities Completed in 0ms
+379 timing idealTree:node_modules/prelude-ls Completed in 0ms
+380 silly placeDep ROOT xmlchars@2.2.0 OK for: saxes@6.0.0 want: ^2.2.0
+381 timing idealTree:node_modules/saxes Completed in 1ms
+382 timing idealTree:node_modules/source-map Completed in 0ms
+383 silly fetch manifest ansi-regex@^3.0.0
+384 silly placeDep ROOT ansi-regex@3.0.1 REPLACE for: strip-ansi@4.0.0 want: ^3.0.0
+385 timing idealTree:node_modules/strip-ansi Completed in 2ms
+386 timing idealTree:node_modules/ansi-regex Completed in 0ms
+387 timing idealTree:node_modules/symbol-tree Completed in 0ms
+388 silly placeDep ROOT psl@1.9.0 OK for: tough-cookie@4.0.0 want: ^1.1.33
+389 silly placeDep ROOT punycode@2.1.1 OK for: tough-cookie@4.0.0 want: ^2.1.1
+390 silly placeDep ROOT universalify@0.1.2 OK for: tough-cookie@4.0.0 want: ^0.1.2
+391 timing idealTree:node_modules/tough-cookie Completed in 2ms
+392 timing idealTree:node_modules/psl Completed in 0ms
+393 timing idealTree:node_modules/punycode Completed in 0ms
+394 timing idealTree:node_modules/type-check Completed in 0ms
+395 timing idealTree:node_modules/universalify Completed in 0ms
+396 silly placeDep ROOT browser-process-hrtime@1.0.0 OK for: w3c-hr-time@1.0.2 want: ^1.0.0
+397 timing idealTree:node_modules/w3c-hr-time Completed in 1ms
+398 timing idealTree:node_modules/browser-process-hrtime Completed in 0ms
+399 timing idealTree:node_modules/w3c-xmlserializer Completed in 0ms
+400 timing idealTree:node_modules/webidl-conversions Completed in 0ms
+401 silly placeDep ROOT iconv-lite@0.6.3 OK for: whatwg-encoding@2.0.0 want: 0.6.3
+402 silly fetch manifest safer-buffer@>= 2.1.2 < 3.0.0
+403 http fetch GET 200 https://registry.npmjs.org/safer-buffer 8ms (cache hit)
+404 timing idealTree:node_modules/whatwg-encoding Completed in 11ms
+405 silly placeDep ROOT safer-buffer@2.1.2 OK for: iconv-lite@0.6.3 want: >= 2.1.2 < 3.0.0
+406 timing idealTree:node_modules/iconv-lite Completed in 1ms
+407 timing idealTree:node_modules/safer-buffer Completed in 0ms
+408 timing idealTree:node_modules/whatwg-mimetype Completed in 0ms
+409 silly placeDep ROOT tr46@3.0.0 OK for: whatwg-url@11.0.0 want: ^3.0.0
+410 timing idealTree:node_modules/whatwg-url Completed in 1ms
+411 timing idealTree:node_modules/tr46 Completed in 0ms
+412 timing idealTree:node_modules/word-wrap Completed in 0ms
+413 timing idealTree:node_modules/ws Completed in 0ms
+414 timing idealTree:node_modules/xml-name-validator Completed in 0ms
+415 timing idealTree:node_modules/xmlchars Completed in 0ms
+416 timing idealTree:node_modules/yargs Completed in 0ms
+417 silly placeDep ROOT camelcase@5.3.1 OK for: yargs-parser@13.1.2 want: ^5.0.0
+418 silly placeDep ROOT decamelize@1.2.0 OK for: yargs-parser@13.1.2 want: ^1.2.0
+419 timing idealTree:node_modules/yargs-parser Completed in 2ms
+420 timing idealTree:node_modules/camelcase Completed in 0ms
+421 timing idealTree:node_modules/decamelize Completed in 0ms
+422 timing idealTree:node_modules/acorn-globals/node_modules/acorn Completed in 0ms
+423 silly placeDep node_modules/agent-base ms@2.1.2 OK for: debug@4.3.4 want: 2.1.2
+424 timing idealTree:node_modules/agent-base/node_modules/debug Completed in 1ms
+425 timing idealTree:node_modules/agent-base/node_modules/ms Completed in 0ms
+426 silly fetch manifest ansi-regex@^4.1.0
+427 silly placeDep node_modules/cliui ansi-regex@4.1.1 REPLACE for: strip-ansi@5.2.0 want: ^4.1.0
+428 timing idealTree:node_modules/cliui/node_modules/strip-ansi Completed in 2ms
+429 timing idealTree:node_modules/cliui/node_modules/ansi-regex Completed in 0ms
+430 timing idealTree:node_modules/cssstyle/node_modules/cssom Completed in 0ms
+431 silly placeDep node_modules/http-proxy-agent ms@2.1.2 OK for: debug@4.3.4 want: 2.1.2
+432 timing idealTree:node_modules/http-proxy-agent/node_modules/debug Completed in 2ms
+433 timing idealTree:node_modules/http-proxy-agent/node_modules/ms Completed in 0ms
+434 silly placeDep node_modules/https-proxy-agent ms@2.1.2 OK for: debug@4.3.4 want: 2.1.2
+435 timing idealTree:node_modules/https-proxy-agent/node_modules/debug Completed in 1ms
+436 timing idealTree:node_modules/https-proxy-agent/node_modules/ms Completed in 0ms
+437 silly placeDep node_modules/wrap-ansi ansi-regex@4.1.1 REPLACE for: strip-ansi@5.2.0 want: ^4.1.0
+438 timing idealTree:node_modules/wrap-ansi/node_modules/strip-ansi Completed in 2ms
+439 timing idealTree:node_modules/wrap-ansi/node_modules/ansi-regex Completed in 0ms
+440 silly placeDep node_modules/yargs ansi-regex@4.1.1 REPLACE for: strip-ansi@5.2.0 want: ^4.1.0
+441 timing idealTree:node_modules/yargs/node_modules/strip-ansi Completed in 2ms
+442 timing idealTree:node_modules/yargs/node_modules/ansi-regex Completed in 1ms
+443 timing idealTree:buildDeps Completed in 10013ms
+444 timing idealTree:fixDepFlags Completed in 1ms
+445 timing idealTree Completed in 10025ms
+446 timing reify:loadTrees Completed in 10026ms
+447 timing reify:diffTrees Completed in 5ms
+448 silly reify mark retired [
+448 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/abab'
+448 silly reify ]
+449 silly reify mark retired [
+449 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/acorn',
+449 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/acorn'
+449 silly reify ]
+450 silly reify mark retired [
+450 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/acorn-globals'
+450 silly reify ]
+451 silly reify mark retired [
+451 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/ajv'
+451 silly reify ]
+452 silly reify mark retired [
+452 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/ansi-regex'
+452 silly reify ]
+453 silly reify mark retired [
+453 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/array-equal'
+453 silly reify ]
+454 silly reify mark retired [
+454 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/asn1'
+454 silly reify ]
+455 silly reify mark retired [
+455 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/assert-plus'
+455 silly reify ]
+456 silly reify mark retired [
+456 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/asynckit'
+456 silly reify ]
+457 silly reify mark retired [
+457 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/aws-sign2'
+457 silly reify ]
+458 silly reify mark retired [
+458 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/aws4'
+458 silly reify ]
+459 silly reify mark retired [
+459 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/bcrypt-pbkdf'
+459 silly reify ]
+460 silly reify mark retired [
+460 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/caseless'
+460 silly reify ]
+461 silly reify mark retired [
+461 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/cliui/node_modules/ansi-regex'
+461 silly reify ]
+462 silly reify mark retired [
+462 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/co'
+462 silly reify ]
+463 silly reify mark retired [
+463 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/combined-stream'
+463 silly reify ]
+464 silly reify mark retired [
+464 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/content-type-parser'
+464 silly reify ]
+465 silly reify mark retired [
+465 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/core-util-is'
+465 silly reify ]
+466 silly reify mark retired [
+466 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/cssom'
+466 silly reify ]
+467 silly reify mark retired [
+467 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/cssstyle'
+467 silly reify ]
+468 silly reify mark retired [
+468 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/dashdash'
+468 silly reify ]
+469 silly reify mark retired [
+469 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/decamelize'
+469 silly reify ]
+470 silly reify mark retired [
+470 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/deep-is'
+470 silly reify ]
+471 silly reify mark retired [
+471 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/delayed-stream'
+471 silly reify ]
+472 silly reify mark retired [
+472 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/ecc-jsbn'
+472 silly reify ]
+473 silly reify mark retired [
+473 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/escodegen',
+473 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/escodegen',
+473 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/esgenerate'
+473 silly reify ]
+474 silly reify mark retired [
+474 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/esprima',
+474 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/esparse',
+474 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/esvalidate'
+474 silly reify ]
+475 silly reify mark retired [
+475 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/estraverse'
+475 silly reify ]
+476 silly reify mark retired [
+476 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/esutils'
+476 silly reify ]
+477 silly reify mark retired [
+477 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/extend'
+477 silly reify ]
+478 silly reify mark retired [
+478 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/extsprintf'
+478 silly reify ]
+479 silly reify mark retired [
+479 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/fast-deep-equal'
+479 silly reify ]
+480 silly reify mark retired [
+480 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/fast-json-stable-stringify'
+480 silly reify ]
+481 silly reify mark retired [
+481 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/fast-levenshtein'
+481 silly reify ]
+482 silly reify mark retired [
+482 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/forever-agent'
+482 silly reify ]
+483 silly reify mark retired [
+483 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/form-data'
+483 silly reify ]
+484 silly reify mark retired [
+484 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/getpass'
+484 silly reify ]
+485 silly reify mark retired [
+485 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/har-schema'
+485 silly reify ]
+486 silly reify mark retired [
+486 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/har-validator'
+486 silly reify ]
+487 silly reify mark retired [
+487 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/html-encoding-sniffer'
+487 silly reify ]
+488 silly reify mark retired [
+488 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/http-signature'
+488 silly reify ]
+489 silly reify mark retired [
+489 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/iconv-lite'
+489 silly reify ]
+490 silly reify mark retired [
+490 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/is-typedarray'
+490 silly reify ]
+491 silly reify mark retired [
+491 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/isstream'
+491 silly reify ]
+492 silly reify mark retired [
+492 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/js-yaml/node_modules/esprima',
+492 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/js-yaml/node_modules/.bin/esparse',
+492 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/js-yaml/node_modules/.bin/esvalidate'
+492 silly reify ]
+493 silly reify mark retired [
+493 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/jsbn'
+493 silly reify ]
+494 silly reify mark retired [
+494 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/jsdom'
+494 silly reify ]
+495 silly reify mark retired [
+495 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/json-schema'
+495 silly reify ]
+496 silly reify mark retired [
+496 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/json-schema-traverse'
+496 silly reify ]
+497 silly reify mark retired [
+497 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/json-stringify-safe'
+497 silly reify ]
+498 silly reify mark retired [
+498 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/jsprim'
+498 silly reify ]
+499 silly reify mark retired [
+499 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/levn'
+499 silly reify ]
+500 silly reify mark retired [
+500 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/mime-db'
+500 silly reify ]
+501 silly reify mark retired [
+501 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/mime-types'
+501 silly reify ]
+502 silly reify mark retired [
+502 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/minimist'
+502 silly reify ]
+503 silly reify mark retired [
+503 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/mkdirp',
+503 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/mkdirp'
+503 silly reify ]
+504 silly reify mark retired [
+504 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/mocha',
+504 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/_mocha',
+504 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/mocha'
+504 silly reify ]
+505 silly reify mark retired [
+505 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/nwmatcher'
+505 silly reify ]
+506 silly reify mark retired [
+506 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/oauth-sign'
+506 silly reify ]
+507 silly reify mark retired [
+507 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/optionator'
+507 silly reify ]
+508 silly reify mark retired [
+508 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/parse5'
+508 silly reify ]
+509 silly reify mark retired [
+509 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/performance-now'
+509 silly reify ]
+510 silly reify mark retired [
+510 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/prelude-ls'
+510 silly reify ]
+511 silly reify mark retired [
+511 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/psl'
+511 silly reify ]
+512 silly reify mark retired [
+512 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/punycode'
+512 silly reify ]
+513 silly reify mark retired [
+513 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/qs'
+513 silly reify ]
+514 silly reify mark retired [
+514 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/request'
+514 silly reify ]
+515 silly reify mark retired [
+515 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/safe-buffer'
+515 silly reify ]
+516 silly reify mark retired [
+516 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/sax'
+516 silly reify ]
+517 silly reify mark retired [
+517 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/sshpk',
+517 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/sshpk-conv',
+517 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/sshpk-sign',
+517 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/sshpk-verify'
+517 silly reify ]
+518 silly reify mark retired [
+518 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/symbol-tree'
+518 silly reify ]
+519 silly reify mark retired [
+519 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/tough-cookie'
+519 silly reify ]
+520 silly reify mark retired [
+520 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/tr46'
+520 silly reify ]
+521 silly reify mark retired [
+521 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/tunnel-agent'
+521 silly reify ]
+522 silly reify mark retired [
+522 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/tweetnacl'
+522 silly reify ]
+523 silly reify mark retired [
+523 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/type-check'
+523 silly reify ]
+524 silly reify mark retired [
+524 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/uuid',
+524 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/uuid'
+524 silly reify ]
+525 silly reify mark retired [
+525 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/verror'
+525 silly reify ]
+526 silly reify mark retired [
+526 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/webidl-conversions'
+526 silly reify ]
+527 silly reify mark retired [
+527 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/whatwg-encoding'
+527 silly reify ]
+528 silly reify mark retired [
+528 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/whatwg-url'
+528 silly reify ]
+529 silly reify mark retired [
+529 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/wordwrap'
+529 silly reify ]
+530 silly reify mark retired [
+530 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/wrap-ansi/node_modules/ansi-regex'
+530 silly reify ]
+531 silly reify mark retired [
+531 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/xml-name-validator'
+531 silly reify ]
+532 silly reify mark retired [
+532 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/yargs'
+532 silly reify ]
+533 silly reify mark retired [
+533 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/yargs-parser'
+533 silly reify ]
+534 silly reify moves {
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/abab': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.abab-W0YpflU6',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/acorn': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.acorn-NlUqQ2MO',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/acorn': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/.acorn-fNUalDcf',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/acorn-globals': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.acorn-globals-waSlEjqC',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/ajv': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.ajv-Wak4xnvM',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/ansi-regex': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.ansi-regex-UUusqwLJ',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/array-equal': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.array-equal-y2bDT9iv',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/asn1': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.asn1-Hul5Bb3H',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/assert-plus': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.assert-plus-Oq7WJjln',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/asynckit': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.asynckit-lws1lNz6',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/aws-sign2': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.aws-sign2-6UFnyqOF',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/aws4': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.aws4-9vLniT4K',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/bcrypt-pbkdf': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bcrypt-pbkdf-hBQmzdYi',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/caseless': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.caseless-0eJ5oQws',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/cliui/node_modules/ansi-regex': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/cliui/node_modules/.ansi-regex-6E1N7Zap',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/co': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.co-Zx3RD4dS',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/combined-stream': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.combined-stream-OcsIfuxv',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/content-type-parser': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.content-type-parser-aiHYewO9',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/core-util-is': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.core-util-is-WBpmPvaQ',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/cssom': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.cssom-ff5gP3Mq',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/cssstyle': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.cssstyle-FnwnUNOT',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/dashdash': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.dashdash-J4m9A9EZ',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/decamelize': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.decamelize-k6Z0KDQf',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/deep-is': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.deep-is-XB1Nfr3a',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/delayed-stream': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.delayed-stream-FrV6KdA6',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/ecc-jsbn': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.ecc-jsbn-enpfzoPk',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/escodegen': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.escodegen-yUDYPIBc',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/escodegen': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/.escodegen-ULHshFPx',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/esgenerate': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/.esgenerate-Ojr1ln7t',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/esprima': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.esprima-0eEaQa5Z',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/esparse': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/.esparse-Eiywn4qe',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/esvalidate': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/.esvalidate-SNTRXjmn',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/estraverse': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.estraverse-zmfEh1uD',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/esutils': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.esutils-wlrRO0Iv',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/extend': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.extend-v9KmhNke',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/extsprintf': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.extsprintf-ZwxcIcpP',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/fast-deep-equal': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.fast-deep-equal-FX8Gwwdt',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/fast-json-stable-stringify': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.fast-json-stable-stringify-Z5sg2hOo',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/fast-levenshtein': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.fast-levenshtein-htIuZSXf',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/forever-agent': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.forever-agent-MFJoUeA7',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/form-data': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.form-data-qv2LfeMV',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/getpass': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.getpass-MPjmqfIO',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/har-schema': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.har-schema-aPviFJpc',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/har-validator': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.har-validator-0RueFTJJ',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/html-encoding-sniffer': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.html-encoding-sniffer-1VzRVXWd',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/http-signature': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.http-signature-5zqbF5tK',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/iconv-lite': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.iconv-lite-clJCJWk5',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/is-typedarray': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.is-typedarray-85BhV1OI',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/isstream': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.isstream-QvO4FfAf',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/js-yaml/node_modules/esprima': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/js-yaml/node_modules/.esprima-ubpWB5t7',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/js-yaml/node_modules/.bin/esparse': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/js-yaml/node_modules/.bin/.esparse-ktlaTXqH',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/js-yaml/node_modules/.bin/esvalidate': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/js-yaml/node_modules/.bin/.esvalidate-SdNRMVxt',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/jsbn': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.jsbn-fey62a5r',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/jsdom': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.jsdom-1sZkhu49',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/json-schema': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.json-schema-LRt8rnu5',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/json-schema-traverse': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.json-schema-traverse-YKqF4DFb',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/json-stringify-safe': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.json-stringify-safe-G7IAfeHT',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/jsprim': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.jsprim-2kwvB6HE',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/levn': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.levn-xuSF9Jle',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/mime-db': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.mime-db-bh4T8GqZ',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/mime-types': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.mime-types-0aQfyuRK',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/minimist': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.minimist-STJ01Y7c',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/mkdirp': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.mkdirp-wHsFsHCn',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/mkdirp': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/.mkdirp-03WObjIH',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/mocha': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.mocha-WQz2fRkP',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/_mocha': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/._mocha-eiDANABF',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/mocha': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/.mocha-vijyFIn7',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/nwmatcher': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.nwmatcher-UoRNnEJw',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/oauth-sign': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.oauth-sign-bxLJgf4s',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/optionator': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.optionator-OyxFucw0',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/parse5': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.parse5-uv6Us5FJ',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/performance-now': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.performance-now-kqas0HTF',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/prelude-ls': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.prelude-ls-KMsfGk57',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/psl': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.psl-3gifhu7U',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/punycode': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.punycode-MBVuweUd',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/qs': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.qs-SVr7Da2k',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/request': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.request-67d6JzPH',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/safe-buffer': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.safe-buffer-Efwu0OR7',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/sax': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.sax-MNVq5bhn',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/sshpk': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.sshpk-t9bmxxFm',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/sshpk-conv': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/.sshpk-conv-B23RbuSi',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/sshpk-sign': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/.sshpk-sign-cqrsyOgQ',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/sshpk-verify': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/.sshpk-verify-Jc3ujOAq',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/symbol-tree': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.symbol-tree-3mYJTKE7',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/tough-cookie': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.tough-cookie-DDoxaFlE',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/tr46': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.tr46-9yvTS9sE',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/tunnel-agent': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.tunnel-agent-HwXwQRjS',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/tweetnacl': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.tweetnacl-nBR6hr0X',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/type-check': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.type-check-G7tnuUGW',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/uuid': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.uuid-RyuCENI4',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/uuid': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.bin/.uuid-Wq9XyjPM',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/verror': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.verror-9Islolj3',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/webidl-conversions': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.webidl-conversions-FdpvbZqx',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/whatwg-encoding': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.whatwg-encoding-kDEqKv7v',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/whatwg-url': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.whatwg-url-O6pWv7Ux',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/wordwrap': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.wordwrap-lalwTydX',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/wrap-ansi/node_modules/ansi-regex': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/wrap-ansi/node_modules/.ansi-regex-rpSM9fmC',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/xml-name-validator': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.xml-name-validator-ZRDXuaXw',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/yargs': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.yargs-SH9B0ieK',
+534 silly reify   '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/yargs-parser': '/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/node_modules/.yargs-parser-T6rk8tVx'
+534 silly reify }
+535 timing reify:retireShallow Completed in 34ms
+536 timing reify:createSparse Completed in 26ms
+537 timing reify:loadBundles Completed in 0ms
+538 silly audit bulk request {
+538 silly audit   'ansi-colors': [ '3.2.3' ],
+538 silly audit   'ansi-regex': [ '3.0.1', '4.1.1' ],
+538 silly audit   'ansi-styles': [ '3.2.1' ],
+538 silly audit   argparse: [ '1.0.10' ],
+538 silly audit   'array-events': [ '0.2.0' ],
+538 silly audit   'assertion-error': [ '1.1.0' ],
+538 silly audit   'async-arrays': [ '1.0.1' ],
+538 silly audit   'balanced-match': [ '1.0.0' ],
+538 silly audit   'bit-mask': [ '1.0.2' ],
+538 silly audit   'brace-expansion': [ '1.1.11' ],
+538 silly audit   'browser-stdout': [ '1.3.1' ],
+538 silly audit   'call-me-maybe': [ '1.0.1' ],
+538 silly audit   chai: [ '3.5.0' ],
+538 silly audit   'chai-fs': [ '2.0.0' ],
+538 silly audit   chalk: [ '2.4.2' ],
+538 silly audit   'supports-color': [ '5.5.0', '6.0.0' ],
+538 silly audit   cliui: [ '5.0.0' ],
+538 silly audit   'string-width': [ '3.1.0', '2.1.1' ],
+538 silly audit   'strip-ansi': [ '5.2.0', '4.0.0' ],
+538 silly audit   'color-convert': [ '1.9.3' ],
+538 silly audit   'color-name': [ '1.1.3' ],
+538 silly audit   'concat-map': [ '0.0.1' ],
+538 silly audit   debug: [ '3.2.6', '4.1.1', '4.3.4' ],
+538 silly audit   'deep-eql': [ '0.1.3' ],
+538 silly audit   'type-detect': [ '0.1.1', '1.0.0' ],
+538 silly audit   'define-properties': [ '1.1.2' ],
+538 silly audit   diff: [ '3.5.0' ],
+538 silly audit   'emoji-regex': [ '7.0.3' ],
+538 silly audit   'es-abstract': [ '1.12.0' ],
+538 silly audit   'es-to-primitive': [ '1.1.1' ],
+538 silly audit   'es6-promise': [ '4.2.4' ],
+538 silly audit   'escape-string-regexp': [ '1.0.5' ],
+538 silly audit   esprima: [ '4.0.1' ],
+538 silly audit   expect: [ '1.20.2' ],
+538 silly audit   'extended-emitter': [ '1.0.2' ],
+538 silly audit   'find-up': [ '3.0.0' ],
+538 silly audit   flat: [ '4.1.0' ],
+538 silly audit   foreach: [ '2.0.5' ],
+538 silly audit   'fs.realpath': [ '1.0.0' ],
+538 silly audit   'function-bind': [ '1.1.1' ],
+538 silly audit   'get-caller-file': [ '2.0.5' ],
+538 silly audit   glob: [ '7.1.3' ],
+538 silly audit   'glob-to-regexp': [ '0.3.0' ],
+538 silly audit   growl: [ '1.10.5' ],
+538 silly audit   has: [ '1.0.3' ],
+538 silly audit   'has-flag': [ '3.0.0' ],
+538 silly audit   'has-symbols': [ '1.0.0' ],
+538 silly audit   he: [ '1.2.0' ],
+538 silly audit   inflight: [ '1.0.6' ],
+538 silly audit   inherits: [ '2.0.4' ],
+538 silly audit   'is-arrow-function': [ '2.0.3' ],
+538 silly audit   'is-boolean-object': [ '1.0.0' ],
+538 silly audit   'is-buffer': [ '2.0.4' ],
+538 silly audit   'is-callable': [ '1.1.4' ],
+538 silly audit   'is-date-object': [ '1.0.1' ],
+538 silly audit   'is-equal': [ '1.5.5' ],
+538 silly audit   'is-fullwidth-code-point': [ '2.0.0' ],
+538 silly audit   'is-generator-function': [ '1.0.7' ],
+538 silly audit   'is-number-object': [ '1.0.3' ],
+538 silly audit   'is-regex': [ '1.0.4' ],
+538 silly audit   'is-string': [ '1.0.4' ],
+538 silly audit   'is-symbol': [ '1.0.1' ],
+538 silly audit   isexe: [ '2.0.0' ],
+538 silly audit   'js-yaml': [ '3.13.1' ],
+538 silly audit   'locate-path': [ '3.0.0' ],
+538 silly audit   lodash: [ '4.17.21' ],
+538 silly audit   'lodash.once': [ '4.1.1' ],
+538 silly audit   'log-symbols': [ '2.2.0' ],
+538 silly audit   minimatch: [ '3.0.4' ],
+538 silly audit   'mocha-jsdom': [ '1.1.0' ],
+538 silly audit   'mocha-multi': [ '1.1.3' ],
+538 silly audit   ms: [ '2.1.1', '2.1.2' ],
+538 silly audit   'node-environment-flags': [ '1.0.5' ],
+538 silly audit   'object-assign': [ '4.1.1' ],
+538 silly audit   'object-inspect': [ '1.6.0' ],
+538 silly audit   'object-keys': [ '1.0.12' ],
+538 silly audit   'object.assign': [ '4.1.0' ],
+538 silly audit   'object.entries': [ '1.0.4' ],
+538 silly audit   'object.getownpropertydescriptors': [ '2.0.3' ],
+538 silly audit   once: [ '1.4.0' ],
+538 silly audit   'p-limit': [ '2.2.1' ],
+538 silly audit   'p-locate': [ '3.0.0' ],
+538 silly audit   'p-try': [ '2.2.0' ],
+538 silly audit   'path-exists': [ '3.0.0' ],
+538 silly audit   'path-is-absolute': [ '1.0.1' ],
+538 silly audit   'readdir-enhanced': [ '1.5.2' ],
+538 silly audit   'require-directory': [ '2.1.1' ],
+538 silly audit   'require-main-filename': [ '2.0.0' ],
+538 silly audit   semver: [ '5.7.1' ],
+538 silly audit   'set-blocking': [ '2.0.0' ],
+538 silly audit   sift: [ '6.0.0' ],
+538 silly audit   'sprintf-js': [ '1.0.3' ],
+538 silly audit   'strip-json-comments': [ '2.0.1' ],
+538 silly audit   tmatch: [ '2.0.1' ],
+538 silly audit   which: [ '1.3.1' ],
+538 silly audit   'which-module': [ '2.0.0' ],
+538 silly audit   'wide-align': [ '1.1.3' ],
+538 silly audit   'wolfy87-eventemitter': [ '5.2.5' ],
+538 silly audit   'wrap-ansi': [ '5.1.0' ],
+538 silly audit   wrappy: [ '1.0.2' ],
+538 silly audit   y18n: [ '4.0.1' ],
+538 silly audit   'yargs-unparser': [ '1.6.0' ],
+538 silly audit   jsdom: [ '20.0.0' ],
+538 silly audit   mocha: [ '6.2.3' ],
+538 silly audit   abab: [ '2.0.6' ],
+538 silly audit   acorn: [ '8.8.0', '7.4.1' ],
+538 silly audit   'acorn-globals': [ '6.0.0' ],
+538 silly audit   cssom: [ '0.5.0', '0.3.8' ],
+538 silly audit   cssstyle: [ '2.3.0' ],
+538 silly audit   'data-urls': [ '3.0.2' ],
+538 silly audit   'decimal.js': [ '10.3.1' ],
+538 silly audit   domexception: [ '4.0.0' ],
+538 silly audit   escodegen: [ '2.0.0' ],
+538 silly audit   'form-data': [ '4.0.0' ],
+538 silly audit   'html-encoding-sniffer': [ '3.0.0' ],
+538 silly audit   'http-proxy-agent': [ '5.0.0' ],
+538 silly audit   'https-proxy-agent': [ '5.0.1' ],
+538 silly audit   'is-potential-custom-element-name': [ '1.0.1' ],
+538 silly audit   nwsapi: [ '2.2.1' ],
+538 silly audit   parse5: [ '7.0.0' ],
+538 silly audit   saxes: [ '6.0.0' ],
+538 silly audit   'symbol-tree': [ '3.2.4' ],
+538 silly audit   'tough-cookie': [ '4.0.0' ],
+538 silly audit   'w3c-hr-time': [ '1.0.2' ],
+538 silly audit   'w3c-xmlserializer': [ '3.0.0' ],
+538 silly audit   'webidl-conversions': [ '7.0.0' ],
+538 silly audit   'whatwg-encoding': [ '2.0.0' ],
+538 silly audit   'whatwg-mimetype': [ '3.0.0' ],
+538 silly audit   'whatwg-url': [ '11.0.0' ],
+538 silly audit   ws: [ '8.8.1' ],
+538 silly audit   'xml-name-validator': [ '4.0.0' ],
+538 silly audit   'acorn-walk': [ '7.2.0' ],
+538 silly audit   estraverse: [ '5.3.0' ],
+538 silly audit   esutils: [ '2.0.3' ],
+538 silly audit   optionator: [ '0.8.3' ],
+538 silly audit   'source-map': [ '0.6.1' ],
+538 silly audit   asynckit: [ '0.4.0' ],
+538 silly audit   'combined-stream': [ '1.0.8' ],
+538 silly audit   'mime-types': [ '2.1.35' ],
+538 silly audit   'delayed-stream': [ '1.0.0' ],
+538 silly audit   '@tootallnate/once': [ '2.0.0' ],
+538 silly audit   'agent-base': [ '6.0.2' ],
+538 silly audit   'mime-db': [ '1.52.0' ],
+538 silly audit   mkdirp: [ '0.5.4' ],
+538 silly audit   yargs: [ '13.3.2' ],
+538 silly audit   'yargs-parser': [ '13.1.2' ],
+538 silly audit   minimist: [ '1.2.6' ],
+538 silly audit   'deep-is': [ '0.1.4' ],
+538 silly audit   'fast-levenshtein': [ '2.0.6' ],
+538 silly audit   levn: [ '0.3.0' ],
+538 silly audit   'prelude-ls': [ '1.1.2' ],
+538 silly audit   'type-check': [ '0.3.2' ],
+538 silly audit   'word-wrap': [ '1.2.3' ],
+538 silly audit   entities: [ '4.3.1' ],
+538 silly audit   xmlchars: [ '2.2.0' ],
+538 silly audit   psl: [ '1.9.0' ],
+538 silly audit   punycode: [ '2.1.1' ],
+538 silly audit   universalify: [ '0.1.2' ],
+538 silly audit   'browser-process-hrtime': [ '1.0.0' ],
+538 silly audit   'iconv-lite': [ '0.6.3' ],
+538 silly audit   'safer-buffer': [ '2.1.2' ],
+538 silly audit   tr46: [ '3.0.0' ],
+538 silly audit   camelcase: [ '5.3.1' ],
+538 silly audit   decamelize: [ '1.2.0' ]
+538 silly audit }
+539 timing reifyNode:node_modules/universalify Completed in 300ms
+540 timing reifyNode:node_modules/agent-base/node_modules/ms Completed in 300ms
+541 timing reifyNode:node_modules/is-potential-custom-element-name Completed in 303ms
+542 timing reifyNode:node_modules/https-proxy-agent/node_modules/ms Completed in 302ms
+543 timing reifyNode:node_modules/http-proxy-agent/node_modules/ms Completed in 303ms
+544 timing reifyNode:node_modules/yargs/node_modules/ansi-regex Completed in 304ms
+545 timing reifyNode:node_modules/wrap-ansi/node_modules/ansi-regex Completed in 304ms
+546 timing reifyNode:node_modules/fast-levenshtein Completed in 306ms
+547 timing reifyNode:node_modules/decamelize Completed in 306ms
+548 timing reifyNode:node_modules/cliui/node_modules/ansi-regex Completed in 307ms
+549 timing reifyNode:node_modules/ansi-regex Completed in 307ms
+550 timing reifyNode:node_modules/acorn-globals Completed in 308ms
+551 timing reifyNode:node_modules/browser-process-hrtime Completed in 313ms
+552 timing reifyNode:node_modules/word-wrap Completed in 312ms
+553 timing reifyNode:node_modules/xml-name-validator Completed in 315ms
+554 timing reifyNode:node_modules/html-encoding-sniffer Completed in 317ms
+555 timing reifyNode:node_modules/data-urls Completed in 322ms
+556 timing reifyNode:node_modules/combined-stream Completed in 325ms
+557 timing reifyNode:node_modules/webidl-conversions Completed in 333ms
+558 warn deprecated mkdirp@0.5.4: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+559 timing reifyNode:node_modules/mkdirp Completed in 333ms
+560 timing reifyNode:node_modules/mime-types Completed in 333ms
+561 timing reifyNode:node_modules/delayed-stream Completed in 333ms
+562 timing reifyNode:node_modules/whatwg-encoding Completed in 338ms
+563 timing reifyNode:node_modules/punycode Completed in 337ms
+564 timing reifyNode:node_modules/abab Completed in 338ms
+565 timing reifyNode:node_modules/agent-base/node_modules/debug Completed in 343ms
+566 timing reifyNode:node_modules/w3c-xmlserializer Completed in 344ms
+567 timing reifyNode:node_modules/https-proxy-agent/node_modules/debug Completed in 344ms
+568 timing reifyNode:node_modules/http-proxy-agent Completed in 344ms
+569 timing reifyNode:node_modules/http-proxy-agent/node_modules/debug Completed in 344ms
+570 timing reifyNode:node_modules/type-check Completed in 345ms
+571 timing reifyNode:node_modules/estraverse Completed in 352ms
+572 timing reifyNode:node_modules/whatwg-mimetype Completed in 358ms
+573 timing reifyNode:node_modules/yargs-parser Completed in 358ms
+574 timing reifyNode:node_modules/deep-is Completed in 358ms
+575 timing reifyNode:node_modules/optionator Completed in 363ms
+576 timing reifyNode:node_modules/symbol-tree Completed in 364ms
+577 timing reifyNode:node_modules/form-data Completed in 364ms
+578 timing reifyNode:node_modules/@tootallnate/once Completed in 369ms
+579 timing reifyNode:node_modules/w3c-hr-time Completed in 370ms
+580 timing reifyNode:node_modules/levn Completed in 370ms
+581 timing reifyNode:node_modules/escodegen Completed in 369ms
+582 timing reifyNode:node_modules/saxes Completed in 374ms
+583 timing reifyNode:node_modules/domexception Completed in 373ms
+584 timing reifyNode:node_modules/esutils Completed in 374ms
+585 timing reifyNode:node_modules/prelude-ls Completed in 378ms
+586 timing reifyNode:node_modules/https-proxy-agent Completed in 382ms
+587 timing reifyNode:node_modules/nwsapi Completed in 386ms
+588 timing reifyNode:node_modules/agent-base Completed in 387ms
+589 timing reifyNode:node_modules/tough-cookie Completed in 392ms
+590 timing reifyNode:node_modules/acorn-walk Completed in 397ms
+591 timing reifyNode:node_modules/mime-db Completed in 397ms
+592 timing reifyNode:node_modules/asynckit Completed in 400ms
+593 timing reifyNode:node_modules/tr46 Completed in 403ms
+594 timing reifyNode:node_modules/decimal.js Completed in 407ms
+595 timing reifyNode:node_modules/whatwg-url Completed in 416ms
+596 timing reifyNode:node_modules/minimist Completed in 418ms
+597 timing reifyNode:node_modules/esprima Completed in 420ms
+598 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 428ms
+599 timing auditReport:getReport Completed in 430ms
+600 silly audit report {}
+601 timing auditReport:init Completed in 0ms
+602 timing reify:audit Completed in 430ms
+603 timing reifyNode:node_modules/cssstyle/node_modules/cssom Completed in 428ms
+604 timing reifyNode:node_modules/xmlchars Completed in 433ms
+605 timing reifyNode:node_modules/ws Completed in 436ms
+606 timing reifyNode:node_modules/cssom Completed in 435ms
+607 timing reifyNode:node_modules/psl Completed in 445ms
+608 timing reifyNode:node_modules/acorn Completed in 450ms
+609 timing reifyNode:node_modules/yargs Completed in 483ms
+610 timing reifyNode:node_modules/iconv-lite Completed in 488ms
+611 timing reifyNode:node_modules/source-map Completed in 495ms
+612 timing reifyNode:node_modules/acorn-globals/node_modules/acorn Completed in 505ms
+613 timing reifyNode:node_modules/cssstyle Completed in 527ms
+614 timing reifyNode:node_modules/entities Completed in 542ms
+615 timing reifyNode:node_modules/mocha Completed in 546ms
+616 timing reifyNode:node_modules/parse5 Completed in 550ms
+617 timing reifyNode:node_modules/jsdom Completed in 693ms
+618 timing reify:unpack Completed in 696ms
+619 timing reify:unretire Completed in 4ms
+620 timing build:queue Completed in 6ms
+621 timing build:link:node_modules/acorn Completed in 7ms
+622 timing build:link:node_modules/escodegen Completed in 6ms
+623 timing build:link:node_modules/esprima Completed in 6ms
+624 timing build:link:node_modules/mocha Completed in 5ms
+625 timing build:link:node_modules/mkdirp Completed in 5ms
+626 timing build:link:node_modules/acorn-globals/node_modules/acorn Completed in 5ms
+627 timing build:link Completed in 7ms
+628 timing build:deps Completed in 13ms
+629 timing build Completed in 13ms
+630 timing reify:build Completed in 13ms
+631 timing reify:trash Completed in 206ms
+632 timing reify:save Completed in 44ms
+633 timing reify Completed in 11087ms
+634 silly ADD node_modules/browser-process-hrtime
+635 silly ADD node_modules/universalify
+636 silly ADD node_modules/xmlchars
+637 silly ADD node_modules/entities
+638 silly ADD node_modules/word-wrap
+639 silly ADD node_modules/agent-base
+640 silly ADD node_modules/agent-base/node_modules/ms
+641 silly ADD node_modules/agent-base/node_modules/debug
+642 silly ADD node_modules/@tootallnate/once
+643 silly ADD node_modules/source-map
+644 silly ADD node_modules/acorn-walk
+645 silly ADD node_modules/ws
+646 silly ADD node_modules/whatwg-mimetype
+647 silly ADD node_modules/w3c-xmlserializer
+648 silly ADD node_modules/w3c-hr-time
+649 silly ADD node_modules/saxes
+650 silly ADD node_modules/nwsapi
+651 silly ADD node_modules/is-potential-custom-element-name
+652 silly ADD node_modules/https-proxy-agent
+653 silly ADD node_modules/https-proxy-agent/node_modules/ms
+654 silly ADD node_modules/https-proxy-agent/node_modules/debug
+655 silly ADD node_modules/http-proxy-agent
+656 silly ADD node_modules/http-proxy-agent/node_modules/ms
+657 silly ADD node_modules/http-proxy-agent/node_modules/debug
+658 silly ADD node_modules/domexception
+659 silly ADD node_modules/decimal.js
+660 silly ADD node_modules/data-urls
+661 silly CHANGE node_modules/yargs-parser
+662 silly CHANGE node_modules/yargs
+663 silly CHANGE node_modules/yargs/node_modules/ansi-regex
+664 silly CHANGE node_modules/xml-name-validator
+665 silly CHANGE node_modules/wrap-ansi/node_modules/ansi-regex
+666 silly REMOVE node_modules/wordwrap
+667 silly CHANGE node_modules/whatwg-url
+668 silly REMOVE node_modules/whatwg-url/node_modules/webidl-conversions
+669 silly CHANGE node_modules/whatwg-encoding
+670 silly CHANGE node_modules/webidl-conversions
+671 silly REMOVE node_modules/verror
+672 silly REMOVE node_modules/uuid
+673 silly CHANGE node_modules/type-check
+674 silly REMOVE node_modules/tweetnacl
+675 silly REMOVE node_modules/tunnel-agent
+676 silly CHANGE node_modules/tr46
+677 silly CHANGE node_modules/tough-cookie
+678 silly CHANGE node_modules/symbol-tree
+679 silly REMOVE node_modules/sshpk
+680 silly REMOVE node_modules/sax
+681 silly REMOVE node_modules/safe-buffer
+682 silly REMOVE node_modules/request
+683 silly REMOVE node_modules/request/node_modules/tough-cookie
+684 silly REMOVE node_modules/qs
+685 silly CHANGE node_modules/punycode
+686 silly CHANGE node_modules/psl
+687 silly CHANGE node_modules/prelude-ls
+688 silly REMOVE node_modules/performance-now
+689 silly CHANGE node_modules/parse5
+690 silly CHANGE node_modules/optionator
+691 silly REMOVE node_modules/oauth-sign
+692 silly REMOVE node_modules/nwmatcher
+693 silly CHANGE node_modules/mocha
+694 silly CHANGE node_modules/mkdirp
+695 silly CHANGE node_modules/minimist
+696 silly CHANGE node_modules/mime-types
+697 silly CHANGE node_modules/mime-db
+698 silly CHANGE node_modules/levn
+699 silly REMOVE node_modules/jsprim
+700 silly REMOVE node_modules/json-stringify-safe
+701 silly REMOVE node_modules/json-schema-traverse
+702 silly REMOVE node_modules/json-schema
+703 silly CHANGE node_modules/jsdom
+704 silly REMOVE node_modules/jsbn
+705 silly REMOVE node_modules/js-yaml/node_modules/esprima
+706 silly REMOVE node_modules/isstream
+707 silly REMOVE node_modules/is-typedarray
+708 silly CHANGE node_modules/iconv-lite
+709 silly REMOVE node_modules/http-signature
+710 silly CHANGE node_modules/html-encoding-sniffer
+711 silly REMOVE node_modules/har-validator
+712 silly REMOVE node_modules/har-schema
+713 silly REMOVE node_modules/getpass
+714 silly CHANGE node_modules/form-data
+715 silly REMOVE node_modules/forever-agent
+716 silly CHANGE node_modules/fast-levenshtein
+717 silly REMOVE node_modules/fast-json-stable-stringify
+718 silly REMOVE node_modules/fast-deep-equal
+719 silly REMOVE node_modules/extsprintf
+720 silly REMOVE node_modules/extend
+721 silly CHANGE node_modules/esutils
+722 silly CHANGE node_modules/estraverse
+723 silly CHANGE node_modules/esprima
+724 silly CHANGE node_modules/escodegen
+725 silly REMOVE node_modules/escodegen/node_modules/source-map
+726 silly REMOVE node_modules/ecc-jsbn
+727 silly CHANGE node_modules/delayed-stream
+728 silly CHANGE node_modules/deep-is
+729 silly CHANGE node_modules/decamelize
+730 silly REMOVE node_modules/dashdash
+731 silly CHANGE node_modules/cssstyle
+732 silly ADD node_modules/cssstyle/node_modules/cssom
+733 silly CHANGE node_modules/cssom
+734 silly REMOVE node_modules/core-util-is
+735 silly REMOVE node_modules/content-type-parser
+736 silly CHANGE node_modules/combined-stream
+737 silly REMOVE node_modules/co
+738 silly CHANGE node_modules/cliui/node_modules/ansi-regex
+739 silly REMOVE node_modules/caseless
+740 silly REMOVE node_modules/bcrypt-pbkdf
+741 silly REMOVE node_modules/aws4
+742 silly REMOVE node_modules/aws-sign2
+743 silly CHANGE node_modules/asynckit
+744 silly REMOVE node_modules/assert-plus
+745 silly REMOVE node_modules/asn1
+746 silly REMOVE node_modules/array-equal
+747 silly CHANGE node_modules/ansi-regex
+748 silly REMOVE node_modules/ajv
+749 silly CHANGE node_modules/acorn-globals
+750 silly ADD node_modules/acorn-globals/node_modules/acorn
+751 silly CHANGE node_modules/acorn
+752 silly CHANGE node_modules/abab
+753 timing command:audit Completed in 12250ms
+754 verbose exit 0
+755 timing npm Completed in 12343ms
+756 info ok

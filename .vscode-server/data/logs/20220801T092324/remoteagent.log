@@ -1,0 +1,22 @@
+[2022-08-01 09:23:24.359] [remoteagent] [info] Extension host agent started.
+[2022-08-01 09:23:25.280] [remoteagent] [info] [127.0.0.1][bc04acd2][ManagementConnection] New connection established.
+[2022-08-01 09:23:25.384] [remoteagent] [info] [127.0.0.1][950c5115][ExtensionHostConnection] New connection established.
+[2022-08-01 09:23:28.503] [remoteagent] [info] [127.0.0.1][950c5115][ExtensionHostConnection] <1707> Launched Extension Host Process.
+[2022-08-01 10:58:43.154] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-08-01 10:59:51.948] [remoteagent] [info] [127.0.0.1][bc04acd2][ManagementConnection] The client has reconnected.
+[2022-08-01 10:59:52.087] [remoteagent] [info] [127.0.0.1][950c5115][ExtensionHostConnection] The client has reconnected.
+[2022-08-01 13:22:49.140] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-08-01 13:30:52.163] [remoteagent] [info] [127.0.0.1][bc04acd2][ManagementConnection] The client has reconnected.
+[2022-08-01 13:30:52.368] [remoteagent] [info] [127.0.0.1][950c5115][ExtensionHostConnection] The client has reconnected.
+[2022-08-01 14:39:13.567] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-08-01 14:52:53.013] [remoteagent] [info] [127.0.0.1][bc04acd2][ManagementConnection] The client has reconnected.
+[2022-08-01 14:52:53.220] [remoteagent] [info] [127.0.0.1][950c5115][ExtensionHostConnection] The client has reconnected.
+[2022-08-01 18:26:46.358] [remoteagent] [info] Getting Manifest... ritwickdey.liveserver
+[2022-08-01 18:26:46.909] [remoteagent] [info] Installing extension: ritwickdey.liveserver
+[2022-08-01 18:26:51.110] [remoteagent] [info] Downloaded extension: ritwickdey.liveserver /home/mash/.vscode-server/data/CachedExtensionVSIXs/ritwickdey.liveserver-5.7.5
+[2022-08-01 18:26:52.709] [remoteagent] [info] Extracted extension to /home/mash/.vscode-server/extensions/.5af883d0-e613-4c9d-a55b-d3a86ffd1b34: ritwickdey.liveserver
+[2022-08-01 18:26:52.729] [remoteagent] [info] Renamed to /home/mash/.vscode-server/extensions/ritwickdey.liveserver-5.7.5
+[2022-08-01 18:26:52.733] [remoteagent] [info] Extracting completed. ritwickdey.liveserver
+[2022-08-01 18:26:52.734] [remoteagent] [info] Extension installed successfully: ritwickdey.liveserver
+[2022-08-01 18:27:17.408] [remoteagent] [info] [127.0.0.1][950c5115][ExtensionHostConnection] <1707> [0mGET /favicon.ico [33m404[0m 4.116 ms - 150[0m
+

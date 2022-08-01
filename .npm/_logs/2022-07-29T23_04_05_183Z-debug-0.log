@@ -1,0 +1,1552 @@
+0 verbose cli /home/mash/.nvm/versions/node/v18.6.0/bin/node /home/mash/.nvm/versions/node/v18.6.0/bin/npm
+1 info using npm@8.13.2
+2 info using node@v18.6.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/home/mash/.nvm/versions/node/v18.6.0/lib/node_modules/npm/npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/home/mash/phase-0-completing-assignments-learn-lab-gem/phase-0-git-basics-lab/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 12ms
+11 timing config:load:file:/home/mash/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/home/mash/.nvm/versions/node/v18.6.0/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 22ms
+19 timing npm:load:configload Completed in 22ms
+20 timing npm:load:mkdirpcache Completed in 1ms
+21 timing npm:load:mkdirplogs Completed in 1ms
+22 verbose title npm install
+23 verbose argv "install"
+24 timing npm:load:setTitle Completed in 2ms
+25 timing config:load:flatten Completed in 3ms
+26 timing npm:load:display Completed in 4ms
+27 verbose logfile logs-max:10 dir:/home/mash/.npm/_logs
+28 verbose logfile /home/mash/.npm/_logs/2022-07-29T23_04_05_183Z-debug-0.log
+29 timing npm:load:logFile Completed in 5ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 35ms
+33 timing arborist:ctor Completed in 1ms
+34 silly logfile done cleaning log files
+35 timing idealTree:init Completed in 164ms
+36 warn old lockfile
+36 warn old lockfile The package-lock.json file was created with an old version of npm,
+36 warn old lockfile so supplemental metadata must be fetched from the registry.
+36 warn old lockfile
+36 warn old lockfile This is a one-time fix-up, please be patient...
+36 warn old lockfile
+37 silly inflate node_modules/abab
+38 silly inflate node_modules/acorn
+39 silly inflate node_modules/acorn-globals
+40 silly inflate node_modules/ajv
+41 http fetch GET 200 https://registry.npmjs.org/acorn-globals 643ms (cache revalidated)
+42 silly inflate node_modules/ansi-colors
+43 http fetch GET 200 https://registry.npmjs.org/abab 671ms (cache revalidated)
+44 silly inflate node_modules/ansi-regex
+45 http fetch GET 200 https://registry.npmjs.org/ajv 694ms (cache revalidated)
+46 silly inflate node_modules/ansi-styles
+47 http fetch GET 200 https://registry.npmjs.org/acorn 725ms (cache revalidated)
+48 silly inflate node_modules/argparse
+49 http fetch GET 200 https://registry.npmjs.org/ansi-regex 167ms (cache revalidated)
+50 silly inflate node_modules/array-equal
+51 http fetch GET 200 https://registry.npmjs.org/ansi-styles 155ms (cache revalidated)
+52 silly inflate node_modules/array-events
+53 http fetch GET 200 https://registry.npmjs.org/argparse 159ms (cache revalidated)
+54 silly inflate node_modules/asn1
+55 http fetch GET 200 https://registry.npmjs.org/asn1 197ms (cache revalidated)
+56 silly inflate node_modules/assert-plus
+57 http fetch GET 200 https://registry.npmjs.org/assert-plus 199ms (cache revalidated)
+58 silly inflate node_modules/assertion-error
+59 http fetch GET 200 https://registry.npmjs.org/ansi-colors 1481ms (cache revalidated)
+60 silly inflate node_modules/async-arrays
+61 http fetch GET 200 https://registry.npmjs.org/array-equal 1407ms (cache revalidated)
+62 silly inflate node_modules/asynckit
+63 http fetch GET 200 https://registry.npmjs.org/array-events 1496ms (cache revalidated)
+64 silly inflate node_modules/aws-sign2
+65 http fetch GET 200 https://registry.npmjs.org/asynckit 282ms (cache revalidated)
+66 silly inflate node_modules/aws4
+67 http fetch GET 200 https://registry.npmjs.org/aws-sign2 189ms (cache revalidated)
+68 silly inflate node_modules/balanced-match
+69 http fetch GET 200 https://registry.npmjs.org/aws4 219ms (cache revalidated)
+70 silly inflate node_modules/bcrypt-pbkdf
+71 http fetch GET 200 https://registry.npmjs.org/balanced-match 216ms (cache revalidated)
+72 silly inflate node_modules/bit-mask
+73 http fetch GET 200 https://registry.npmjs.org/assertion-error 1469ms (cache revalidated)
+74 silly inflate node_modules/brace-expansion
+75 http fetch GET 200 https://registry.npmjs.org/bcrypt-pbkdf 188ms (cache revalidated)
+76 silly inflate node_modules/browser-stdout
+77 http fetch GET 200 https://registry.npmjs.org/async-arrays 1520ms (cache revalidated)
+78 silly inflate node_modules/call-me-maybe
+79 http fetch GET 200 https://registry.npmjs.org/call-me-maybe 529ms (cache revalidated)
+80 silly inflate node_modules/camelcase
+81 http fetch GET 200 https://registry.npmjs.org/bit-mask 1451ms (cache revalidated)
+82 silly inflate node_modules/caseless
+83 http fetch GET 200 https://registry.npmjs.org/brace-expansion 1507ms (cache revalidated)
+84 silly inflate node_modules/chai
+85 http fetch GET 200 https://registry.npmjs.org/browser-stdout 1779ms (cache revalidated)
+86 silly inflate node_modules/chai-fs
+87 http fetch GET 200 https://registry.npmjs.org/caseless 515ms (cache revalidated)
+88 silly inflate node_modules/chalk
+89 http fetch GET 200 https://registry.npmjs.org/camelcase 546ms (cache revalidated)
+90 silly inflate node_modules/chalk/node_modules/supports-color
+91 http fetch GET 200 https://registry.npmjs.org/chalk 151ms (cache revalidated)
+92 silly inflate node_modules/cliui
+93 http fetch GET 200 https://registry.npmjs.org/chai 1560ms (cache revalidated)
+94 silly inflate node_modules/cliui/node_modules/ansi-regex
+95 silly inflate node_modules/cliui/node_modules/string-width
+96 http fetch GET 200 https://registry.npmjs.org/chai-fs 1786ms (cache revalidated)
+97 silly inflate node_modules/cliui/node_modules/strip-ansi
+98 http fetch GET 200 https://registry.npmjs.org/cliui 1625ms (cache revalidated)
+99 silly inflate node_modules/co
+100 http fetch GET 200 https://registry.npmjs.org/supports-color 1793ms (cache revalidated)
+101 silly inflate node_modules/color-convert
+102 http fetch GET 200 https://registry.npmjs.org/color-convert 235ms (cache revalidated)
+103 silly inflate node_modules/color-name
+104 http fetch GET 200 https://registry.npmjs.org/co 250ms (cache miss)
+105 silly inflate node_modules/combined-stream
+106 http fetch GET 200 https://registry.npmjs.org/combined-stream 152ms (cache revalidated)
+107 silly inflate node_modules/concat-map
+108 http fetch GET 200 https://registry.npmjs.org/color-name 162ms (cache revalidated)
+109 silly inflate node_modules/content-type-parser
+110 http fetch GET 200 https://registry.npmjs.org/concat-map 171ms (cache revalidated)
+111 silly inflate node_modules/core-util-is
+112 http fetch GET 200 https://registry.npmjs.org/core-util-is 146ms (cache revalidated)
+113 silly inflate node_modules/cssom
+114 http fetch GET 200 https://registry.npmjs.org/string-width 1443ms (cache revalidated)
+115 silly inflate node_modules/cssstyle
+116 http fetch GET 200 https://registry.npmjs.org/cssom 128ms (cache revalidated)
+117 silly inflate node_modules/dashdash
+118 http fetch GET 200 https://registry.npmjs.org/cssstyle 116ms (cache revalidated)
+119 silly inflate node_modules/debug
+120 http fetch GET 200 https://registry.npmjs.org/dashdash 166ms (cache revalidated)
+121 silly inflate node_modules/decamelize
+122 http fetch GET 200 https://registry.npmjs.org/decamelize 198ms (cache revalidated)
+123 silly inflate node_modules/deep-eql
+124 http fetch GET 200 https://registry.npmjs.org/strip-ansi 1530ms (cache revalidated)
+125 silly inflate node_modules/deep-eql/node_modules/type-detect
+126 http fetch GET 200 https://registry.npmjs.org/content-type-parser 1528ms (cache revalidated)
+127 silly inflate node_modules/deep-is
+128 http fetch GET 200 https://registry.npmjs.org/deep-is 136ms (cache revalidated)
+129 silly inflate node_modules/define-properties
+130 http fetch GET 200 https://registry.npmjs.org/define-properties 133ms (cache revalidated)
+131 silly inflate node_modules/delayed-stream
+132 http fetch GET 200 https://registry.npmjs.org/debug 1441ms (cache revalidated)
+133 silly inflate node_modules/diff
+134 http fetch GET 200 https://registry.npmjs.org/delayed-stream 169ms (cache revalidated)
+135 silly inflate node_modules/ecc-jsbn
+136 http fetch GET 200 https://registry.npmjs.org/ecc-jsbn 163ms (cache revalidated)
+137 silly inflate node_modules/emoji-regex
+138 http fetch GET 200 https://registry.npmjs.org/deep-eql 1494ms (cache revalidated)
+139 silly inflate node_modules/es-abstract
+140 http fetch GET 200 https://registry.npmjs.org/emoji-regex 181ms (cache revalidated)
+141 silly inflate node_modules/es-to-primitive
+142 http fetch GET 200 https://registry.npmjs.org/es-abstract 133ms (cache revalidated)
+143 silly inflate node_modules/es6-promise
+144 http fetch GET 200 https://registry.npmjs.org/es-to-primitive 147ms (cache revalidated)
+145 silly inflate node_modules/escape-string-regexp
+146 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp 159ms (cache revalidated)
+147 silly inflate node_modules/escodegen
+148 http fetch GET 200 https://registry.npmjs.org/type-detect 1530ms (cache revalidated)
+149 silly inflate node_modules/escodegen/node_modules/source-map
+150 http fetch GET 200 https://registry.npmjs.org/escodegen 133ms (cache revalidated)
+151 silly inflate node_modules/esprima
+152 http fetch GET 200 https://registry.npmjs.org/esprima 185ms (cache revalidated)
+153 silly inflate node_modules/estraverse
+154 http fetch GET 200 https://registry.npmjs.org/estraverse 135ms (cache revalidated)
+155 silly inflate node_modules/esutils
+156 http fetch GET 200 https://registry.npmjs.org/esutils 142ms (cache revalidated)
+157 silly inflate node_modules/expect
+158 http fetch GET 200 https://registry.npmjs.org/expect 141ms (cache revalidated)
+159 silly inflate node_modules/extend
+160 http fetch GET 200 https://registry.npmjs.org/diff 1500ms (cache revalidated)
+161 silly inflate node_modules/extended-emitter
+162 http fetch GET 200 https://registry.npmjs.org/extend 225ms (cache revalidated)
+163 silly inflate node_modules/extsprintf
+164 http fetch GET 200 https://registry.npmjs.org/extsprintf 177ms (cache revalidated)
+165 silly inflate node_modules/fast-deep-equal
+166 http fetch GET 200 https://registry.npmjs.org/es6-promise 1454ms (cache revalidated)
+167 silly inflate node_modules/fast-json-stable-stringify
+168 http fetch GET 200 https://registry.npmjs.org/fast-deep-equal 126ms (cache revalidated)
+169 silly inflate node_modules/fast-levenshtein
+170 http fetch GET 200 https://registry.npmjs.org/fast-levenshtein 116ms (cache revalidated)
+171 silly inflate node_modules/find-up
+172 http fetch GET 200 https://registry.npmjs.org/source-map 1499ms (cache revalidated)
+173 silly inflate node_modules/flat
+174 http fetch GET 200 https://registry.npmjs.org/find-up 157ms (cache revalidated)
+175 silly inflate node_modules/foreach
+176 http fetch GET 200 https://registry.npmjs.org/flat 493ms (cache revalidated)
+177 silly inflate node_modules/forever-agent
+178 http fetch GET 200 https://registry.npmjs.org/forever-agent 253ms (cache revalidated)
+179 silly inflate node_modules/form-data
+180 http fetch GET 200 https://registry.npmjs.org/extended-emitter 1512ms (cache revalidated)
+181 silly inflate node_modules/fs.realpath
+182 http fetch GET 200 https://registry.npmjs.org/form-data 123ms (cache revalidated)
+183 silly inflate node_modules/function-bind
+184 http fetch GET 200 https://registry.npmjs.org/fast-json-stable-stringify 1491ms (cache revalidated)
+185 silly inflate node_modules/get-caller-file
+186 http fetch GET 200 https://registry.npmjs.org/foreach 1520ms (cache miss)
+187 silly inflate node_modules/getpass
+188 http fetch GET 200 https://registry.npmjs.org/getpass 165ms (cache revalidated)
+189 silly inflate node_modules/glob
+190 http fetch GET 200 https://registry.npmjs.org/glob 147ms (cache revalidated)
+191 silly inflate node_modules/glob-to-regexp
+192 http fetch GET 200 https://registry.npmjs.org/glob-to-regexp 135ms (cache revalidated)
+193 silly inflate node_modules/growl
+194 http fetch GET 200 https://registry.npmjs.org/fs.realpath 1465ms (cache revalidated)
+195 silly inflate node_modules/har-schema
+196 http fetch GET 200 https://registry.npmjs.org/function-bind 1459ms (cache revalidated)
+197 silly inflate node_modules/har-validator
+198 http fetch GET 200 https://registry.npmjs.org/har-schema 161ms (cache revalidated)
+199 silly inflate node_modules/has
+200 http fetch GET 200 https://registry.npmjs.org/har-validator 201ms (cache revalidated)
+201 silly inflate node_modules/has-flag
+202 http fetch GET 200 https://registry.npmjs.org/get-caller-file 1497ms (cache revalidated)
+203 silly inflate node_modules/has-symbols
+204 http fetch GET 200 https://registry.npmjs.org/has-symbols 158ms (cache revalidated)
+205 silly inflate node_modules/he
+206 http fetch GET 200 https://registry.npmjs.org/growl 1443ms (cache revalidated)
+207 silly inflate node_modules/html-encoding-sniffer
+208 http fetch GET 200 https://registry.npmjs.org/html-encoding-sniffer 137ms (cache revalidated)
+209 silly inflate node_modules/http-signature
+210 http fetch GET 200 https://registry.npmjs.org/http-signature 192ms (cache revalidated)
+211 silly inflate node_modules/iconv-lite
+212 http fetch GET 200 https://registry.npmjs.org/has 1474ms (cache revalidated)
+213 silly inflate node_modules/inflight
+214 http fetch GET 200 https://registry.npmjs.org/iconv-lite 157ms (cache revalidated)
+215 silly inflate node_modules/inherits
+216 http fetch GET 200 https://registry.npmjs.org/has-flag 1500ms (cache revalidated)
+217 silly inflate node_modules/is-arrow-function
+218 http fetch GET 200 https://registry.npmjs.org/he 1553ms (cache revalidated)
+219 silly inflate node_modules/is-boolean-object
+220 http fetch GET 200 https://registry.npmjs.org/inherits 680ms (cache revalidated)
+221 silly inflate node_modules/is-buffer
+222 http fetch GET 200 https://registry.npmjs.org/is-boolean-object 208ms (cache revalidated)
+223 silly inflate node_modules/is-callable
+224 http fetch GET 200 https://registry.npmjs.org/is-callable 169ms (cache revalidated)
+225 silly inflate node_modules/is-date-object
+226 http fetch GET 200 https://registry.npmjs.org/is-date-object 118ms (cache revalidated)
+227 silly inflate node_modules/is-equal
+228 http fetch GET 200 https://registry.npmjs.org/inflight 1414ms (cache revalidated)
+229 silly inflate node_modules/is-fullwidth-code-point
+230 http fetch GET 200 https://registry.npmjs.org/is-arrow-function 1564ms (cache revalidated)
+231 silly inflate node_modules/is-generator-function
+232 http fetch GET 200 https://registry.npmjs.org/is-generator-function 505ms (cache revalidated)
+233 silly inflate node_modules/is-number-object
+234 http fetch GET 200 https://registry.npmjs.org/is-buffer 1475ms (cache revalidated)
+235 silly inflate node_modules/is-regex
+236 http fetch GET 200 https://registry.npmjs.org/is-number-object 90ms (cache revalidated)
+237 silly inflate node_modules/is-string
+238 http fetch GET 200 https://registry.npmjs.org/is-regex 119ms (cache revalidated)
+239 silly inflate node_modules/is-symbol
+240 http fetch GET 200 https://registry.npmjs.org/is-string 89ms (cache revalidated)
+241 silly inflate node_modules/is-typedarray
+242 http fetch GET 200 https://registry.npmjs.org/is-symbol 101ms (cache revalidated)
+243 silly inflate node_modules/isexe
+244 http fetch GET 200 https://registry.npmjs.org/is-typedarray 129ms (cache revalidated)
+245 silly inflate node_modules/isstream
+246 http fetch GET 200 https://registry.npmjs.org/is-equal 1480ms (cache revalidated)
+247 silly inflate node_modules/js-yaml
+248 http fetch GET 200 https://registry.npmjs.org/isexe 98ms (cache revalidated)
+249 silly inflate node_modules/js-yaml/node_modules/esprima
+250 silly inflate node_modules/jsbn
+251 http fetch GET 200 https://registry.npmjs.org/isstream 141ms (cache revalidated)
+252 silly inflate node_modules/jsdom
+253 http fetch GET 200 https://registry.npmjs.org/js-yaml 146ms (cache revalidated)
+254 silly inflate node_modules/json-schema
+255 http fetch GET 200 https://registry.npmjs.org/jsbn 149ms (cache revalidated)
+256 silly inflate node_modules/json-schema-traverse
+257 http fetch GET 200 https://registry.npmjs.org/json-schema-traverse 127ms (cache revalidated)
+258 silly inflate node_modules/json-stringify-safe
+259 http fetch GET 200 https://registry.npmjs.org/json-schema 147ms (cache revalidated)
+260 silly inflate node_modules/jsprim
+261 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point 1468ms (cache revalidated)
+262 silly inflate node_modules/levn
+263 http fetch GET 200 https://registry.npmjs.org/json-stringify-safe 168ms (cache revalidated)
+264 silly inflate node_modules/locate-path
+265 http fetch GET 200 https://registry.npmjs.org/jsprim 165ms (cache revalidated)
+266 silly inflate node_modules/lodash
+267 http fetch GET 200 https://registry.npmjs.org/locate-path 147ms (cache revalidated)
+268 silly inflate node_modules/lodash.once
+269 http fetch GET 200 https://registry.npmjs.org/lodash 169ms (cache revalidated)
+270 silly inflate node_modules/log-symbols
+271 http fetch GET 200 https://registry.npmjs.org/lodash.once 482ms (cache revalidated)
+272 silly inflate node_modules/mime-db
+273 http fetch GET 200 https://registry.npmjs.org/mime-db 143ms (cache revalidated)
+274 silly inflate node_modules/mime-types
+275 http fetch GET 200 https://registry.npmjs.org/jsdom 1445ms (cache revalidated)
+276 silly inflate node_modules/minimatch
+277 http fetch GET 200 https://registry.npmjs.org/levn 1531ms (cache revalidated)
+278 silly inflate node_modules/minimist
+279 http fetch GET 200 https://registry.npmjs.org/minimist 112ms (cache revalidated)
+280 silly inflate node_modules/mkdirp
+281 http fetch GET 200 https://registry.npmjs.org/log-symbols 1365ms (cache revalidated)
+282 silly inflate node_modules/mocha
+283 http fetch GET 200 https://registry.npmjs.org/mkdirp 105ms (cache revalidated)
+284 silly inflate node_modules/mocha-jsdom
+285 http fetch GET 200 https://registry.npmjs.org/mocha 157ms (cache revalidated)
+286 silly inflate node_modules/mocha-multi
+287 http fetch GET 200 https://registry.npmjs.org/mocha-multi 91ms (cache revalidated)
+288 silly inflate node_modules/mocha-multi/node_modules/debug
+289 silly inflate node_modules/ms
+290 http fetch GET 200 https://registry.npmjs.org/ms 194ms (cache revalidated)
+291 silly inflate node_modules/node-environment-flags
+292 http fetch GET 200 https://registry.npmjs.org/node-environment-flags 96ms (cache revalidated)
+293 silly inflate node_modules/nwmatcher
+294 http fetch GET 200 https://registry.npmjs.org/mime-types 1367ms (cache revalidated)
+295 silly inflate node_modules/oauth-sign
+296 http fetch GET 200 https://registry.npmjs.org/oauth-sign 161ms (cache revalidated)
+297 silly inflate node_modules/object-assign
+298 http fetch GET 200 https://registry.npmjs.org/minimatch 1534ms (cache revalidated)
+299 silly inflate node_modules/object-inspect
+300 http fetch GET 200 https://registry.npmjs.org/object-inspect 105ms (cache revalidated)
+301 silly inflate node_modules/object-keys
+302 http fetch GET 200 https://registry.npmjs.org/object-keys 126ms (cache revalidated)
+303 silly inflate node_modules/object.assign
+304 http fetch GET 200 https://registry.npmjs.org/object.assign 134ms (cache revalidated)
+305 silly inflate node_modules/object.entries
+306 http fetch GET 200 https://registry.npmjs.org/mocha-jsdom 1487ms (cache revalidated)
+307 silly inflate node_modules/object.getownpropertydescriptors
+308 http fetch GET 200 https://registry.npmjs.org/object.getownpropertydescriptors 99ms (cache revalidated)
+309 silly inflate node_modules/once
+310 http fetch GET 200 https://registry.npmjs.org/object.entries 471ms (cache revalidated)
+311 silly inflate node_modules/optionator
+312 http fetch GET 200 https://registry.npmjs.org/nwmatcher 1419ms (cache revalidated)
+313 silly inflate node_modules/p-limit
+314 http fetch GET 200 https://registry.npmjs.org/p-limit 129ms (cache revalidated)
+315 silly inflate node_modules/p-locate
+316 http fetch GET 200 https://registry.npmjs.org/object-assign 1458ms (cache revalidated)
+317 silly inflate node_modules/p-try
+318 http fetch GET 200 https://registry.npmjs.org/p-locate 122ms (cache revalidated)
+319 silly inflate node_modules/parse5
+320 http fetch GET 200 https://registry.npmjs.org/p-try 146ms (cache revalidated)
+321 silly inflate node_modules/path-exists
+322 http fetch GET 200 https://registry.npmjs.org/parse5 143ms (cache revalidated)
+323 silly inflate node_modules/path-is-absolute
+324 http fetch GET 200 https://registry.npmjs.org/path-exists 104ms (cache revalidated)
+325 silly inflate node_modules/performance-now
+326 http fetch GET 200 https://registry.npmjs.org/once 1459ms (cache revalidated)
+327 silly inflate node_modules/prelude-ls
+328 http fetch GET 200 https://registry.npmjs.org/prelude-ls 104ms (cache revalidated)
+329 silly inflate node_modules/psl
+330 http fetch GET 200 https://registry.npmjs.org/psl 118ms (cache revalidated)
+331 silly inflate node_modules/punycode
+332 http fetch GET 200 https://registry.npmjs.org/optionator 1455ms (cache revalidated)
+333 silly inflate node_modules/qs
+334 http fetch GET 200 https://registry.npmjs.org/punycode 138ms (cache revalidated)
+335 silly inflate node_modules/readdir-enhanced
+336 http fetch GET 200 https://registry.npmjs.org/path-is-absolute 1476ms (cache revalidated)
+337 silly inflate node_modules/request
+338 http fetch GET 200 https://registry.npmjs.org/performance-now 1409ms (cache revalidated)
+339 silly inflate node_modules/request/node_modules/tough-cookie
+340 http fetch GET 200 https://registry.npmjs.org/request 145ms (cache revalidated)
+341 silly inflate node_modules/require-directory
+342 http fetch GET 200 https://registry.npmjs.org/qs 1429ms (cache revalidated)
+343 silly inflate node_modules/require-main-filename
+344 http fetch GET 200 https://registry.npmjs.org/readdir-enhanced 1451ms (cache revalidated)
+345 silly inflate node_modules/safe-buffer
+346 http fetch GET 200 https://registry.npmjs.org/tough-cookie 1499ms (cache revalidated)
+347 silly inflate node_modules/safer-buffer
+348 http fetch GET 200 https://registry.npmjs.org/safe-buffer 465ms (cache revalidated)
+349 silly inflate node_modules/sax
+350 http fetch GET 200 https://registry.npmjs.org/require-directory 1418ms (cache revalidated)
+351 silly inflate node_modules/semver
+352 http fetch GET 200 https://registry.npmjs.org/sax 103ms (cache revalidated)
+353 silly inflate node_modules/set-blocking
+354 http fetch GET 200 https://registry.npmjs.org/safer-buffer 174ms (cache revalidated)
+355 silly inflate node_modules/sift
+356 http fetch GET 200 https://registry.npmjs.org/semver 145ms (cache revalidated)
+357 silly inflate node_modules/sprintf-js
+358 http fetch GET 200 https://registry.npmjs.org/require-main-filename 1521ms (cache revalidated)
+359 silly inflate node_modules/sshpk
+360 http fetch GET 200 https://registry.npmjs.org/sshpk 161ms (cache revalidated)
+361 silly inflate node_modules/string-width
+362 silly inflate node_modules/strip-ansi
+363 silly inflate node_modules/strip-json-comments
+364 http fetch GET 200 https://registry.npmjs.org/sift 1381ms (cache revalidated)
+365 silly inflate node_modules/supports-color
+366 silly inflate node_modules/symbol-tree
+367 http fetch GET 200 https://registry.npmjs.org/sprintf-js 1413ms (cache revalidated)
+368 silly inflate node_modules/tmatch
+369 http fetch GET 200 https://registry.npmjs.org/set-blocking 1533ms (cache revalidated)
+370 silly inflate node_modules/tough-cookie
+371 silly inflate node_modules/tr46
+372 http fetch GET 200 https://registry.npmjs.org/strip-json-comments 1459ms (cache revalidated)
+373 silly inflate node_modules/tunnel-agent
+374 http fetch GET 200 https://registry.npmjs.org/tunnel-agent 139ms (cache revalidated)
+375 silly inflate node_modules/tweetnacl
+376 http fetch GET 200 https://registry.npmjs.org/tweetnacl 153ms (cache revalidated)
+377 silly inflate node_modules/type-check
+378 http fetch GET 200 https://registry.npmjs.org/symbol-tree 1395ms (cache revalidated)
+379 silly inflate node_modules/type-detect
+380 silly inflate node_modules/uuid
+381 http fetch GET 200 https://registry.npmjs.org/type-check 149ms (cache revalidated)
+382 silly inflate node_modules/verror
+383 http fetch GET 200 https://registry.npmjs.org/tmatch 1482ms (cache revalidated)
+384 silly inflate node_modules/webidl-conversions
+385 http fetch GET 200 https://registry.npmjs.org/tr46 1460ms (cache revalidated)
+386 silly inflate node_modules/whatwg-encoding
+387 http fetch GET 200 https://registry.npmjs.org/webidl-conversions 108ms (cache revalidated)
+388 silly inflate node_modules/whatwg-url
+389 http fetch GET 200 https://registry.npmjs.org/verror 175ms (cache revalidated)
+390 silly inflate node_modules/whatwg-url/node_modules/webidl-conversions
+391 silly inflate node_modules/which
+392 http fetch GET 200 https://registry.npmjs.org/uuid 1402ms (cache revalidated)
+393 silly inflate node_modules/which-module
+394 http fetch GET 200 https://registry.npmjs.org/whatwg-encoding 1421ms (cache revalidated)
+395 silly inflate node_modules/wide-align
+396 http fetch GET 200 https://registry.npmjs.org/whatwg-url 1385ms (cache revalidated)
+397 silly inflate node_modules/wolfy87-eventemitter
+398 http fetch GET 200 https://registry.npmjs.org/which 1490ms (cache revalidated)
+399 silly inflate node_modules/wordwrap
+400 http fetch GET 200 https://registry.npmjs.org/which-module 1574ms (cache revalidated)
+401 silly inflate node_modules/wrap-ansi
+402 http fetch GET 200 https://registry.npmjs.org/wide-align 1425ms (cache revalidated)
+403 silly inflate node_modules/wrap-ansi/node_modules/ansi-regex
+404 silly inflate node_modules/wrap-ansi/node_modules/string-width
+405 silly inflate node_modules/wrap-ansi/node_modules/strip-ansi
+406 silly inflate node_modules/wrappy
+407 http fetch GET 200 https://registry.npmjs.org/wrappy 115ms (cache revalidated)
+408 silly inflate node_modules/xml-name-validator
+409 http fetch GET 200 https://registry.npmjs.org/wolfy87-eventemitter 1513ms (cache revalidated)
+410 silly inflate node_modules/y18n
+411 http fetch GET 200 https://registry.npmjs.org/wordwrap 1429ms (cache miss)
+412 silly inflate node_modules/yargs
+413 http fetch GET 200 https://registry.npmjs.org/yargs 123ms (cache revalidated)
+414 silly inflate node_modules/yargs/node_modules/ansi-regex
+415 silly inflate node_modules/yargs/node_modules/string-width
+416 silly inflate node_modules/yargs/node_modules/strip-ansi
+417 silly inflate node_modules/yargs-parser
+418 http fetch GET 200 https://registry.npmjs.org/wrap-ansi 1408ms (cache revalidated)
+419 silly inflate node_modules/yargs-unparser
+420 http fetch GET 200 https://registry.npmjs.org/y18n 1424ms (cache revalidated)
+421 http fetch GET 200 https://registry.npmjs.org/xml-name-validator 1471ms (cache revalidated)
+422 http fetch GET 200 https://registry.npmjs.org/yargs-parser 1446ms (cache revalidated)
+423 http fetch GET 200 https://registry.npmjs.org/yargs-unparser 1401ms (cache revalidated)
+424 timing idealTree:inflate Completed in 33743ms
+425 timing idealTree:userRequests Completed in 0ms
+426 silly idealTree buildDeps
+427 timing idealTree:#root Completed in 0ms
+428 timing idealTree:buildDeps Completed in 1ms
+429 timing idealTree:fixDepFlags Completed in 0ms
+430 timing idealTree Completed in 33913ms
+431 timing reify:loadTrees Completed in 33914ms
+432 timing reify:diffTrees Completed in 3ms
+433 silly reify moves {}
+434 timing reify:retireShallow Completed in 1ms
+435 timing reify:createSparse Completed in 72ms
+436 timing reify:loadBundles Completed in 0ms
+437 silly audit bulk request {
+437 silly audit   abab: [ '1.0.4' ],
+437 silly audit   acorn: [ '4.0.13' ],
+437 silly audit   'acorn-globals': [ '3.1.0' ],
+437 silly audit   ajv: [ '5.5.2' ],
+437 silly audit   'ansi-colors': [ '3.2.3' ],
+437 silly audit   'ansi-regex': [ '3.0.0', '4.1.0' ],
+437 silly audit   'ansi-styles': [ '3.2.1' ],
+437 silly audit   argparse: [ '1.0.10' ],
+437 silly audit   'array-equal': [ '1.0.0' ],
+437 silly audit   'array-events': [ '0.2.0' ],
+437 silly audit   asn1: [ '0.2.4' ],
+437 silly audit   'assert-plus': [ '1.0.0' ],
+437 silly audit   'assertion-error': [ '1.1.0' ],
+437 silly audit   'async-arrays': [ '1.0.1' ],
+437 silly audit   asynckit: [ '0.4.0' ],
+437 silly audit   'aws-sign2': [ '0.7.0' ],
+437 silly audit   aws4: [ '1.8.0' ],
+437 silly audit   'balanced-match': [ '1.0.0' ],
+437 silly audit   'bcrypt-pbkdf': [ '1.0.2' ],
+437 silly audit   'bit-mask': [ '1.0.2' ],
+437 silly audit   'brace-expansion': [ '1.1.11' ],
+437 silly audit   'browser-stdout': [ '1.3.1' ],
+437 silly audit   'call-me-maybe': [ '1.0.1' ],
+437 silly audit   camelcase: [ '5.3.1' ],
+437 silly audit   caseless: [ '0.12.0' ],
+437 silly audit   chai: [ '3.5.0' ],
+437 silly audit   'chai-fs': [ '2.0.0' ],
+437 silly audit   chalk: [ '2.4.2' ],
+437 silly audit   'supports-color': [ '5.5.0', '6.0.0' ],
+437 silly audit   cliui: [ '5.0.0' ],
+437 silly audit   'string-width': [ '3.1.0', '2.1.1' ],
+437 silly audit   'strip-ansi': [ '5.2.0', '4.0.0' ],
+437 silly audit   co: [ '4.6.0' ],
+437 silly audit   'color-convert': [ '1.9.3' ],
+437 silly audit   'color-name': [ '1.1.3' ],
+437 silly audit   'combined-stream': [ '1.0.6' ],
+437 silly audit   'concat-map': [ '0.0.1' ],
+437 silly audit   'content-type-parser': [ '1.0.2' ],
+437 silly audit   'core-util-is': [ '1.0.2' ],
+437 silly audit   cssom: [ '0.3.4' ],
+437 silly audit   cssstyle: [ '0.2.37' ],
+437 silly audit   dashdash: [ '1.14.1' ],
+437 silly audit   debug: [ '3.2.6', '4.1.1' ],
+437 silly audit   decamelize: [ '1.2.0' ],
+437 silly audit   'deep-eql': [ '0.1.3' ],
+437 silly audit   'type-detect': [ '0.1.1', '1.0.0' ],
+437 silly audit   'deep-is': [ '0.1.3' ],
+437 silly audit   'define-properties': [ '1.1.2' ],
+437 silly audit   'delayed-stream': [ '1.0.0' ],
+437 silly audit   diff: [ '3.5.0' ],
+437 silly audit   'ecc-jsbn': [ '0.1.2' ],
+437 silly audit   'emoji-regex': [ '7.0.3' ],
+437 silly audit   'es-abstract': [ '1.12.0' ],
+437 silly audit   'es-to-primitive': [ '1.1.1' ],
+437 silly audit   'es6-promise': [ '4.2.4' ],
+437 silly audit   'escape-string-regexp': [ '1.0.5' ],
+437 silly audit   escodegen: [ '1.11.0' ],
+437 silly audit   'source-map': [ '0.6.1' ],
+437 silly audit   esprima: [ '3.1.3', '4.0.1' ],
+437 silly audit   estraverse: [ '4.2.0' ],
+437 silly audit   esutils: [ '2.0.2' ],
+437 silly audit   expect: [ '1.20.2' ],
+437 silly audit   extend: [ '3.0.2' ],
+437 silly audit   'extended-emitter': [ '1.0.2' ],
+437 silly audit   extsprintf: [ '1.3.0' ],
+437 silly audit   'fast-deep-equal': [ '1.1.0' ],
+437 silly audit   'fast-json-stable-stringify': [ '2.0.0' ],
+437 silly audit   'fast-levenshtein': [ '2.0.6' ],
+437 silly audit   'find-up': [ '3.0.0' ],
+437 silly audit   flat: [ '4.1.0' ],
+437 silly audit   foreach: [ '2.0.5' ],
+437 silly audit   'forever-agent': [ '0.6.1' ],
+437 silly audit   'form-data': [ '2.3.2' ],
+437 silly audit   'fs.realpath': [ '1.0.0' ],
+437 silly audit   'function-bind': [ '1.1.1' ],
+437 silly audit   'get-caller-file': [ '2.0.5' ],
+437 silly audit   getpass: [ '0.1.7' ],
+437 silly audit   glob: [ '7.1.3' ],
+437 silly audit   'glob-to-regexp': [ '0.3.0' ],
+437 silly audit   growl: [ '1.10.5' ],
+437 silly audit   'har-schema': [ '2.0.0' ],
+437 silly audit   'har-validator': [ '5.0.3' ],
+437 silly audit   has: [ '1.0.3' ],
+437 silly audit   'has-flag': [ '3.0.0' ],
+437 silly audit   'has-symbols': [ '1.0.0' ],
+437 silly audit   he: [ '1.2.0' ],
+437 silly audit   'html-encoding-sniffer': [ '1.0.2' ],
+437 silly audit   'http-signature': [ '1.2.0' ],
+437 silly audit   'iconv-lite': [ '0.4.19' ],
+437 silly audit   inflight: [ '1.0.6' ],
+437 silly audit   inherits: [ '2.0.4' ],
+437 silly audit   'is-arrow-function': [ '2.0.3' ],
+437 silly audit   'is-boolean-object': [ '1.0.0' ],
+437 silly audit   'is-buffer': [ '2.0.4' ],
+437 silly audit   'is-callable': [ '1.1.4' ],
+437 silly audit   'is-date-object': [ '1.0.1' ],
+437 silly audit   'is-equal': [ '1.5.5' ],
+437 silly audit   'is-fullwidth-code-point': [ '2.0.0' ],
+437 silly audit   'is-generator-function': [ '1.0.7' ],
+437 silly audit   'is-number-object': [ '1.0.3' ],
+437 silly audit   'is-regex': [ '1.0.4' ],
+437 silly audit   'is-string': [ '1.0.4' ],
+437 silly audit   'is-symbol': [ '1.0.1' ],
+437 silly audit   'is-typedarray': [ '1.0.0' ],
+437 silly audit   isexe: [ '2.0.0' ],
+437 silly audit   isstream: [ '0.1.2' ],
+437 silly audit   'js-yaml': [ '3.13.1' ],
+437 silly audit   jsbn: [ '0.1.1' ],
+437 silly audit   jsdom: [ '9.12.0' ],
+437 silly audit   'json-schema': [ '0.2.3' ],
+437 silly audit   'json-schema-traverse': [ '0.3.1' ],
+437 silly audit   'json-stringify-safe': [ '5.0.1' ],
+437 silly audit   jsprim: [ '1.4.1' ],
+437 silly audit   levn: [ '0.3.0' ],
+437 silly audit   'locate-path': [ '3.0.0' ],
+437 silly audit   lodash: [ '4.17.21' ],
+437 silly audit   'lodash.once': [ '4.1.1' ],
+437 silly audit   'log-symbols': [ '2.2.0' ],
+437 silly audit   'mime-db': [ '1.35.0' ],
+437 silly audit   'mime-types': [ '2.1.19' ],
+437 silly audit   minimatch: [ '3.0.4' ],
+437 silly audit   minimist: [ '0.0.8' ],
+437 silly audit   mkdirp: [ '0.5.1' ],
+437 silly audit   mocha: [ '6.2.2' ],
+437 silly audit   'mocha-jsdom': [ '1.1.0' ],
+437 silly audit   'mocha-multi': [ '1.1.3' ],
+437 silly audit   ms: [ '2.1.1' ],
+437 silly audit   'node-environment-flags': [ '1.0.5' ],
+437 silly audit   nwmatcher: [ '1.4.4' ],
+437 silly audit   'oauth-sign': [ '0.8.2' ],
+437 silly audit   'object-assign': [ '4.1.1' ],
+437 silly audit   'object-inspect': [ '1.6.0' ],
+437 silly audit   'object-keys': [ '1.0.12' ],
+437 silly audit   'object.assign': [ '4.1.0' ],
+437 silly audit   'object.entries': [ '1.0.4' ],
+437 silly audit   'object.getownpropertydescriptors': [ '2.0.3' ],
+437 silly audit   once: [ '1.4.0' ],
+437 silly audit   optionator: [ '0.8.2' ],
+437 silly audit   'p-limit': [ '2.2.1' ],
+437 silly audit   'p-locate': [ '3.0.0' ],
+437 silly audit   'p-try': [ '2.2.0' ],
+437 silly audit   parse5: [ '1.5.1' ],
+437 silly audit   'path-exists': [ '3.0.0' ],
+437 silly audit   'path-is-absolute': [ '1.0.1' ],
+437 silly audit   'performance-now': [ '2.1.0' ],
+437 silly audit   'prelude-ls': [ '1.1.2' ],
+437 silly audit   psl: [ '1.1.29' ],
+437 silly audit   punycode: [ '1.4.1' ],
+437 silly audit   qs: [ '6.5.2' ],
+437 silly audit   'readdir-enhanced': [ '1.5.2' ],
+437 silly audit   request: [ '2.87.0' ],
+437 silly audit   'tough-cookie': [ '2.3.4', '2.4.3' ],
+437 silly audit   'require-directory': [ '2.1.1' ],
+437 silly audit   'require-main-filename': [ '2.0.0' ],
+437 silly audit   'safe-buffer': [ '5.1.2' ],
+437 silly audit   'safer-buffer': [ '2.1.2' ],
+437 silly audit   sax: [ '1.2.4' ],
+437 silly audit   semver: [ '5.7.1' ],
+437 silly audit   'set-blocking': [ '2.0.0' ],
+437 silly audit   sift: [ '6.0.0' ],
+437 silly audit   'sprintf-js': [ '1.0.3' ],
+437 silly audit   sshpk: [ '1.14.2' ],
+437 silly audit   'strip-json-comments': [ '2.0.1' ],
+437 silly audit   'symbol-tree': [ '3.2.2' ],
+437 silly audit   tmatch: [ '2.0.1' ],
+437 silly audit   tr46: [ '0.0.3' ],
+437 silly audit   'tunnel-agent': [ '0.6.0' ],
+437 silly audit   tweetnacl: [ '0.14.5' ],
+437 silly audit   'type-check': [ '0.3.2' ],
+437 silly audit   uuid: [ '3.3.2' ],
+437 silly audit   verror: [ '1.10.0' ],
+437 silly audit   'webidl-conversions': [ '4.0.2', '3.0.1' ],
+437 silly audit   'whatwg-encoding': [ '1.0.3' ],
+437 silly audit   'whatwg-url': [ '4.8.0' ],
+437 silly audit   which: [ '1.3.1' ],
+437 silly audit   'which-module': [ '2.0.0' ],
+437 silly audit   'wide-align': [ '1.1.3' ],
+437 silly audit   'wolfy87-eventemitter': [ '5.2.5' ],
+437 silly audit   wordwrap: [ '1.0.0' ],
+437 silly audit   'wrap-ansi': [ '5.1.0' ],
+437 silly audit   wrappy: [ '1.0.2' ],
+437 silly audit   'xml-name-validator': [ '2.0.1' ],
+437 silly audit   y18n: [ '4.0.1' ],
+437 silly audit   yargs: [ '13.3.0' ],
+437 silly audit   'yargs-parser': [ '13.1.1' ],
+437 silly audit   'yargs-unparser': [ '1.6.0' ]
+437 silly audit }
+438 silly tarball no local data for yargs-parser@https://registry.npmjs.org/yargs-parser/-/yargs-parser-13.1.1.tgz. Extracting by manifest.
+439 silly tarball no local data for yargs@https://registry.npmjs.org/yargs/-/yargs-13.3.0.tgz. Extracting by manifest.
+440 silly tarball no local data for y18n@https://registry.npmjs.org/y18n/-/y18n-4.0.1.tgz. Extracting by manifest.
+441 silly tarball no local data for xml-name-validator@https://registry.npmjs.org/xml-name-validator/-/xml-name-validator-2.0.1.tgz. Extracting by manifest.
+442 silly tarball no local data for wrappy@https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz. Extracting by manifest.
+443 silly tarball no local data for wordwrap@https://registry.npmjs.org/wordwrap/-/wordwrap-1.0.0.tgz. Extracting by manifest.
+444 silly tarball no local data for wolfy87-eventemitter@https://registry.npmjs.org/wolfy87-eventemitter/-/wolfy87-eventemitter-5.2.5.tgz. Extracting by manifest.
+445 silly tarball no local data for which-module@https://registry.npmjs.org/which-module/-/which-module-2.0.0.tgz. Extracting by manifest.
+446 silly tarball no local data for whatwg-encoding@https://registry.npmjs.org/whatwg-encoding/-/whatwg-encoding-1.0.3.tgz. Extracting by manifest.
+447 silly tarball no local data for whatwg-url@https://registry.npmjs.org/whatwg-url/-/whatwg-url-4.8.0.tgz. Extracting by manifest.
+448 silly tarball no local data for verror@https://registry.npmjs.org/verror/-/verror-1.10.0.tgz. Extracting by manifest.
+449 silly tarball no local data for uuid@https://registry.npmjs.org/uuid/-/uuid-3.3.2.tgz. Extracting by manifest.
+450 silly tarball no local data for type-detect@https://registry.npmjs.org/type-detect/-/type-detect-1.0.0.tgz. Extracting by manifest.
+451 silly tarball no local data for type-check@https://registry.npmjs.org/type-check/-/type-check-0.3.2.tgz. Extracting by manifest.
+452 silly tarball no local data for tweetnacl@https://registry.npmjs.org/tweetnacl/-/tweetnacl-0.14.5.tgz. Extracting by manifest.
+453 silly tarball no local data for tunnel-agent@https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.6.0.tgz. Extracting by manifest.
+454 silly tarball no local data for tr46@https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz. Extracting by manifest.
+455 silly tarball no local data for tough-cookie@https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.4.3.tgz. Extracting by manifest.
+456 silly tarball no local data for symbol-tree@https://registry.npmjs.org/symbol-tree/-/symbol-tree-3.2.2.tgz. Extracting by manifest.
+457 silly tarball no local data for tmatch@https://registry.npmjs.org/tmatch/-/tmatch-2.0.1.tgz. Extracting by manifest.
+458 silly tarball no local data for strip-json-comments@https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-2.0.1.tgz. Extracting by manifest.
+459 silly tarball no local data for strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-4.0.0.tgz. Extracting by manifest.
+460 silly tarball no local data for sshpk@https://registry.npmjs.org/sshpk/-/sshpk-1.14.2.tgz. Extracting by manifest.
+461 silly tarball no local data for sprintf-js@https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz. Extracting by manifest.
+462 silly tarball no local data for sift@https://registry.npmjs.org/sift/-/sift-6.0.0.tgz. Extracting by manifest.
+463 silly tarball no local data for set-blocking@https://registry.npmjs.org/set-blocking/-/set-blocking-2.0.0.tgz. Extracting by manifest.
+464 silly tarball no local data for safe-buffer@https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz. Extracting by manifest.
+465 silly tarball no local data for require-directory@https://registry.npmjs.org/require-directory/-/require-directory-2.1.1.tgz. Extracting by manifest.
+466 silly tarball no local data for readdir-enhanced@https://registry.npmjs.org/readdir-enhanced/-/readdir-enhanced-1.5.2.tgz. Extracting by manifest.
+467 silly tarball no local data for request@https://registry.npmjs.org/request/-/request-2.87.0.tgz. Extracting by manifest.
+468 silly tarball no local data for qs@https://registry.npmjs.org/qs/-/qs-6.5.2.tgz. Extracting by manifest.
+469 silly tarball no local data for psl@https://registry.npmjs.org/psl/-/psl-1.1.29.tgz. Extracting by manifest.
+470 silly tarball no local data for prelude-ls@https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.1.2.tgz. Extracting by manifest.
+471 silly tarball no local data for punycode@https://registry.npmjs.org/punycode/-/punycode-1.4.1.tgz. Extracting by manifest.
+472 silly tarball no local data for performance-now@https://registry.npmjs.org/performance-now/-/performance-now-2.1.0.tgz. Extracting by manifest.
+473 silly tarball no local data for path-is-absolute@https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz. Extracting by manifest.
+474 silly tarball no local data for path-exists@https://registry.npmjs.org/path-exists/-/path-exists-3.0.0.tgz. Extracting by manifest.
+475 silly tarball no local data for parse5@https://registry.npmjs.org/parse5/-/parse5-1.5.1.tgz. Extracting by manifest.
+476 silly tarball no local data for p-limit@https://registry.npmjs.org/p-limit/-/p-limit-2.2.1.tgz. Extracting by manifest.
+477 silly tarball no local data for optionator@https://registry.npmjs.org/optionator/-/optionator-0.8.2.tgz. Extracting by manifest.
+478 silly tarball no local data for once@https://registry.npmjs.org/once/-/once-1.4.0.tgz. Extracting by manifest.
+479 silly tarball no local data for object.getownpropertydescriptors@https://registry.npmjs.org/object.getownpropertydescriptors/-/object.getownpropertydescriptors-2.0.3.tgz. Extracting by manifest.
+480 silly tarball no local data for object.entries@https://registry.npmjs.org/object.entries/-/object.entries-1.0.4.tgz. Extracting by manifest.
+481 silly tarball no local data for object-keys@https://registry.npmjs.org/object-keys/-/object-keys-1.0.12.tgz. Extracting by manifest.
+482 silly tarball no local data for object-inspect@https://registry.npmjs.org/object-inspect/-/object-inspect-1.6.0.tgz. Extracting by manifest.
+483 silly tarball no local data for object-assign@https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz. Extracting by manifest.
+484 silly tarball no local data for oauth-sign@https://registry.npmjs.org/oauth-sign/-/oauth-sign-0.8.2.tgz. Extracting by manifest.
+485 silly tarball no local data for mocha-jsdom@https://registry.npmjs.org/mocha-jsdom/-/mocha-jsdom-1.1.0.tgz. Extracting by manifest.
+486 silly tarball no local data for mocha-multi@https://registry.npmjs.org/mocha-multi/-/mocha-multi-1.1.3.tgz. Extracting by manifest.
+487 silly tarball no local data for mocha@https://registry.npmjs.org/mocha/-/mocha-6.2.2.tgz. Extracting by manifest.
+488 silly tarball no local data for mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz. Extracting by manifest.
+489 silly tarball no local data for minimist@https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz. Extracting by manifest.
+490 silly tarball no local data for mime-types@https://registry.npmjs.org/mime-types/-/mime-types-2.1.19.tgz. Extracting by manifest.
+491 silly tarball no local data for mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.35.0.tgz. Extracting by manifest.
+492 silly tarball no local data for lodash.once@https://registry.npmjs.org/lodash.once/-/lodash.once-4.1.1.tgz. Extracting by manifest.
+493 silly tarball no local data for levn@https://registry.npmjs.org/levn/-/levn-0.3.0.tgz. Extracting by manifest.
+494 silly tarball no local data for jsprim@https://registry.npmjs.org/jsprim/-/jsprim-1.4.1.tgz. Extracting by manifest.
+495 silly tarball no local data for json-stringify-safe@https://registry.npmjs.org/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz. Extracting by manifest.
+496 silly tarball no local data for json-schema-traverse@https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-0.3.1.tgz. Extracting by manifest.
+497 silly tarball no local data for json-schema@https://registry.npmjs.org/json-schema/-/json-schema-0.2.3.tgz. Extracting by manifest.
+498 silly tarball no local data for jsdom@https://registry.npmjs.org/jsdom/-/jsdom-9.12.0.tgz. Extracting by manifest.
+499 silly tarball no local data for jsbn@https://registry.npmjs.org/jsbn/-/jsbn-0.1.1.tgz. Extracting by manifest.
+500 silly tarball no local data for isstream@https://registry.npmjs.org/isstream/-/isstream-0.1.2.tgz. Extracting by manifest.
+501 silly tarball no local data for isexe@https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz. Extracting by manifest.
+502 silly tarball no local data for is-typedarray@https://registry.npmjs.org/is-typedarray/-/is-typedarray-1.0.0.tgz. Extracting by manifest.
+503 silly tarball no local data for is-symbol@https://registry.npmjs.org/is-symbol/-/is-symbol-1.0.1.tgz. Extracting by manifest.
+504 silly tarball no local data for is-string@https://registry.npmjs.org/is-string/-/is-string-1.0.4.tgz. Extracting by manifest.
+505 silly tarball no local data for is-regex@https://registry.npmjs.org/is-regex/-/is-regex-1.0.4.tgz. Extracting by manifest.
+506 silly tarball no local data for is-number-object@https://registry.npmjs.org/is-number-object/-/is-number-object-1.0.3.tgz. Extracting by manifest.
+507 silly tarball no local data for is-fullwidth-code-point@https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-2.0.0.tgz. Extracting by manifest.
+508 silly tarball no local data for is-generator-function@https://registry.npmjs.org/is-generator-function/-/is-generator-function-1.0.7.tgz. Extracting by manifest.
+509 silly tarball no local data for is-equal@https://registry.npmjs.org/is-equal/-/is-equal-1.5.5.tgz. Extracting by manifest.
+510 silly tarball no local data for is-date-object@https://registry.npmjs.org/is-date-object/-/is-date-object-1.0.1.tgz. Extracting by manifest.
+511 silly tarball no local data for is-callable@https://registry.npmjs.org/is-callable/-/is-callable-1.1.4.tgz. Extracting by manifest.
+512 silly tarball no local data for is-buffer@https://registry.npmjs.org/is-buffer/-/is-buffer-2.0.4.tgz. Extracting by manifest.
+513 silly tarball no local data for is-boolean-object@https://registry.npmjs.org/is-boolean-object/-/is-boolean-object-1.0.0.tgz. Extracting by manifest.
+514 silly tarball no local data for is-arrow-function@https://registry.npmjs.org/is-arrow-function/-/is-arrow-function-2.0.3.tgz. Extracting by manifest.
+515 silly tarball no local data for inflight@https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz. Extracting by manifest.
+516 silly tarball no local data for iconv-lite@https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.19.tgz. Extracting by manifest.
+517 silly tarball no local data for http-signature@https://registry.npmjs.org/http-signature/-/http-signature-1.2.0.tgz. Extracting by manifest.
+518 silly tarball no local data for has-flag@https://registry.npmjs.org/has-flag/-/has-flag-3.0.0.tgz. Extracting by manifest.
+519 silly tarball no local data for has-symbols@https://registry.npmjs.org/has-symbols/-/has-symbols-1.0.0.tgz. Extracting by manifest.
+520 silly tarball no local data for har-validator@https://registry.npmjs.org/har-validator/-/har-validator-5.0.3.tgz. Extracting by manifest.
+521 silly tarball no local data for har-schema@https://registry.npmjs.org/har-schema/-/har-schema-2.0.0.tgz. Extracting by manifest.
+522 silly tarball no local data for glob-to-regexp@https://registry.npmjs.org/glob-to-regexp/-/glob-to-regexp-0.3.0.tgz. Extracting by manifest.
+523 silly tarball no local data for getpass@https://registry.npmjs.org/getpass/-/getpass-0.1.7.tgz. Extracting by manifest.
+524 silly tarball no local data for fs.realpath@https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz. Extracting by manifest.
+525 silly tarball no local data for form-data@https://registry.npmjs.org/form-data/-/form-data-2.3.2.tgz. Extracting by manifest.
+526 silly tarball no local data for forever-agent@https://registry.npmjs.org/forever-agent/-/forever-agent-0.6.1.tgz. Extracting by manifest.
+527 silly tarball no local data for foreach@https://registry.npmjs.org/foreach/-/foreach-2.0.5.tgz. Extracting by manifest.
+528 silly tarball no local data for flat@https://registry.npmjs.org/flat/-/flat-4.1.0.tgz. Extracting by manifest.
+529 silly tarball no local data for fast-levenshtein@https://registry.npmjs.org/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz. Extracting by manifest.
+530 silly tarball no local data for fast-json-stable-stringify@https://registry.npmjs.org/fast-json-stable-stringify/-/fast-json-stable-stringify-2.0.0.tgz. Extracting by manifest.
+531 silly tarball no local data for fast-deep-equal@https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-1.1.0.tgz. Extracting by manifest.
+532 silly tarball no local data for extsprintf@https://registry.npmjs.org/extsprintf/-/extsprintf-1.3.0.tgz. Extracting by manifest.
+533 silly tarball no local data for extended-emitter@https://registry.npmjs.org/extended-emitter/-/extended-emitter-1.0.2.tgz. Extracting by manifest.
+534 silly tarball no local data for expect@https://registry.npmjs.org/expect/-/expect-1.20.2.tgz. Extracting by manifest.
+535 silly tarball no local data for esutils@https://registry.npmjs.org/esutils/-/esutils-2.0.2.tgz. Extracting by manifest.
+536 silly tarball no local data for estraverse@https://registry.npmjs.org/estraverse/-/estraverse-4.2.0.tgz. Extracting by manifest.
+537 silly tarball no local data for esprima@https://registry.npmjs.org/esprima/-/esprima-3.1.3.tgz. Extracting by manifest.
+538 silly tarball no local data for escodegen@https://registry.npmjs.org/escodegen/-/escodegen-1.11.0.tgz. Extracting by manifest.
+539 silly tarball no local data for escape-string-regexp@https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz. Extracting by manifest.
+540 silly tarball no local data for es6-promise@https://registry.npmjs.org/es6-promise/-/es6-promise-4.2.4.tgz. Extracting by manifest.
+541 silly tarball no local data for es-to-primitive@https://registry.npmjs.org/es-to-primitive/-/es-to-primitive-1.1.1.tgz. Extracting by manifest.
+542 silly tarball no local data for es-abstract@https://registry.npmjs.org/es-abstract/-/es-abstract-1.12.0.tgz. Extracting by manifest.
+543 silly tarball no local data for ecc-jsbn@https://registry.npmjs.org/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz. Extracting by manifest.
+544 silly tarball no local data for delayed-stream@https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz. Extracting by manifest.
+545 silly tarball no local data for define-properties@https://registry.npmjs.org/define-properties/-/define-properties-1.1.2.tgz. Extracting by manifest.
+546 silly tarball no local data for deep-is@https://registry.npmjs.org/deep-is/-/deep-is-0.1.3.tgz. Extracting by manifest.
+547 silly tarball no local data for deep-eql@https://registry.npmjs.org/deep-eql/-/deep-eql-0.1.3.tgz. Extracting by manifest.
+548 silly tarball no local data for decamelize@https://registry.npmjs.org/decamelize/-/decamelize-1.2.0.tgz. Extracting by manifest.
+549 silly tarball no local data for dashdash@https://registry.npmjs.org/dashdash/-/dashdash-1.14.1.tgz. Extracting by manifest.
+550 silly tarball no local data for cssstyle@https://registry.npmjs.org/cssstyle/-/cssstyle-0.2.37.tgz. Extracting by manifest.
+551 silly tarball no local data for cssom@https://registry.npmjs.org/cssom/-/cssom-0.3.4.tgz. Extracting by manifest.
+552 silly tarball no local data for core-util-is@https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz. Extracting by manifest.
+553 silly tarball no local data for concat-map@https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz. Extracting by manifest.
+554 silly tarball no local data for combined-stream@https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.6.tgz. Extracting by manifest.
+555 silly tarball no local data for color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz. Extracting by manifest.
+556 silly tarball no local data for co@https://registry.npmjs.org/co/-/co-4.6.0.tgz. Extracting by manifest.
+557 silly tarball no local data for chai@https://registry.npmjs.org/chai/-/chai-3.5.0.tgz. Extracting by manifest.
+558 silly tarball no local data for chai-fs@https://registry.npmjs.org/chai-fs/-/chai-fs-2.0.0.tgz. Extracting by manifest.
+559 silly tarball no local data for caseless@https://registry.npmjs.org/caseless/-/caseless-0.12.0.tgz. Extracting by manifest.
+560 silly tarball no local data for call-me-maybe@https://registry.npmjs.org/call-me-maybe/-/call-me-maybe-1.0.1.tgz. Extracting by manifest.
+561 silly tarball no local data for bcrypt-pbkdf@https://registry.npmjs.org/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.2.tgz. Extracting by manifest.
+562 silly tarball no local data for balanced-match@https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.0.tgz. Extracting by manifest.
+563 silly tarball no local data for aws4@https://registry.npmjs.org/aws4/-/aws4-1.8.0.tgz. Extracting by manifest.
+564 silly tarball no local data for aws-sign2@https://registry.npmjs.org/aws-sign2/-/aws-sign2-0.7.0.tgz. Extracting by manifest.
+565 silly tarball no local data for asynckit@https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz. Extracting by manifest.
+566 silly tarball no local data for async-arrays@https://registry.npmjs.org/async-arrays/-/async-arrays-1.0.1.tgz. Extracting by manifest.
+567 silly tarball no local data for assert-plus@https://registry.npmjs.org/assert-plus/-/assert-plus-1.0.0.tgz. Extracting by manifest.
+568 silly tarball no local data for asn1@https://registry.npmjs.org/asn1/-/asn1-0.2.4.tgz. Extracting by manifest.
+569 silly tarball no local data for array-events@https://registry.npmjs.org/array-events/-/array-events-0.2.0.tgz. Extracting by manifest.
+570 silly tarball no local data for array-equal@https://registry.npmjs.org/array-equal/-/array-equal-1.0.0.tgz. Extracting by manifest.
+571 silly tarball no local data for ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-3.0.0.tgz. Extracting by manifest.
+572 silly tarball no local data for ajv@https://registry.npmjs.org/ajv/-/ajv-5.5.2.tgz. Extracting by manifest.
+573 silly tarball no local data for acorn-globals@https://registry.npmjs.org/acorn-globals/-/acorn-globals-3.1.0.tgz. Extracting by manifest.
+574 silly tarball no local data for acorn@https://registry.npmjs.org/acorn/-/acorn-4.0.13.tgz. Extracting by manifest.
+575 silly tarball no local data for abab@https://registry.npmjs.org/abab/-/abab-1.0.4.tgz. Extracting by manifest.
+576 silly tarball no local data for ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-4.1.0.tgz. Extracting by manifest.
+577 silly tarball no local data for webidl-conversions@https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz. Extracting by manifest.
+578 silly tarball no local data for tough-cookie@https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.3.4.tgz. Extracting by manifest.
+579 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-4.1.1.tgz. Extracting by manifest.
+580 silly tarball no local data for type-detect@https://registry.npmjs.org/type-detect/-/type-detect-0.1.1.tgz. Extracting by manifest.
+581 silly tarball no local data for ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-4.1.0.tgz. Extracting by manifest.
+582 silly tarball no local data for ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-4.1.0.tgz. Extracting by manifest.
+583 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 607ms
+584 timing auditReport:getReport Completed in 613ms
+585 silly audit report {
+585 silly audit report   'json-schema': [
+585 silly audit report     {
+585 silly audit report       id: 1070413,
+585 silly audit report       url: 'https://github.com/advisories/GHSA-896r-f27r-55mw',
+585 silly audit report       title: 'json-schema is vulnerable to Prototype Pollution',
+585 silly audit report       severity: 'critical',
+585 silly audit report       vulnerable_versions: '<0.4.0',
+585 silly audit report       cwe: [Array],
+585 silly audit report       cvss: [Object]
+585 silly audit report     }
+585 silly audit report   ],
+585 silly audit report   minimist: [
+585 silly audit report     {
+585 silly audit report       id: 1070255,
+585 silly audit report       url: 'https://github.com/advisories/GHSA-vh95-rmgr-6w4m',
+585 silly audit report       title: 'Prototype Pollution in minimist',
+585 silly audit report       severity: 'moderate',
+585 silly audit report       vulnerable_versions: '<0.2.1',
+585 silly audit report       cwe: [Array],
+585 silly audit report       cvss: [Object]
+585 silly audit report     },
+585 silly audit report     {
+585 silly audit report       id: 1067342,
+585 silly audit report       url: 'https://github.com/advisories/GHSA-xvch-5gv4-984h',
+585 silly audit report       title: 'Prototype Pollution in minimist',
+585 silly audit report       severity: 'critical',
+585 silly audit report       vulnerable_versions: '<1.2.6',
+585 silly audit report       cwe: [Array],
+585 silly audit report       cvss: [Object]
+585 silly audit report     }
+585 silly audit report   ],
+585 silly audit report   'ansi-regex': [
+585 silly audit report     {
+585 silly audit report       id: 1081346,
+585 silly audit report       url: 'https://github.com/advisories/GHSA-93q8-gq69-wqmw',
+585 silly audit report       title: 'Inefficient Regular Expression Complexity in chalk/ansi-regex',
+585 silly audit report       severity: 'high',
+585 silly audit report       vulnerable_versions: '>=3.0.0 <3.0.1',
+585 silly audit report       cwe: [Array],
+585 silly audit report       cvss: [Object]
+585 silly audit report     },
+585 silly audit report     {
+585 silly audit report       id: 1081347,
+585 silly audit report       url: 'https://github.com/advisories/GHSA-93q8-gq69-wqmw',
+585 silly audit report       title: 'Inefficient Regular Expression Complexity in chalk/ansi-regex',
+585 silly audit report       severity: 'high',
+585 silly audit report       vulnerable_versions: '>=4.0.0 <4.1.1',
+585 silly audit report       cwe: [Array],
+585 silly audit report       cvss: [Object]
+585 silly audit report     }
+585 silly audit report   ],
+585 silly audit report   ajv: [
+585 silly audit report     {
+585 silly audit report       id: 1067946,
+585 silly audit report       url: 'https://github.com/advisories/GHSA-v88g-cgmw-v5xw',
+585 silly audit report       title: 'Prototype Pollution in Ajv',
+585 silly audit report       severity: 'moderate',
+585 silly audit report       vulnerable_versions: '<6.12.3',
+585 silly audit report       cwe: [Array],
+585 silly audit report       cvss: [Object]
+585 silly audit report     }
+585 silly audit report   ],
+585 silly audit report   'yargs-parser': [
+585 silly audit report     {
+585 silly audit report       id: 1068310,
+585 silly audit report       url: 'https://github.com/advisories/GHSA-p9pc-299p-vxgp',
+585 silly audit report       title: 'Prototype Pollution in yargs-parser',
+585 silly audit report       severity: 'moderate',
+585 silly audit report       vulnerable_versions: '>=6.0.0 <13.1.2',
+585 silly audit report       cwe: [Array],
+585 silly audit report       cvss: [Object]
+585 silly audit report     }
+585 silly audit report   ],
+585 silly audit report   jsdom: [
+585 silly audit report     {
+585 silly audit report       id: 1075671,
+585 silly audit report       url: 'https://github.com/advisories/GHSA-f4c9-cqv8-9v98',
+585 silly audit report       title: 'Insufficient Granularity of Access Control in JSDom',
+585 silly audit report       severity: 'moderate',
+585 silly audit report       vulnerable_versions: '<=16.4.0',
+585 silly audit report       cwe: [Array],
+585 silly audit report       cvss: [Object]
+585 silly audit report     }
+585 silly audit report   ]
+585 silly audit report }
+586 timing metavuln:packument:json-schema Completed in 3ms
+587 timing metavuln:packument:minimist Completed in 3ms
+588 timing metavuln:packument:ansi-regex Completed in 2ms
+589 timing metavuln:packument:ajv Completed in 1ms
+590 timing metavuln:packument:yargs-parser Completed in 1ms
+591 timing metavuln:packument:jsdom Completed in 0ms
+592 timing metavuln:cache:get:security-advisory:json-schema:a//nekpgpT+ajuVzFtROaY41Y1RXIQdjF3xWsYquTtJWArDS+PfUCk/GMIeEcXcvN90XdX73hW0YN52EKjtAeQ== Completed in 51ms
+593 timing metavuln:load:security-advisory:json-schema:1070413 Completed in 1ms
+594 timing metavuln:cache:get:security-advisory:minimist:nZkhUdPEpKwzIx1nekYW4B7BHQyF2nm6J0JsgeP2HfA0DRMT5hhByRU71A4RPgtBbQPYEzVBozv8/mBZCafaGw== Completed in 52ms
+595 timing metavuln:load:security-advisory:minimist:1067342 Completed in 0ms
+596 timing metavuln:cache:get:security-advisory:ansi-regex:oghwc8GHLTDedB0i/YfIZjrosxvndRpO9sLl7cFOecNpi60X4gfTlbYGLWKxTWEGy+Cpg06Fvq/JwLAkzgzavg== Completed in 53ms
+597 timing metavuln:load:security-advisory:ansi-regex:1081346 Completed in 1ms
+598 timing metavuln:cache:get:security-advisory:minimist:HzlTd/CS509JwqRUmSOa+xKGYgjeXpUaWCnQckWGHjn/fcOUvS1viXUyBuSwKMKOELDnu9ADP3t6IyP7rFSUIA== Completed in 55ms
+599 timing metavuln:load:security-advisory:minimist:1070255 Completed in 1ms
+600 timing metavuln:cache:get:security-advisory:ansi-regex:jsZGSlrzeL/SJj1tvyGUN22Uwk0TCMB2toXvLH+kPL4GJAoP7c1Vrn7A89R4bql0mKhgtddfb3rJNjfHEa0/eg== Completed in 55ms
+601 timing metavuln:load:security-advisory:ansi-regex:1081347 Completed in 1ms
+602 timing metavuln:cache:get:security-advisory:ajv:HdUHTYDANDTVSFV1lY2PaOXn1Svz5bRZf2n/w9y0htSh7GckcEVEbvyaV+kC2XEIRCDn/tv2RLopzgrw8o6QQg== Completed in 56ms
+603 timing metavuln:load:security-advisory:ajv:1067946 Completed in 11ms
+604 timing metavuln:cache:get:security-advisory:yargs-parser:JlvZumEDe1n7alk4a6WHvGfmK7I/B8KYfhZQeEGxwQc7LN43txKy4QiTfBukniHvh4LaAkLwIgcGW02FHLBLOQ== Completed in 67ms
+605 timing metavuln:load:security-advisory:yargs-parser:1068310 Completed in 3ms
+606 timing reifyNode:node_modules/wrap-ansi Completed in 775ms
+607 timing reifyNode:node_modules/wide-align Completed in 775ms
+608 timing reifyNode:node_modules/string-width Completed in 774ms
+609 timing reifyNode:node_modules/p-locate Completed in 774ms
+610 timing reifyNode:node_modules/ms Completed in 774ms
+611 timing reifyNode:node_modules/locate-path Completed in 774ms
+612 timing reifyNode:node_modules/find-up Completed in 771ms
+613 timing reifyNode:node_modules/browser-stdout Completed in 771ms
+614 timing reifyNode:node_modules/brace-expansion Completed in 771ms
+615 timing reifyNode:node_modules/ansi-styles Completed in 771ms
+616 timing reifyNode:node_modules/yargs/node_modules/string-width Completed in 796ms
+617 timing reifyNode:node_modules/wrap-ansi/node_modules/string-width Completed in 797ms
+618 timing reifyNode:node_modules/cliui/node_modules/string-width Completed in 782ms
+619 timing reifyNode:node_modules/yargs-unparser Completed in 799ms
+620 timing reifyNode:node_modules/supports-color Completed in 797ms
+621 timing reifyNode:node_modules/require-main-filename Completed in 796ms
+622 timing reifyNode:node_modules/p-try Completed in 795ms
+623 timing reifyNode:node_modules/log-symbols Completed in 794ms
+624 timing reifyNode:node_modules/inherits Completed in 794ms
+625 timing reifyNode:node_modules/html-encoding-sniffer Completed in 790ms
+626 timing reifyNode:node_modules/content-type-parser Completed in 789ms
+627 timing reifyNode:node_modules/camelcase Completed in 790ms
+628 timing reifyNode:node_modules/assertion-error Completed in 790ms
+629 timing reifyNode:node_modules/yargs/node_modules/strip-ansi Completed in 812ms
+630 timing reifyNode:node_modules/wrap-ansi/node_modules/strip-ansi Completed in 811ms
+631 timing reifyNode:node_modules/cliui/node_modules/strip-ansi Completed in 796ms
+632 timing reifyNode:node_modules/chalk/node_modules/supports-color Completed in 796ms
+633 timing reifyNode:node_modules/webidl-conversions Completed in 811ms
+634 timing reifyNode:node_modules/minimatch Completed in 808ms
+635 timing reifyNode:node_modules/get-caller-file Completed in 804ms
+636 timing reifyNode:node_modules/cliui Completed in 803ms
+637 timing reifyNode:node_modules/bit-mask Completed in 803ms
+638 timing metavuln:cache:get:security-advisory:jsdom:pYEOzP70lFpHR2kMSFWN8ulCJqHBpvOrbvwCAKgomD7G/Xl2UGoXzHQnNhobV8RyiqvhNsZO8UEsgO3E96FzgQ== Completed in 212ms
+639 timing metavuln:load:security-advisory:jsdom:1075671 Completed in 2ms
+640 timing metavuln:calculate:security-advisory:jsdom:1075671 Completed in 214ms
+641 timing reifyNode:node_modules/which Completed in 829ms
+642 timing reifyNode:node_modules/node-environment-flags Completed in 827ms
+643 timing reifyNode:node_modules/has Completed in 823ms
+644 timing reifyNode:node_modules/sax Completed in 841ms
+645 timing reifyNode:node_modules/color-convert Completed in 846ms
+646 timing reifyNode:node_modules/ansi-colors Completed in 845ms
+647 timing reifyNode:node_modules/safer-buffer Completed in 870ms
+648 timing reifyNode:node_modules/glob Completed in 862ms
+649 timing reifyNode:node_modules/extend Completed in 861ms
+650 timing reifyNode:node_modules/chalk Completed in 860ms
+651 timing reifyNode:node_modules/semver Completed in 878ms
+652 timing reifyNode:node_modules/emoji-regex Completed in 932ms
+653 timing reifyNode:node_modules/function-bind Completed in 942ms
+654 timing metavuln:cache:put:security-advisory:json-schema:a//nekpgpT+ajuVzFtROaY41Y1RXIQdjF3xWsYquTtJWArDS+PfUCk/GMIeEcXcvN90XdX73hW0YN52EKjtAeQ== Completed in 298ms
+655 timing metavuln:calculate:security-advisory:json-schema:1070413 Completed in 351ms
+656 timing metavuln:cache:put:security-advisory:minimist:HzlTd/CS509JwqRUmSOa+xKGYgjeXpUaWCnQckWGHjn/fcOUvS1viXUyBuSwKMKOELDnu9ADP3t6IyP7rFSUIA== Completed in 294ms
+657 timing metavuln:calculate:security-advisory:minimist:1070255 Completed in 350ms
+658 timing metavuln:cache:put:security-advisory:ansi-regex:oghwc8GHLTDedB0i/YfIZjrosxvndRpO9sLl7cFOecNpi60X4gfTlbYGLWKxTWEGy+Cpg06Fvq/JwLAkzgzavg== Completed in 295ms
+659 timing metavuln:calculate:security-advisory:ansi-regex:1081346 Completed in 349ms
+660 timing metavuln:cache:put:security-advisory:minimist:nZkhUdPEpKwzIx1nekYW4B7BHQyF2nm6J0JsgeP2HfA0DRMT5hhByRU71A4RPgtBbQPYEzVBozv8/mBZCafaGw== Completed in 298ms
+661 timing metavuln:calculate:security-advisory:minimist:1067342 Completed in 351ms
+662 timing reifyNode:node_modules/he Completed in 947ms
+663 timing reifyNode:node_modules/growl Completed in 947ms
+664 warn deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+665 timing reifyNode:node_modules/debug Completed in 946ms
+666 http fetch GET 200 https://registry.npmjs.org/yargs-parser/-/yargs-parser-13.1.1.tgz 825ms (cache miss)
+667 timing reifyNode:node_modules/yargs-parser Completed in 963ms
+668 timing metavuln:cache:put:security-advisory:ansi-regex:jsZGSlrzeL/SJj1tvyGUN22Uwk0TCMB2toXvLH+kPL4GJAoP7c1Vrn7A89R4bql0mKhgtddfb3rJNjfHEa0/eg== Completed in 304ms
+669 timing metavuln:calculate:security-advisory:ansi-regex:1081347 Completed in 360ms
+670 timing metavuln:cache:put:security-advisory:yargs-parser:JlvZumEDe1n7alk4a6WHvGfmK7I/B8KYfhZQeEGxwQc7LN43txKy4QiTfBukniHvh4LaAkLwIgcGW02FHLBLOQ== Completed in 289ms
+671 timing metavuln:calculate:security-advisory:yargs-parser:1068310 Completed in 359ms
+672 timing metavuln:cache:put:security-advisory:ajv:HdUHTYDANDTVSFV1lY2PaOXn1Svz5bRZf2n/w9y0htSh7GckcEVEbvyaV+kC2XEIRCDn/tv2RLopzgrw8o6QQg== Completed in 294ms
+673 timing metavuln:calculate:security-advisory:ajv:1067946 Completed in 361ms
+674 timing metavuln:packument:jsprim Completed in 1ms
+675 timing metavuln:cache:get:security-advisory:jsprim:iMP8820eq5Uevxi3CJh7zdvWCNDZSB3jzDkHDuPD8N5yLfUAysXJxVffLaTgVAaspwoAFcFQKhZgUj8KWgYEpQ== Completed in 3ms
+676 timing metavuln:load:security-advisory:jsprim:a//nekpgpT+ajuVzFtROaY41Y1RXIQdjF3xWsYquTtJWArDS+PfUCk/GMIeEcXcvN90XdX73hW0YN52EKjtAeQ== Completed in 3ms
+677 http fetch GET 200 https://registry.npmjs.org/y18n/-/y18n-4.0.1.tgz 837ms (cache miss)
+678 timing reifyNode:node_modules/y18n Completed in 976ms
+679 http fetch GET 200 https://registry.npmjs.org/p-limit/-/p-limit-2.2.1.tgz 788ms (cache miss)
+680 timing reifyNode:node_modules/p-limit Completed in 985ms
+681 timing reifyNode:node_modules/object.assign Completed in 985ms
+682 http fetch GET 200 https://registry.npmjs.org/punycode/-/punycode-1.4.1.tgz 802ms (cache miss)
+683 timing reifyNode:node_modules/punycode Completed in 992ms
+684 timing reifyNode:node_modules/nwmatcher Completed in 991ms
+685 timing reifyNode:node_modules/js-yaml/node_modules/esprima Completed in 993ms
+686 timing metavuln:cache:put:security-advisory:jsprim:iMP8820eq5Uevxi3CJh7zdvWCNDZSB3jzDkHDuPD8N5yLfUAysXJxVffLaTgVAaspwoAFcFQKhZgUj8KWgYEpQ== Completed in 43ms
+687 timing metavuln:calculate:security-advisory:jsprim:a//nekpgpT+ajuVzFtROaY41Y1RXIQdjF3xWsYquTtJWArDS+PfUCk/GMIeEcXcvN90XdX73hW0YN52EKjtAeQ== Completed in 49ms
+688 timing metavuln:packument:mkdirp Completed in 0ms
+689 timing metavuln:cache:get:security-advisory:mkdirp:+PhhGcJymuV+5rvW81MCikyjMiTBQuLIQZOUvB89Mb8uk3Q8tDX1tf8ihGO4POtNtnBz09eROrGo7rpMSategw== Completed in 3ms
+690 timing metavuln:load:security-advisory:mkdirp:HzlTd/CS509JwqRUmSOa+xKGYgjeXpUaWCnQckWGHjn/fcOUvS1viXUyBuSwKMKOELDnu9ADP3t6IyP7rFSUIA== Completed in 2ms
+691 timing reifyNode:node_modules/argparse Completed in 1018ms
+692 http fetch GET 200 https://registry.npmjs.org/wordwrap/-/wordwrap-1.0.0.tgz 914ms (cache miss)
+693 timing reifyNode:node_modules/wordwrap Completed in 1057ms
+694 timing metavuln:cache:put:security-advisory:mkdirp:+PhhGcJymuV+5rvW81MCikyjMiTBQuLIQZOUvB89Mb8uk3Q8tDX1tf8ihGO4POtNtnBz09eROrGo7rpMSategw== Completed in 110ms
+695 timing metavuln:calculate:security-advisory:mkdirp:HzlTd/CS509JwqRUmSOa+xKGYgjeXpUaWCnQckWGHjn/fcOUvS1viXUyBuSwKMKOELDnu9ADP3t6IyP7rFSUIA== Completed in 115ms
+696 timing metavuln:packument:strip-ansi Completed in 1ms
+697 timing metavuln:cache:get:security-advisory:strip-ansi:fSKtf6T4/ynJAd4xEyo8DuS3vn3pkiJdg8/rKr1xNbJU7OjJrfAqbzDkCaqOdpFsQRYNUJsRWGXa5MGNJMc5Hw== Completed in 9ms
+698 timing metavuln:load:security-advisory:strip-ansi:oghwc8GHLTDedB0i/YfIZjrosxvndRpO9sLl7cFOecNpi60X4gfTlbYGLWKxTWEGy+Cpg06Fvq/JwLAkzgzavg== Completed in 2ms
+699 http fetch GET 200 https://registry.npmjs.org/optionator/-/optionator-0.8.2.tgz 969ms (cache miss)
+700 timing reifyNode:node_modules/optionator Completed in 1167ms
+701 timing reifyNode:node_modules/js-yaml Completed in 1174ms
+702 http fetch GET 200 https://registry.npmjs.org/whatwg-encoding/-/whatwg-encoding-1.0.3.tgz 1049ms (cache miss)
+703 timing reifyNode:node_modules/whatwg-encoding Completed in 1195ms
+704 http fetch GET 200 https://registry.npmjs.org/symbol-tree/-/symbol-tree-3.2.2.tgz 1040ms (cache miss)
+705 timing reifyNode:node_modules/symbol-tree Completed in 1197ms
+706 http fetch GET 200 https://registry.npmjs.org/object.getownpropertydescriptors/-/object.getownpropertydescriptors-2.0.3.tgz 996ms (cache miss)
+707 timing reifyNode:node_modules/object.getownpropertydescriptors Completed in 1195ms
+708 http fetch GET 200 https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz 1039ms (cache miss)
+709 timing reifyNode:node_modules/safe-buffer Completed in 1212ms
+710 http fetch GET 200 https://registry.npmjs.org/yargs/-/yargs-13.3.0.tgz 1079ms (cache miss)
+711 timing metavuln:cache:put:security-advisory:strip-ansi:fSKtf6T4/ynJAd4xEyo8DuS3vn3pkiJdg8/rKr1xNbJU7OjJrfAqbzDkCaqOdpFsQRYNUJsRWGXa5MGNJMc5Hw== Completed in 79ms
+712 timing metavuln:calculate:security-advisory:strip-ansi:oghwc8GHLTDedB0i/YfIZjrosxvndRpO9sLl7cFOecNpi60X4gfTlbYGLWKxTWEGy+Cpg06Fvq/JwLAkzgzavg== Completed in 90ms
+713 timing reifyNode:node_modules/escodegen/node_modules/source-map Completed in 1211ms
+714 timing metavuln:cache:get:security-advisory:strip-ansi:X5PkhKMxGKTnVy0vJDv0WBEcKHZI0EySB7dq3br4nH4wF0ny8amva1SrbiUE//pPFBEpb4LrquGaLX2FtxK+WQ== Completed in 5ms
+715 timing metavuln:load:security-advisory:strip-ansi:jsZGSlrzeL/SJj1tvyGUN22Uwk0TCMB2toXvLH+kPL4GJAoP7c1Vrn7A89R4bql0mKhgtddfb3rJNjfHEa0/eg== Completed in 1ms
+716 timing reifyNode:node_modules/yargs Completed in 1235ms
+717 http fetch GET 200 https://registry.npmjs.org/object-keys/-/object-keys-1.0.12.tgz 1046ms (cache miss)
+718 timing reifyNode:node_modules/object-keys Completed in 1248ms
+719 timing reifyNode:node_modules/diff Completed in 1240ms
+720 http fetch GET 200 https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.4.3.tgz 1098ms (cache miss)
+721 timing reifyNode:node_modules/tough-cookie Completed in 1254ms
+722 http fetch GET 200 https://registry.npmjs.org/wolfy87-eventemitter/-/wolfy87-eventemitter-5.2.5.tgz 1118ms (cache miss)
+723 timing reifyNode:node_modules/wolfy87-eventemitter Completed in 1263ms
+724 http fetch GET 200 https://registry.npmjs.org/uuid/-/uuid-3.3.2.tgz 1114ms (cache miss)
+725 warn deprecated uuid@3.3.2: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+726 timing reifyNode:node_modules/uuid Completed in 1265ms
+727 timing metavuln:cache:put:security-advisory:strip-ansi:X5PkhKMxGKTnVy0vJDv0WBEcKHZI0EySB7dq3br4nH4wF0ny8amva1SrbiUE//pPFBEpb4LrquGaLX2FtxK+WQ== Completed in 42ms
+728 timing metavuln:calculate:security-advisory:strip-ansi:jsZGSlrzeL/SJj1tvyGUN22Uwk0TCMB2toXvLH+kPL4GJAoP7c1Vrn7A89R4bql0mKhgtddfb3rJNjfHEa0/eg== Completed in 48ms
+729 timing metavuln:packument:har-validator Completed in 0ms
+730 timing metavuln:cache:get:security-advisory:har-validator:CgreuaHfcAU7CmEfD9OIaCVp8F8HOjHS+i9eecqipZ6j0oNyAMK7INynpzk+DNwSUXAO+ddjMbZgorVh3darKw== Completed in 2ms
+731 timing metavuln:load:security-advisory:har-validator:HdUHTYDANDTVSFV1lY2PaOXn1Svz5bRZf2n/w9y0htSh7GckcEVEbvyaV+kC2XEIRCDn/tv2RLopzgrw8o6QQg== Completed in 17ms
+732 http fetch GET 200 https://registry.npmjs.org/sift/-/sift-6.0.0.tgz 1124ms (cache miss)
+733 timing reifyNode:node_modules/sift Completed in 1294ms
+734 http fetch GET 200 https://registry.npmjs.org/qs/-/qs-6.5.2.tgz 1118ms (cache miss)
+735 timing reifyNode:node_modules/qs Completed in 1294ms
+736 timing metavuln:cache:put:security-advisory:har-validator:CgreuaHfcAU7CmEfD9OIaCVp8F8HOjHS+i9eecqipZ6j0oNyAMK7INynpzk+DNwSUXAO+ddjMbZgorVh3darKw== Completed in 26ms
+737 timing metavuln:calculate:security-advisory:har-validator:HdUHTYDANDTVSFV1lY2PaOXn1Svz5bRZf2n/w9y0htSh7GckcEVEbvyaV+kC2XEIRCDn/tv2RLopzgrw8o6QQg== Completed in 45ms
+738 timing metavuln:packument:mocha Completed in 1ms
+739 timing metavuln:packument:yargs Completed in 0ms
+740 timing metavuln:cache:get:security-advisory:mocha:v32z5yMcMwHLtAXMG/Z6loEFn3mA1tb+O64RdHeh9bA6YuRMk+P1fo1vrZBWWTIqm4mm1PNvNgs0KzQMikuDNA== Completed in 2ms
+741 timing metavuln:load:security-advisory:mocha:JlvZumEDe1n7alk4a6WHvGfmK7I/B8KYfhZQeEGxwQc7LN43txKy4QiTfBukniHvh4LaAkLwIgcGW02FHLBLOQ== Completed in 7ms
+742 timing metavuln:cache:get:security-advisory:yargs:MqFkjXFOVXAE/Y7lsGdkHasuXkUnSYIKPHjwSi7XBYXMLP8HzAd8P3H12MjsMknKxI8sTubOGuxFLGpaV+oG2g== Completed in 9ms
+743 timing metavuln:load:security-advisory:yargs:JlvZumEDe1n7alk4a6WHvGfmK7I/B8KYfhZQeEGxwQc7LN43txKy4QiTfBukniHvh4LaAkLwIgcGW02FHLBLOQ== Completed in 29ms
+744 http fetch GET 200 https://registry.npmjs.org/sshpk/-/sshpk-1.14.2.tgz 1193ms (cache miss)
+745 timing reifyNode:node_modules/sshpk Completed in 1356ms
+746 http fetch GET 200 https://registry.npmjs.org/request/-/request-2.87.0.tgz 1182ms (cache miss)
+747 warn deprecated request@2.87.0: request has been deprecated, see https://github.com/request/request/issues/3142
+748 timing reifyNode:node_modules/request Completed in 1358ms
+749 timing metavuln:cache:put:security-advisory:mocha:v32z5yMcMwHLtAXMG/Z6loEFn3mA1tb+O64RdHeh9bA6YuRMk+P1fo1vrZBWWTIqm4mm1PNvNgs0KzQMikuDNA== Completed in 43ms
+750 timing metavuln:calculate:security-advisory:mocha:JlvZumEDe1n7alk4a6WHvGfmK7I/B8KYfhZQeEGxwQc7LN43txKy4QiTfBukniHvh4LaAkLwIgcGW02FHLBLOQ== Completed in 52ms
+751 timing metavuln:cache:put:security-advisory:yargs:MqFkjXFOVXAE/Y7lsGdkHasuXkUnSYIKPHjwSi7XBYXMLP8HzAd8P3H12MjsMknKxI8sTubOGuxFLGpaV+oG2g== Completed in 12ms
+752 timing metavuln:calculate:security-advisory:yargs:JlvZumEDe1n7alk4a6WHvGfmK7I/B8KYfhZQeEGxwQc7LN43txKy4QiTfBukniHvh4LaAkLwIgcGW02FHLBLOQ== Completed in 51ms
+753 timing metavuln:packument:mocha-jsdom Completed in 0ms
+754 timing metavuln:cache:get:security-advisory:mocha-jsdom:DMKx3VKL6IoFjgqsC5YFf/I01voeIIB1SJFcHkUAZnm109+OlaY+ZMlAabnpTjk0bI/jC8JrgyJudZlyAo07oQ== Completed in 47ms
+755 timing metavuln:load:security-advisory:mocha-jsdom:pYEOzP70lFpHR2kMSFWN8ulCJqHBpvOrbvwCAKgomD7G/Xl2UGoXzHQnNhobV8RyiqvhNsZO8UEsgO3E96FzgQ== Completed in 0ms
+756 timing metavuln:calculate:security-advisory:mocha-jsdom:pYEOzP70lFpHR2kMSFWN8ulCJqHBpvOrbvwCAKgomD7G/Xl2UGoXzHQnNhobV8RyiqvhNsZO8UEsgO3E96FzgQ== Completed in 48ms
+757 timing metavuln:packument:http-signature Completed in 0ms
+758 timing metavuln:cache:get:security-advisory:http-signature:d+4EVGlXfBto12XVM+qWS86jiuBO8AZQcA4tMvHYnYw2oVn/WNHfCdH87bvy+FtEIYboo/A2Jm6Ut21SkZt/zA== Completed in 6ms
+759 timing metavuln:load:security-advisory:http-signature:iMP8820eq5Uevxi3CJh7zdvWCNDZSB3jzDkHDuPD8N5yLfUAysXJxVffLaTgVAaspwoAFcFQKhZgUj8KWgYEpQ== Completed in 1ms
+760 http fetch GET 200 https://registry.npmjs.org/oauth-sign/-/oauth-sign-0.8.2.tgz 1289ms (cache miss)
+761 timing reifyNode:node_modules/oauth-sign Completed in 1493ms
+762 http fetch GET 200 https://registry.npmjs.org/psl/-/psl-1.1.29.tgz 1320ms (cache miss)
+763 timing reifyNode:node_modules/psl Completed in 1499ms
+764 http fetch GET 200 https://registry.npmjs.org/mocha-multi/-/mocha-multi-1.1.3.tgz 1290ms (cache miss)
+765 timing reifyNode:node_modules/mocha-multi Completed in 1498ms
+766 http fetch GET 200 https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz 1286ms (cache miss)
+767 timing reifyNode:node_modules/minimist Completed in 1499ms
+768 http fetch GET 200 https://registry.npmjs.org/mime-types/-/mime-types-2.1.19.tgz 1290ms (cache miss)
+769 timing reifyNode:node_modules/mime-types Completed in 1503ms
+770 timing metavuln:cache:put:security-advisory:http-signature:d+4EVGlXfBto12XVM+qWS86jiuBO8AZQcA4tMvHYnYw2oVn/WNHfCdH87bvy+FtEIYboo/A2Jm6Ut21SkZt/zA== Completed in 91ms
+771 timing metavuln:calculate:security-advisory:http-signature:iMP8820eq5Uevxi3CJh7zdvWCNDZSB3jzDkHDuPD8N5yLfUAysXJxVffLaTgVAaspwoAFcFQKhZgUj8KWgYEpQ== Completed in 98ms
+772 timing metavuln:packument:mocha-multi Completed in 1ms
+773 timing metavuln:cache:get:security-advisory:mocha:uu6fIZMwKRUwaqGrJbwPdyIqVeQTbad7PWghGZxZFoi76jfSBF//AFiU1YxuoRjJsP7CkYj5oO1Op10hVoRFCQ== Completed in 3ms
+774 timing metavuln:load:security-advisory:mocha:+PhhGcJymuV+5rvW81MCikyjMiTBQuLIQZOUvB89Mb8uk3Q8tDX1tf8ihGO4POtNtnBz09eROrGo7rpMSategw== Completed in 13ms
+775 timing metavuln:cache:get:security-advisory:mocha-multi:bgu39RcwmjHjNeto42pMJuxWaErBV/AytnkXDF0SOAvid6e4TuZgoKn7/czqLnipxGDAfR0ecJAJFPHGVQhn2g== Completed in 17ms
+776 timing metavuln:load:security-advisory:mocha-multi:+PhhGcJymuV+5rvW81MCikyjMiTBQuLIQZOUvB89Mb8uk3Q8tDX1tf8ihGO4POtNtnBz09eROrGo7rpMSategw== Completed in 1ms
+777 http fetch GET 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz 1329ms (cache miss)
+778 http fetch GET 200 https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-0.3.1.tgz 1313ms (cache miss)
+779 timing reifyNode:node_modules/json-schema-traverse Completed in 1540ms
+780 http fetch GET 200 https://registry.npmjs.org/jsprim/-/jsprim-1.4.1.tgz 1325ms (cache miss)
+781 timing reifyNode:node_modules/jsprim Completed in 1542ms
+782 warn deprecated mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+783 timing reifyNode:node_modules/mkdirp Completed in 1545ms
+784 http fetch GET 200 https://registry.npmjs.org/object-inspect/-/object-inspect-1.6.0.tgz 1345ms (cache miss)
+785 http fetch GET 200 https://registry.npmjs.org/is-symbol/-/is-symbol-1.0.1.tgz 1311ms (cache miss)
+786 timing reifyNode:node_modules/is-symbol Completed in 1545ms
+787 timing reifyNode:node_modules/object-inspect Completed in 1553ms
+788 http fetch GET 200 https://registry.npmjs.org/is-string/-/is-string-1.0.4.tgz 1317ms (cache miss)
+789 timing reifyNode:node_modules/is-string Completed in 1552ms
+790 http fetch GET 200 https://registry.npmjs.org/mime-db/-/mime-db-1.35.0.tgz 1343ms (cache miss)
+791 timing reifyNode:node_modules/mime-db Completed in 1556ms
+792 http fetch GET 200 https://registry.npmjs.org/object.entries/-/object.entries-1.0.4.tgz 1364ms (cache miss)
+793 timing reifyNode:node_modules/object.entries Completed in 1565ms
+794 timing metavuln:cache:put:security-advisory:mocha:uu6fIZMwKRUwaqGrJbwPdyIqVeQTbad7PWghGZxZFoi76jfSBF//AFiU1YxuoRjJsP7CkYj5oO1Op10hVoRFCQ== Completed in 35ms
+795 timing metavuln:calculate:security-advisory:mocha:+PhhGcJymuV+5rvW81MCikyjMiTBQuLIQZOUvB89Mb8uk3Q8tDX1tf8ihGO4POtNtnBz09eROrGo7rpMSategw== Completed in 51ms
+796 timing metavuln:cache:put:security-advisory:mocha-multi:bgu39RcwmjHjNeto42pMJuxWaErBV/AytnkXDF0SOAvid6e4TuZgoKn7/czqLnipxGDAfR0ecJAJFPHGVQhn2g== Completed in 33ms
+797 timing metavuln:calculate:security-advisory:mocha-multi:+PhhGcJymuV+5rvW81MCikyjMiTBQuLIQZOUvB89Mb8uk3Q8tDX1tf8ihGO4POtNtnBz09eROrGo7rpMSategw== Completed in 51ms
+798 timing metavuln:packument:request Completed in 0ms
+799 timing metavuln:cache:get:security-advisory:request:2kXig9MIbz+orxhOUK79cJ0cvGS6uAx+MCp14+FHgq3SIXpkklLm+f1oKn1IiqqiGTAGLnd0GjKbH90AkkibCQ== Completed in 2ms
+800 timing metavuln:load:security-advisory:request:CgreuaHfcAU7CmEfD9OIaCVp8F8HOjHS+i9eecqipZ6j0oNyAMK7INynpzk+DNwSUXAO+ddjMbZgorVh3darKw== Completed in 4ms
+801 timing metavuln:cache:put:security-advisory:request:2kXig9MIbz+orxhOUK79cJ0cvGS6uAx+MCp14+FHgq3SIXpkklLm+f1oKn1IiqqiGTAGLnd0GjKbH90AkkibCQ== Completed in 14ms
+802 timing metavuln:calculate:security-advisory:request:CgreuaHfcAU7CmEfD9OIaCVp8F8HOjHS+i9eecqipZ6j0oNyAMK7INynpzk+DNwSUXAO+ddjMbZgorVh3darKw== Completed in 20ms
+803 timing metavuln:cache:get:security-advisory:mocha-multi:X1bzKIPr5lY2IH+ak/GqMN7olg/QfDPE/yQFCfPCTgKfUc/KVaK+tO2O/NaqZA7hRTDcxVB9EWSZoroNfFLjIA== Completed in 1ms
+804 timing metavuln:load:security-advisory:mocha-multi:v32z5yMcMwHLtAXMG/Z6loEFn3mA1tb+O64RdHeh9bA6YuRMk+P1fo1vrZBWWTIqm4mm1PNvNgs0KzQMikuDNA== Completed in 5ms
+805 timing metavuln:cache:get:security-advisory:mocha-jsdom:CQNgtyGu4xJOfMYipt3QCQ/SgXqQIk6AoYeWE9zKxaPIvvZXgiN0l1crloFEAUoURfwYyBXkrany9KXxJUHQKw== Completed in 7ms
+806 timing metavuln:load:security-advisory:mocha-jsdom:v32z5yMcMwHLtAXMG/Z6loEFn3mA1tb+O64RdHeh9bA6YuRMk+P1fo1vrZBWWTIqm4mm1PNvNgs0KzQMikuDNA== Completed in 0ms
+807 timing metavuln:cache:put:security-advisory:mocha-multi:X1bzKIPr5lY2IH+ak/GqMN7olg/QfDPE/yQFCfPCTgKfUc/KVaK+tO2O/NaqZA7hRTDcxVB9EWSZoroNfFLjIA== Completed in 26ms
+808 timing metavuln:calculate:security-advisory:mocha-multi:v32z5yMcMwHLtAXMG/Z6loEFn3mA1tb+O64RdHeh9bA6YuRMk+P1fo1vrZBWWTIqm4mm1PNvNgs0KzQMikuDNA== Completed in 32ms
+809 timing metavuln:cache:put:security-advisory:mocha-jsdom:CQNgtyGu4xJOfMYipt3QCQ/SgXqQIk6AoYeWE9zKxaPIvvZXgiN0l1crloFEAUoURfwYyBXkrany9KXxJUHQKw== Completed in 25ms
+810 timing metavuln:calculate:security-advisory:mocha-jsdom:v32z5yMcMwHLtAXMG/Z6loEFn3mA1tb+O64RdHeh9bA6YuRMk+P1fo1vrZBWWTIqm4mm1PNvNgs0KzQMikuDNA== Completed in 32ms
+811 timing metavuln:cache:get:security-advisory:jsdom:JTkWCqb8E/8AaRlmDHlK/EMXRmjrsS/K9U6yK62ex1x7wiJjLydTuQ0gIqe3/67Zj9Rm8ExUyRfigPQaOFdcHQ== Completed in 1ms
+812 timing metavuln:load:security-advisory:jsdom:2kXig9MIbz+orxhOUK79cJ0cvGS6uAx+MCp14+FHgq3SIXpkklLm+f1oKn1IiqqiGTAGLnd0GjKbH90AkkibCQ== Completed in 6ms
+813 http fetch GET 200 https://registry.npmjs.org/json-schema/-/json-schema-0.2.3.tgz 1412ms (cache miss)
+814 timing reifyNode:node_modules/json-schema Completed in 1640ms
+815 timing metavuln:cache:put:security-advisory:jsdom:JTkWCqb8E/8AaRlmDHlK/EMXRmjrsS/K9U6yK62ex1x7wiJjLydTuQ0gIqe3/67Zj9Rm8ExUyRfigPQaOFdcHQ== Completed in 18ms
+816 timing metavuln:calculate:security-advisory:jsdom:2kXig9MIbz+orxhOUK79cJ0cvGS6uAx+MCp14+FHgq3SIXpkklLm+f1oKn1IiqqiGTAGLnd0GjKbH90AkkibCQ== Completed in 25ms
+817 timing auditReport:init Completed in 1045ms
+818 timing reify:audit Completed in 1659ms
+819 http fetch GET 200 https://registry.npmjs.org/is-regex/-/is-regex-1.0.4.tgz 1414ms (cache miss)
+820 timing reifyNode:node_modules/is-regex Completed in 1651ms
+821 http fetch GET 200 https://registry.npmjs.org/is-buffer/-/is-buffer-2.0.4.tgz 1545ms (cache miss)
+822 timing reifyNode:node_modules/is-buffer Completed in 1800ms
+823 http fetch GET 200 https://registry.npmjs.org/is-number-object/-/is-number-object-1.0.3.tgz 1563ms (cache miss)
+824 timing reifyNode:node_modules/is-number-object Completed in 1801ms
+825 http fetch GET 200 https://registry.npmjs.org/is-date-object/-/is-date-object-1.0.1.tgz 1548ms (cache miss)
+826 timing reifyNode:node_modules/is-date-object Completed in 1801ms
+827 http fetch GET 200 https://registry.npmjs.org/is-boolean-object/-/is-boolean-object-1.0.0.tgz 1546ms (cache miss)
+828 timing reifyNode:node_modules/is-boolean-object Completed in 1803ms
+829 http fetch GET 200 https://registry.npmjs.org/has-symbols/-/has-symbols-1.0.0.tgz 1556ms (cache miss)
+830 http fetch GET 200 https://registry.npmjs.org/har-validator/-/har-validator-5.0.3.tgz 1555ms (cache miss)
+831 warn deprecated har-validator@5.0.3: this library is no longer supported
+832 timing reifyNode:node_modules/har-validator Completed in 1818ms
+833 http fetch GET 200 https://registry.npmjs.org/is-callable/-/is-callable-1.1.4.tgz 1571ms (cache miss)
+834 timing reifyNode:node_modules/is-callable Completed in 1825ms
+835 timing reifyNode:node_modules/has-symbols Completed in 1821ms
+836 http fetch GET 200 https://registry.npmjs.org/foreach/-/foreach-2.0.5.tgz 1553ms (cache miss)
+837 timing reifyNode:node_modules/foreach Completed in 1824ms
+838 http fetch GET 200 https://registry.npmjs.org/flat/-/flat-4.1.0.tgz 1553ms (cache miss)
+839 warn deprecated flat@4.1.0: Fixed a prototype pollution security issue in 4.1.0, please upgrade to ^4.1.1 or ^5.0.1.
+840 timing reifyNode:node_modules/flat Completed in 1825ms
+841 http fetch GET 200 https://registry.npmjs.org/is-generator-function/-/is-generator-function-1.0.7.tgz 1594ms (cache miss)
+842 http fetch GET 200 https://registry.npmjs.org/form-data/-/form-data-2.3.2.tgz 1561ms (cache miss)
+843 timing reifyNode:node_modules/form-data Completed in 1829ms
+844 timing reifyNode:node_modules/is-generator-function Completed in 1836ms
+845 http fetch GET 200 https://registry.npmjs.org/fast-json-stable-stringify/-/fast-json-stable-stringify-2.0.0.tgz 1549ms (cache miss)
+846 http fetch GET 200 https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-1.1.0.tgz 1546ms (cache miss)
+847 timing reifyNode:node_modules/fast-deep-equal Completed in 1842ms
+848 timing reifyNode:node_modules/fast-json-stable-stringify Completed in 1842ms
+849 http fetch GET 200 https://registry.npmjs.org/is-equal/-/is-equal-1.5.5.tgz 1598ms (cache miss)
+850 timing reifyNode:node_modules/is-equal Completed in 1850ms
+851 http fetch GET 200 https://registry.npmjs.org/mocha/-/mocha-6.2.2.tgz 1672ms (cache miss)
+852 timing reifyNode:node_modules/mocha Completed in 1881ms
+853 http fetch GET 200 https://registry.npmjs.org/estraverse/-/estraverse-4.2.0.tgz 1726ms (cache miss)
+854 timing reifyNode:node_modules/estraverse Completed in 2042ms
+855 http fetch GET 200 https://registry.npmjs.org/esutils/-/esutils-2.0.2.tgz 1764ms (cache miss)
+856 timing reifyNode:node_modules/esutils Completed in 2074ms
+857 http fetch GET 200 https://registry.npmjs.org/extended-emitter/-/extended-emitter-1.0.2.tgz 1771ms (cache miss)
+858 timing reifyNode:node_modules/extended-emitter Completed in 2074ms
+859 http fetch GET 200 https://registry.npmjs.org/escodegen/-/escodegen-1.11.0.tgz 1763ms (cache miss)
+860 timing reifyNode:node_modules/escodegen Completed in 2083ms
+861 http fetch GET 200 https://registry.npmjs.org/es-to-primitive/-/es-to-primitive-1.1.1.tgz 1766ms (cache miss)
+862 timing reifyNode:node_modules/es-to-primitive Completed in 2103ms
+863 http fetch GET 200 https://registry.npmjs.org/deep-is/-/deep-is-0.1.3.tgz 1785ms (cache miss)
+864 timing reifyNode:node_modules/deep-is Completed in 2114ms
+865 http fetch GET 200 https://registry.npmjs.org/define-properties/-/define-properties-1.1.2.tgz 1794ms (cache miss)
+866 timing reifyNode:node_modules/define-properties Completed in 2122ms
+867 http fetch GET 200 https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.0.tgz 1816ms (cache miss)
+868 timing reifyNode:node_modules/balanced-match Completed in 2163ms
+869 http fetch GET 200 https://registry.npmjs.org/co/-/co-4.6.0.tgz 1824ms (cache miss)
+870 timing reifyNode:node_modules/co Completed in 2164ms
+871 http fetch GET 200 https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.6.tgz 1831ms (cache miss)
+872 timing reifyNode:node_modules/combined-stream Completed in 2168ms
+873 http fetch GET 200 https://registry.npmjs.org/asn1/-/asn1-0.2.4.tgz 1810ms (cache miss)
+874 timing reifyNode:node_modules/asn1 Completed in 2171ms
+875 http fetch GET 200 https://registry.npmjs.org/aws4/-/aws4-1.8.0.tgz 1826ms (cache miss)
+876 timing reifyNode:node_modules/aws4 Completed in 2173ms
+877 http fetch GET 200 https://registry.npmjs.org/esprima/-/esprima-3.1.3.tgz 1858ms (cache miss)
+878 timing reifyNode:node_modules/esprima Completed in 2177ms
+879 http fetch GET 200 https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.19.tgz 1933ms (cache miss)
+880 timing reifyNode:node_modules/iconv-lite Completed in 2189ms
+881 http fetch GET 200 https://registry.npmjs.org/cssom/-/cssom-0.3.4.tgz 1864ms (cache miss)
+882 timing reifyNode:node_modules/cssom Completed in 2198ms
+883 http fetch GET 200 https://registry.npmjs.org/ansi-regex/-/ansi-regex-3.0.0.tgz 1843ms (cache miss)
+884 timing reifyNode:node_modules/ansi-regex Completed in 2205ms
+885 http fetch GET 200 https://registry.npmjs.org/es6-promise/-/es6-promise-4.2.4.tgz 1890ms (cache miss)
+886 timing reifyNode:node_modules/es6-promise Completed in 2211ms
+887 http fetch GET 200 https://registry.npmjs.org/es-abstract/-/es-abstract-1.12.0.tgz 1889ms (cache miss)
+888 timing reifyNode:node_modules/es-abstract Completed in 2212ms
+889 timing reifyNode:node_modules/lodash Completed in 2283ms
+890 http fetch GET 200 https://registry.npmjs.org/ansi-regex/-/ansi-regex-4.1.0.tgz 2073ms (cache miss)
+891 timing reifyNode:node_modules/wrap-ansi/node_modules/ansi-regex Completed in 2466ms
+892 http fetch GET 200 https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.6.0.tgz 2313ms (cache miss)
+893 timing reifyNode:node_modules/tunnel-agent Completed in 2467ms
+894 http fetch GET 200 https://registry.npmjs.org/whatwg-url/-/whatwg-url-4.8.0.tgz 2322ms (cache miss)
+895 timing reifyNode:node_modules/whatwg-url Completed in 2469ms
+896 http fetch GET 200 https://registry.npmjs.org/ansi-regex/-/ansi-regex-4.1.0.tgz 2072ms (cache miss)
+897 timing reifyNode:node_modules/cliui/node_modules/ansi-regex Completed in 2455ms
+898 http fetch GET 200 https://registry.npmjs.org/ansi-regex/-/ansi-regex-4.1.0.tgz 2071ms (cache miss)
+899 timing reifyNode:node_modules/yargs/node_modules/ansi-regex Completed in 2471ms
+900 http fetch GET 200 https://registry.npmjs.org/xml-name-validator/-/xml-name-validator-2.0.1.tgz 2331ms (cache miss)
+901 timing reifyNode:node_modules/xml-name-validator Completed in 2473ms
+902 http fetch GET 200 https://registry.npmjs.org/which-module/-/which-module-2.0.0.tgz 2327ms (cache miss)
+903 timing reifyNode:node_modules/which-module Completed in 2472ms
+904 http fetch GET 200 https://registry.npmjs.org/type-check/-/type-check-0.3.2.tgz 2322ms (cache miss)
+905 timing reifyNode:node_modules/type-check Completed in 2473ms
+906 http fetch GET 200 https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz 2333ms (cache miss)
+907 timing reifyNode:node_modules/wrappy Completed in 2475ms
+908 http fetch GET 200 https://registry.npmjs.org/type-detect/-/type-detect-1.0.0.tgz 2324ms (cache miss)
+909 timing reifyNode:node_modules/type-detect Completed in 2475ms
+910 http fetch GET 200 https://registry.npmjs.org/verror/-/verror-1.10.0.tgz 2327ms (cache miss)
+911 timing reifyNode:node_modules/verror Completed in 2476ms
+912 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-4.1.1.tgz 2091ms (cache miss)
+913 warn deprecated debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+914 timing reifyNode:node_modules/mocha-multi/node_modules/debug Completed in 2483ms
+915 http fetch GET 200 https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.3.4.tgz 2098ms (cache miss)
+916 timing reifyNode:node_modules/request/node_modules/tough-cookie Completed in 2489ms
+917 http fetch GET 200 https://registry.npmjs.org/tmatch/-/tmatch-2.0.1.tgz 2335ms (cache miss)
+918 timing reifyNode:node_modules/tmatch Completed in 2493ms
+919 http fetch GET 200 https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz 2449ms (cache miss)
+920 timing reifyNode:node_modules/tr46 Completed in 2605ms
+921 http fetch GET 200 https://registry.npmjs.org/strip-ansi/-/strip-ansi-4.0.0.tgz 2444ms (cache miss)
+922 timing reifyNode:node_modules/strip-ansi Completed in 2604ms
+923 http fetch GET 200 https://registry.npmjs.org/set-blocking/-/set-blocking-2.0.0.tgz 2457ms (cache miss)
+924 timing reifyNode:node_modules/set-blocking Completed in 2628ms
+925 http fetch GET 200 https://registry.npmjs.org/readdir-enhanced/-/readdir-enhanced-1.5.2.tgz 2504ms (cache miss)
+926 http fetch GET 200 https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-2.0.1.tgz 2527ms (cache miss)
+927 timing reifyNode:node_modules/strip-json-comments Completed in 2688ms
+928 http fetch GET 200 https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz 2493ms (cache miss)
+929 timing reifyNode:node_modules/path-is-absolute Completed in 2685ms
+930 timing reifyNode:node_modules/readdir-enhanced Completed in 2690ms
+931 http fetch GET 200 https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.1.2.tgz 2512ms (cache miss)
+932 timing reifyNode:node_modules/prelude-ls Completed in 2690ms
+933 http fetch GET 200 https://registry.npmjs.org/once/-/once-1.4.0.tgz 2505ms (cache miss)
+934 timing reifyNode:node_modules/once Completed in 2704ms
+935 http fetch GET 200 https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz 2500ms (cache miss)
+936 timing reifyNode:node_modules/object-assign Completed in 2703ms
+937 http fetch GET 200 https://registry.npmjs.org/tweetnacl/-/tweetnacl-0.14.5.tgz 2558ms (cache miss)
+938 timing reifyNode:node_modules/tweetnacl Completed in 2711ms
+939 http fetch GET 200 https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz 2542ms (cache miss)
+940 timing reifyNode:node_modules/sprintf-js Completed in 2711ms
+941 http fetch GET 200 https://registry.npmjs.org/performance-now/-/performance-now-2.1.0.tgz 2518ms (cache miss)
+942 http fetch GET 200 https://registry.npmjs.org/lodash.once/-/lodash.once-4.1.1.tgz 2497ms (cache miss)
+943 timing reifyNode:node_modules/lodash.once Completed in 2711ms
+944 http fetch GET 200 https://registry.npmjs.org/mocha-jsdom/-/mocha-jsdom-1.1.0.tgz 2507ms (cache miss)
+945 timing reifyNode:node_modules/performance-now Completed in 2716ms
+946 http fetch GET 200 https://registry.npmjs.org/levn/-/levn-0.3.0.tgz 2498ms (cache miss)
+947 timing reifyNode:node_modules/levn Completed in 2715ms
+948 http fetch GET 200 https://registry.npmjs.org/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz 2496ms (cache miss)
+949 timing reifyNode:node_modules/json-stringify-safe Completed in 2715ms
+950 timing reifyNode:node_modules/mocha-jsdom Completed in 2728ms
+951 http fetch GET 200 https://registry.npmjs.org/jsbn/-/jsbn-0.1.1.tgz 2557ms (cache miss)
+952 timing reifyNode:node_modules/jsbn Completed in 2787ms
+953 http fetch GET 200 https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz 2826ms (cache miss)
+954 timing reifyNode:node_modules/inflight Completed in 3085ms
+955 http fetch GET 200 https://registry.npmjs.org/parse5/-/parse5-1.5.1.tgz 2896ms (cache miss)
+956 timing reifyNode:node_modules/parse5 Completed in 3092ms
+957 http fetch GET 200 https://registry.npmjs.org/is-typedarray/-/is-typedarray-1.0.0.tgz 2860ms (cache miss)
+958 timing reifyNode:node_modules/is-typedarray Completed in 3094ms
+959 http fetch GET 200 https://registry.npmjs.org/has-flag/-/has-flag-3.0.0.tgz 2830ms (cache miss)
+960 timing reifyNode:node_modules/has-flag Completed in 3090ms
+961 http fetch GET 200 https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz 2865ms (cache miss)
+962 timing reifyNode:node_modules/isexe Completed in 3096ms
+963 http fetch GET 200 https://registry.npmjs.org/isstream/-/isstream-0.1.2.tgz 2866ms (cache miss)
+964 timing reifyNode:node_modules/isstream Completed in 3097ms
+965 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-2.0.0.tgz 2858ms (cache miss)
+966 timing reifyNode:node_modules/is-fullwidth-code-point Completed in 3096ms
+967 http fetch GET 200 https://registry.npmjs.org/http-signature/-/http-signature-1.2.0.tgz 2835ms (cache miss)
+968 timing reifyNode:node_modules/http-signature Completed in 3095ms
+969 http fetch GET 200 https://registry.npmjs.org/is-arrow-function/-/is-arrow-function-2.0.3.tgz 2842ms (cache miss)
+970 timing reifyNode:node_modules/is-arrow-function Completed in 3100ms
+971 http fetch GET 200 https://registry.npmjs.org/getpass/-/getpass-0.1.7.tgz 2830ms (cache miss)
+972 timing reifyNode:node_modules/getpass Completed in 3097ms
+973 http fetch GET 200 https://registry.npmjs.org/har-schema/-/har-schema-2.0.0.tgz 2835ms (cache miss)
+974 http fetch GET 200 https://registry.npmjs.org/glob-to-regexp/-/glob-to-regexp-0.3.0.tgz 2835ms (cache miss)
+975 timing reifyNode:node_modules/glob-to-regexp Completed in 3099ms
+976 http fetch GET 200 https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz 2835ms (cache miss)
+977 timing reifyNode:node_modules/fs.realpath Completed in 3101ms
+978 timing reifyNode:node_modules/har-schema Completed in 3108ms
+979 http fetch GET 200 https://registry.npmjs.org/forever-agent/-/forever-agent-0.6.1.tgz 2839ms (cache miss)
+980 timing reifyNode:node_modules/forever-agent Completed in 3108ms
+981 http fetch GET 200 https://registry.npmjs.org/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz 2885ms (cache miss)
+982 timing reifyNode:node_modules/fast-levenshtein Completed in 3158ms
+983 http fetch GET 200 https://registry.npmjs.org/jsdom/-/jsdom-9.12.0.tgz 2987ms (cache miss)
+984 timing reifyNode:node_modules/jsdom Completed in 3216ms
+985 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz 3110ms (cache miss)
+986 timing reifyNode:node_modules/escape-string-regexp Completed in 3430ms
+987 http fetch GET 200 https://registry.npmjs.org/require-directory/-/require-directory-2.1.1.tgz 3269ms (cache miss)
+988 timing reifyNode:node_modules/require-directory Completed in 3442ms
+989 http fetch GET 200 https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz 3100ms (cache miss)
+990 timing reifyNode:node_modules/core-util-is Completed in 3435ms
+991 http fetch GET 200 https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz 3111ms (cache miss)
+992 timing reifyNode:node_modules/delayed-stream Completed in 3437ms
+993 http fetch GET 200 https://registry.npmjs.org/decamelize/-/decamelize-1.2.0.tgz 3108ms (cache miss)
+994 timing reifyNode:node_modules/decamelize Completed in 3439ms
+995 http fetch GET 200 https://registry.npmjs.org/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz 3115ms (cache miss)
+996 timing reifyNode:node_modules/ecc-jsbn Completed in 3440ms
+997 http fetch GET 200 https://registry.npmjs.org/extsprintf/-/extsprintf-1.3.0.tgz 3142ms (cache miss)
+998 timing reifyNode:node_modules/extsprintf Completed in 3442ms
+999 http fetch GET 200 https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz 3105ms (cache miss)
+1000 timing reifyNode:node_modules/concat-map Completed in 3442ms
+1001 http fetch GET 200 https://registry.npmjs.org/deep-eql/-/deep-eql-0.1.3.tgz 3113ms (cache miss)
+1002 timing reifyNode:node_modules/deep-eql Completed in 3444ms
+1003 http fetch GET 200 https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz 3105ms (cache miss)
+1004 timing reifyNode:node_modules/color-name Completed in 3443ms
+1005 http fetch GET 200 https://registry.npmjs.org/expect/-/expect-1.20.2.tgz 3146ms (cache miss)
+1006 timing reifyNode:node_modules/expect Completed in 3457ms
+1007 http fetch GET 200 https://registry.npmjs.org/chai-fs/-/chai-fs-2.0.0.tgz 3126ms (cache miss)
+1008 timing reifyNode:node_modules/chai-fs Completed in 3468ms
+1009 http fetch GET 200 https://registry.npmjs.org/caseless/-/caseless-0.12.0.tgz 3195ms (cache miss)
+1010 timing reifyNode:node_modules/caseless Completed in 3537ms
+1011 http fetch GET 200 https://registry.npmjs.org/aws-sign2/-/aws-sign2-0.7.0.tgz 3189ms (cache miss)
+1012 timing reifyNode:node_modules/aws-sign2 Completed in 3538ms
+1013 http fetch GET 200 https://registry.npmjs.org/async-arrays/-/async-arrays-1.0.1.tgz 3188ms (cache miss)
+1014 timing reifyNode:node_modules/async-arrays Completed in 3539ms
+1015 http fetch GET 200 https://registry.npmjs.org/call-me-maybe/-/call-me-maybe-1.0.1.tgz 3196ms (cache miss)
+1016 timing reifyNode:node_modules/call-me-maybe Completed in 3541ms
+1017 http fetch GET 200 https://registry.npmjs.org/assert-plus/-/assert-plus-1.0.0.tgz 3193ms (cache miss)
+1018 timing reifyNode:node_modules/assert-plus Completed in 3545ms
+1019 http fetch GET 200 https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz 3196ms (cache miss)
+1020 http fetch GET 200 https://registry.npmjs.org/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.2.tgz 3204ms (cache miss)
+1021 timing reifyNode:node_modules/bcrypt-pbkdf Completed in 3549ms
+1022 http fetch GET 200 https://registry.npmjs.org/array-events/-/array-events-0.2.0.tgz 3189ms (cache miss)
+1023 timing reifyNode:node_modules/array-events Completed in 3550ms
+1024 timing reifyNode:node_modules/asynckit Completed in 3557ms
+1025 http fetch GET 200 https://registry.npmjs.org/chai/-/chai-3.5.0.tgz 3225ms (cache miss)
+1026 http fetch GET 200 https://registry.npmjs.org/array-equal/-/array-equal-1.0.0.tgz 3205ms (cache miss)
+1027 timing reifyNode:node_modules/array-equal Completed in 3566ms
+1028 timing reifyNode:node_modules/chai Completed in 3567ms
+1029 http fetch GET 200 https://registry.npmjs.org/ajv/-/ajv-5.5.2.tgz 3246ms (cache miss)
+1030 timing reifyNode:node_modules/ajv Completed in 3617ms
+1031 http fetch GET 200 https://registry.npmjs.org/acorn-globals/-/acorn-globals-3.1.0.tgz 3267ms (cache miss)
+1032 timing reifyNode:node_modules/acorn-globals Completed in 3631ms
+1033 http fetch GET 200 https://registry.npmjs.org/abab/-/abab-1.0.4.tgz 3259ms (cache miss)
+1034 timing reifyNode:node_modules/abab Completed in 3632ms
+1035 http fetch GET 200 https://registry.npmjs.org/type-detect/-/type-detect-0.1.1.tgz 3253ms (cache miss)
+1036 timing reifyNode:node_modules/deep-eql/node_modules/type-detect Completed in 3636ms
+1037 http fetch GET 200 https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz 3264ms (cache miss)
+1038 timing reifyNode:node_modules/whatwg-url/node_modules/webidl-conversions Completed in 3657ms
+1039 http fetch GET 200 https://registry.npmjs.org/path-exists/-/path-exists-3.0.0.tgz 3478ms (cache miss)
+1040 timing reifyNode:node_modules/path-exists Completed in 3671ms
+1041 http fetch GET 200 https://registry.npmjs.org/dashdash/-/dashdash-1.14.1.tgz 3328ms (cache miss)
+1042 timing reifyNode:node_modules/dashdash Completed in 3660ms
+1043 http fetch GET 200 https://registry.npmjs.org/acorn/-/acorn-4.0.13.tgz 3343ms (cache miss)
+1044 timing reifyNode:node_modules/acorn Completed in 3715ms
+1045 http fetch GET 200 https://registry.npmjs.org/cssstyle/-/cssstyle-0.2.37.tgz 3414ms (cache miss)
+1046 timing reifyNode:node_modules/cssstyle Completed in 3748ms
+1047 timing reify:unpack Completed in 3765ms
+1048 timing reify:unretire Completed in 0ms
+1049 timing build:queue Completed in 12ms
+1050 timing build:link:node_modules/acorn Completed in 13ms
+1051 timing build:link:node_modules/esprima Completed in 13ms
+1052 timing build:link:node_modules/flat Completed in 13ms
+1053 timing build:link:node_modules/he Completed in 12ms
+1054 timing build:link:node_modules/js-yaml Completed in 12ms
+1055 timing build:link:node_modules/mkdirp Completed in 12ms
+1056 timing build:link:node_modules/escodegen Completed in 13ms
+1057 timing build:link:node_modules/mocha Completed in 12ms
+1058 timing build:link:node_modules/semver Completed in 12ms
+1059 timing build:link:node_modules/which Completed in 11ms
+1060 timing build:link:node_modules/uuid Completed in 11ms
+1061 timing build:link:node_modules/sshpk Completed in 11ms
+1062 timing build:link:node_modules/js-yaml/node_modules/esprima Completed in 11ms
+1063 timing build:link Completed in 14ms
+1064 timing build:deps Completed in 26ms
+1065 timing build Completed in 26ms
+1066 timing reify:build Completed in 27ms
+1067 timing reify:trash Completed in 0ms
+1068 timing reify:save Completed in 48ms
+1069 timing reify Completed in 37868ms
+1070 silly ADD node_modules/yargs-unparser
+1071 silly ADD node_modules/yargs-parser
+1072 silly ADD node_modules/yargs
+1073 silly ADD node_modules/yargs/node_modules/strip-ansi
+1074 silly ADD node_modules/yargs/node_modules/string-width
+1075 silly ADD node_modules/yargs/node_modules/ansi-regex
+1076 silly ADD node_modules/y18n
+1077 silly ADD node_modules/xml-name-validator
+1078 silly ADD node_modules/wrappy
+1079 silly ADD node_modules/wrap-ansi
+1080 silly ADD node_modules/wrap-ansi/node_modules/strip-ansi
+1081 silly ADD node_modules/wrap-ansi/node_modules/string-width
+1082 silly ADD node_modules/wrap-ansi/node_modules/ansi-regex
+1083 silly ADD node_modules/wordwrap
+1084 silly ADD node_modules/wolfy87-eventemitter
+1085 silly ADD node_modules/wide-align
+1086 silly ADD node_modules/which-module
+1087 silly ADD node_modules/which
+1088 silly ADD node_modules/whatwg-url
+1089 silly ADD node_modules/whatwg-url/node_modules/webidl-conversions
+1090 silly ADD node_modules/whatwg-encoding
+1091 silly ADD node_modules/webidl-conversions
+1092 silly ADD node_modules/verror
+1093 silly ADD node_modules/uuid
+1094 silly ADD node_modules/type-detect
+1095 silly ADD node_modules/type-check
+1096 silly ADD node_modules/tweetnacl
+1097 silly ADD node_modules/tunnel-agent
+1098 silly ADD node_modules/tr46
+1099 silly ADD node_modules/tough-cookie
+1100 silly ADD node_modules/tmatch
+1101 silly ADD node_modules/symbol-tree
+1102 silly ADD node_modules/supports-color
+1103 silly ADD node_modules/strip-json-comments
+1104 silly ADD node_modules/strip-ansi
+1105 silly ADD node_modules/string-width
+1106 silly ADD node_modules/sshpk
+1107 silly ADD node_modules/sprintf-js
+1108 silly ADD node_modules/sift
+1109 silly ADD node_modules/set-blocking
+1110 silly ADD node_modules/semver
+1111 silly ADD node_modules/sax
+1112 silly ADD node_modules/safer-buffer
+1113 silly ADD node_modules/safe-buffer
+1114 silly ADD node_modules/require-main-filename
+1115 silly ADD node_modules/require-directory
+1116 silly ADD node_modules/request
+1117 silly ADD node_modules/request/node_modules/tough-cookie
+1118 silly ADD node_modules/readdir-enhanced
+1119 silly ADD node_modules/qs
+1120 silly ADD node_modules/punycode
+1121 silly ADD node_modules/psl
+1122 silly ADD node_modules/prelude-ls
+1123 silly ADD node_modules/performance-now
+1124 silly ADD node_modules/path-is-absolute
+1125 silly ADD node_modules/path-exists
+1126 silly ADD node_modules/parse5
+1127 silly ADD node_modules/p-try
+1128 silly ADD node_modules/p-locate
+1129 silly ADD node_modules/p-limit
+1130 silly ADD node_modules/optionator
+1131 silly ADD node_modules/once
+1132 silly ADD node_modules/object.getownpropertydescriptors
+1133 silly ADD node_modules/object.entries
+1134 silly ADD node_modules/object.assign
+1135 silly ADD node_modules/object-keys
+1136 silly ADD node_modules/object-inspect
+1137 silly ADD node_modules/object-assign
+1138 silly ADD node_modules/oauth-sign
+1139 silly ADD node_modules/nwmatcher
+1140 silly ADD node_modules/node-environment-flags
+1141 silly ADD node_modules/ms
+1142 silly ADD node_modules/mocha-multi
+1143 silly ADD node_modules/mocha-multi/node_modules/debug
+1144 silly ADD node_modules/mocha-jsdom
+1145 silly ADD node_modules/mocha
+1146 silly ADD node_modules/mkdirp
+1147 silly ADD node_modules/minimist
+1148 silly ADD node_modules/minimatch
+1149 silly ADD node_modules/mime-types
+1150 silly ADD node_modules/mime-db
+1151 silly ADD node_modules/log-symbols
+1152 silly ADD node_modules/lodash.once
+1153 silly ADD node_modules/lodash
+1154 silly ADD node_modules/locate-path
+1155 silly ADD node_modules/levn
+1156 silly ADD node_modules/jsprim
+1157 silly ADD node_modules/json-stringify-safe
+1158 silly ADD node_modules/json-schema-traverse
+1159 silly ADD node_modules/json-schema
+1160 silly ADD node_modules/jsdom
+1161 silly ADD node_modules/jsbn
+1162 silly ADD node_modules/js-yaml
+1163 silly ADD node_modules/js-yaml/node_modules/esprima
+1164 silly ADD node_modules/isstream
+1165 silly ADD node_modules/isexe
+1166 silly ADD node_modules/is-typedarray
+1167 silly ADD node_modules/is-symbol
+1168 silly ADD node_modules/is-string
+1169 silly ADD node_modules/is-regex
+1170 silly ADD node_modules/is-number-object
+1171 silly ADD node_modules/is-generator-function
+1172 silly ADD node_modules/is-fullwidth-code-point
+1173 silly ADD node_modules/is-equal
+1174 silly ADD node_modules/is-date-object
+1175 silly ADD node_modules/is-callable
+1176 silly ADD node_modules/is-buffer
+1177 silly ADD node_modules/is-boolean-object
+1178 silly ADD node_modules/is-arrow-function
+1179 silly ADD node_modules/inherits
+1180 silly ADD node_modules/inflight
+1181 silly ADD node_modules/iconv-lite
+1182 silly ADD node_modules/http-signature
+1183 silly ADD node_modules/html-encoding-sniffer
+1184 silly ADD node_modules/he
+1185 silly ADD node_modules/has-symbols
+1186 silly ADD node_modules/has-flag
+1187 silly ADD node_modules/has
+1188 silly ADD node_modules/har-validator
+1189 silly ADD node_modules/har-schema
+1190 silly ADD node_modules/growl
+1191 silly ADD node_modules/glob-to-regexp
+1192 silly ADD node_modules/glob
+1193 silly ADD node_modules/getpass
+1194 silly ADD node_modules/get-caller-file
+1195 silly ADD node_modules/function-bind
+1196 silly ADD node_modules/fs.realpath
+1197 silly ADD node_modules/form-data
+1198 silly ADD node_modules/forever-agent
+1199 silly ADD node_modules/foreach
+1200 silly ADD node_modules/flat
+1201 silly ADD node_modules/find-up
+1202 silly ADD node_modules/fast-levenshtein
+1203 silly ADD node_modules/fast-json-stable-stringify
+1204 silly ADD node_modules/fast-deep-equal
+1205 silly ADD node_modules/extsprintf
+1206 silly ADD node_modules/extended-emitter
+1207 silly ADD node_modules/extend
+1208 silly ADD node_modules/expect
+1209 silly ADD node_modules/esutils
+1210 silly ADD node_modules/estraverse
+1211 silly ADD node_modules/esprima
+1212 silly ADD node_modules/escodegen
+1213 silly ADD node_modules/escodegen/node_modules/source-map
+1214 silly ADD node_modules/escape-string-regexp
+1215 silly ADD node_modules/es6-promise
+1216 silly ADD node_modules/es-to-primitive
+1217 silly ADD node_modules/es-abstract
+1218 silly ADD node_modules/emoji-regex
+1219 silly ADD node_modules/ecc-jsbn
+1220 silly ADD node_modules/diff
+1221 silly ADD node_modules/delayed-stream
+1222 silly ADD node_modules/define-properties
+1223 silly ADD node_modules/deep-is
+1224 silly ADD node_modules/deep-eql
+1225 silly ADD node_modules/deep-eql/node_modules/type-detect
+1226 silly ADD node_modules/decamelize
+1227 silly ADD node_modules/debug
+1228 silly ADD node_modules/dashdash
+1229 silly ADD node_modules/cssstyle
+1230 silly ADD node_modules/cssom
+1231 silly ADD node_modules/core-util-is
+1232 silly ADD node_modules/content-type-parser
+1233 silly ADD node_modules/concat-map
+1234 silly ADD node_modules/combined-stream
+1235 silly ADD node_modules/color-name
+1236 silly ADD node_modules/color-convert
+1237 silly ADD node_modules/co
+1238 silly ADD node_modules/cliui
+1239 silly ADD node_modules/cliui/node_modules/strip-ansi
+1240 silly ADD node_modules/cliui/node_modules/string-width
+1241 silly ADD node_modules/cliui/node_modules/ansi-regex
+1242 silly ADD node_modules/chalk
+1243 silly ADD node_modules/chalk/node_modules/supports-color
+1244 silly ADD node_modules/chai-fs
+1245 silly ADD node_modules/chai
+1246 silly ADD node_modules/caseless
+1247 silly ADD node_modules/camelcase
+1248 silly ADD node_modules/call-me-maybe
+1249 silly ADD node_modules/browser-stdout
+1250 silly ADD node_modules/brace-expansion
+1251 silly ADD node_modules/bit-mask
+1252 silly ADD node_modules/bcrypt-pbkdf
+1253 silly ADD node_modules/balanced-match
+1254 silly ADD node_modules/aws4
+1255 silly ADD node_modules/aws-sign2
+1256 silly ADD node_modules/asynckit
+1257 silly ADD node_modules/async-arrays
+1258 silly ADD node_modules/assertion-error
+1259 silly ADD node_modules/assert-plus
+1260 silly ADD node_modules/asn1
+1261 silly ADD node_modules/array-events
+1262 silly ADD node_modules/array-equal
+1263 silly ADD node_modules/argparse
+1264 silly ADD node_modules/ansi-styles
+1265 silly ADD node_modules/ansi-regex
+1266 silly ADD node_modules/ansi-colors
+1267 silly ADD node_modules/ajv
+1268 silly ADD node_modules/acorn-globals
+1269 silly ADD node_modules/acorn
+1270 silly ADD node_modules/abab
+1271 timing command:install Completed in 37892ms
+1272 verbose exit 0
+1273 timing npm Completed in 37998ms
+1274 info ok
