@@ -52,3 +52,6 @@
 [2022-08-04 10:50:39.043] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/mash/phase-0-completing-assignments-learn-lab-gem/.github' is in submodule 'phase-0-completing-assignments-learn-lab-gem'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
 [2022-08-04 10:50:39.043] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/mash/phase-0-completing-assignments-learn-lab-gem/.github' is in submodule 'phase-0-completing-assignments-learn-lab-gem'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
 [2022-08-04 10:50:39.043] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/mash/phase-0-completing-assignments-learn-lab-gem/.github' is in submodule 'phase-0-completing-assignments-learn-lab-gem'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-04 13:33:59.935] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-04 13:33:59.938] [exthost] [info] Lock '/home/mash/.vscode-server/data/User/workspaceStorage/5d90bb51b3f730da09f617fe00b4df66/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-08-04 13:34:00.145] [exthost] [info] Extension host with pid 1697 exiting with code 0

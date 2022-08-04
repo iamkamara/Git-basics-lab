@@ -147,3 +147,13 @@ ls-a
 git add .
 git commit -m"completed assignment"
 git push
+cd phase-0-html-link-tag-with-href:master
+rspec
+explorer.exe index.html
+\\wsl$
+/home/<mash>/
+git add .
+git commit -m "Completed assignment"
+git push
+npm test
+git submodule add <url> phase-0-html-link-tag-with-href
