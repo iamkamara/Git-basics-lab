@@ -30,3 +30,24 @@
 [2022-08-01 23:19:49.082] [remoteagent] [info] [127.0.0.1][9b8e1abf][ManagementConnection] New connection established.
 [2022-08-01 23:19:50.164] [remoteagent] [info] [127.0.0.1][ab6875d7][ExtensionHostConnection] New connection established.
 [2022-08-01 23:19:50.172] [remoteagent] [info] [127.0.0.1][ab6875d7][ExtensionHostConnection] <9011> Launched Extension Host Process.
+[2022-08-02 02:22:44.577] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-08-02 05:00:52.251] [remoteagent] [info] [127.0.0.1][9b8e1abf][ManagementConnection] The client has reconnected.
+[2022-08-02 05:00:52.410] [remoteagent] [info] [127.0.0.1][ab6875d7][ExtensionHostConnection] The client has reconnected.
+[2022-08-02 06:04:39.484] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-08-02 07:11:52.325] [remoteagent] [info] [127.0.0.1][9b8e1abf][ManagementConnection] The client has reconnected.
+[2022-08-02 07:11:52.467] [remoteagent] [info] [127.0.0.1][ab6875d7][ExtensionHostConnection] The client has reconnected.
+[2022-08-02 08:18:55.063] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-08-02 08:48:27.549] [remoteagent] [info] [127.0.0.1][9b8e1abf][ManagementConnection] The client has reconnected.
+[2022-08-02 08:48:27.771] [remoteagent] [info] [127.0.0.1][ab6875d7][ExtensionHostConnection] The client has reconnected.
+[2022-08-02 14:10:24.136] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-08-02 14:10:39.487] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-08-02 19:50:10.054] [remoteagent] [info] [127.0.0.1][ab6875d7][ExtensionHostConnection] The client has reconnected.
+[2022-08-02 19:50:10.453] [remoteagent] [info] [127.0.0.1][9b8e1abf][ManagementConnection] The client has reconnected.
+[2022-08-02 21:02:58.662] [remoteagent] [info] [127.0.0.1][ab6875d7][ExtensionHostConnection] <9011> [0mGET /favicon.ico [33m404[0m 11.036 ms - 150[0m
+
+[2022-08-03 03:03:53.215] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-08-03 03:04:09.913] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-08-03 10:01:50.883] [remoteagent] [info] [127.0.0.1][9b8e1abf][ManagementConnection] The client has reconnected.
+[2022-08-03 10:01:51.459] [remoteagent] [info] [127.0.0.1][ab6875d7][ExtensionHostConnection] The client has reconnected.
+[2022-08-04 01:17:29.713] [remoteagent] [info] [127.0.0.1][9b8e1abf][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-08-04 01:17:30.161] [remoteagent] [info] [127.0.0.1][ab6875d7][ExtensionHostConnection] <9011> Extension Host Process exited with code: 0, signal: null.

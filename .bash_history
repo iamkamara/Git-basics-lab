@@ -112,3 +112,38 @@ touch my_list.txt
 code my_list.txt
 my_list.html
 touch my_list.html
+git clone
+git clone git@github.com:iamkamara/phase-0-html-document-structure-lab.git
+npm install
+npm test
+bundle
+rspec
+git add .
+git commit -m"completed assignment"
+git push
+cd Desktop
+cd Desktop/
+cd
+code
+rspec
+git add
+git add .
+git commit -m "Completed assignment"
+git push
+git push --set-upstream origin main
+learn test
+git push
+learn test
+git push --set-upstream origin main
+clear
+code
+bundle
+clear
+git clone git@github.com:iamkamara/phase-0-html-tag-lab.git
+git add .
+git rm --cached phase-0-html-tag-lab
+cd phase-o-html-tag-lab
+ls-a
+git add .
+git commit -m"completed assignment"
+git push
