@@ -157,3 +157,47 @@ git commit -m "Completed assignment"
 git push
 npm test
 git submodule add <url> phase-0-html-link-tag-with-href
+git clone git@github.com:iamkamara/phase-0-html-lists-lab.git
+ssh-keygen -t rsa -C
+gh repo clone iamkamara/phase-0-html-lists-lab
+sudo apt install gitsome
+git clone git@github.com:iamkamara/phase-0-html-lists-lab.git
+bundle
+bundle install
+rspec
+git add .
+git commit -m "Completed assignment"
+git push
+clear
+git clone git@github.com:iamkamara/phase-0-html-tables-lab.git
+npm install
+code
+rspec
+git add .
+git commit -m "completed assignment"
+git push
+git add .
+git commit -m "completed assignment"
+git push
+code
+Desktop/
+git clone git@github.com:iamkamara/phase-0-html-link-tag-with-href.git
+npm install
+npm test
+cd phase-0-html-link-tag-with-href:master
+cd phase-0-html-link-tag-with-href:master.
+rspec
+explrer.exe index.html
+explorer.exe index.html
+\\wsl$
+\\wsl
+explorer.exe .
+clear
+git clone git@github.com:iamkamara/phase-0-html-lists-lab.git
+git clonegit@github.com:iamkamara/phase-0-html-lists-lab.git
+git clone git@github.com:iamkamara/phase-0-html-lists-lab.git
+code .
+git status
+git add git@github.com:iamkamara/phase-0-html-lists-lab.git
+git restore git@github.com:iamkamara/phase-0-html-lists-lab.git
+clear

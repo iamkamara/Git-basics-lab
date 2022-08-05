@@ -110,3 +110,6 @@
 [2022-08-04 15:05:05.563] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/mash/phase-0-html-tag-lab/CONTRIBUTING.md' is in submodule 'phase-0-html-tag-lab'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
 [2022-08-04 15:05:05.563] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/mash/phase-0-html-tag-lab/CONTRIBUTING.md' is in submodule 'phase-0-html-tag-lab'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
 [2022-08-04 15:05:23.624] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-05 10:26:08.345] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-05 10:26:08.350] [exthost] [info] Lock '/home/mash/.vscode-server/data/User/workspaceStorage/5d90bb51b3f730da09f617fe00b4df66/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-08-05 10:26:08.719] [exthost] [info] Extension host with pid 9880 exiting with code 0

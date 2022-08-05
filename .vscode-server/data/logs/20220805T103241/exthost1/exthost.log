@@ -1,0 +1,44 @@
+[2022-08-05 10:32:49.589] [exthost] [info] Extension host with pid 16789 started
+[2022-08-05 10:32:49.835] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-08-05 10:32:50.275] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-05 10:32:50.293] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-05 10:32:50.324] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-05 10:32:50.448] [exthost] [info] Lock '/home/mash/.vscode-server/data/User/workspaceStorage/5d90bb51b3f730da09f617fe00b4df66/vscode.lock': Lock acquired.
+[2022-08-05 10:32:50.960] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-05 10:32:51.324] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-05 10:32:51.818] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-05 10:32:51.949] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-05 10:32:51.979] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-05 10:32:52.918] [exthost] [info] Eager extensions activated
+[2022-08-05 10:32:54.053] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:32:54.053] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:32:54.053] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:32:54.053] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:32:54.053] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:32:54.053] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:32:54.054] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:32:54.054] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:32:54.054] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:32:54.054] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:32:54.054] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:32:54.054] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:32:54.054] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:32:54.054] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:32:54.054] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:32:54.054] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:32:54.054] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:32:54.054] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:32:54.054] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:32:54.054] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:32:54.054] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:32:54.054] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:32:54.055] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:32:54.055] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:32:54.055] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:32:54.055] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:32:54.055] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:32:54.055] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:32:54.055] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2022-08-05 10:36:49.613] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-05 10:36:49.614] [exthost] [info] Lock '/home/mash/.vscode-server/data/User/workspaceStorage/5d90bb51b3f730da09f617fe00b4df66/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-08-05 10:36:49.685] [exthost] [info] Extension host with pid 16789 exiting with code 0
