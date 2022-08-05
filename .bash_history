@@ -201,3 +201,14 @@ git status
 git add git@github.com:iamkamara/phase-0-html-lists-lab.git
 git restore git@github.com:iamkamara/phase-0-html-lists-lab.git
 clear
+git push
+git clone git@github.com:iamkamara/phase-0-html-images-lab.git
+code .
+bundle
+git add .
+rspec
+git submodule add <url> phase-0-html-images-lab
+git add.
+git add .
+git commit -m"completed assignment"
+git push

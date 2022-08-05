@@ -198,3 +198,17 @@
 [2022-08-05 12:38:44.379] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4014
 [2022-08-05 12:38:50.020] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4014
 [2022-08-05 12:38:55.575] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4014
+[2022-08-05 12:39:02.155] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4014
+[2022-08-05 12:39:08.823] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4014
+[2022-08-05 12:39:14.378] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4014
+[2022-08-05 12:39:19.996] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4014
+[2022-08-05 12:39:25.591] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4014
+[2022-08-05 12:39:31.218] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4014
+[2022-08-05 12:39:36.842] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4014
+[2022-08-05 12:39:42.464] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4014
+[2022-08-05 12:39:48.012] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4014
+[2022-08-05 12:39:53.652] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4014
+[2022-08-05 12:39:58.794] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4014
+[2022-08-05 13:14:36.205] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-05 13:14:36.217] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-05 13:14:36.303] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
